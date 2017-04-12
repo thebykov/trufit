@@ -1,0 +1,5357 @@
+#: code/modules/bbpress/settings.php:19
+#: code/modules/bbpress/forms/meta.php:30
+msgid "field"
+msgid_plural "fields"
+msgstr[0] ""
+msgstr[1] ""
+
+#: forms/tools.php:3
+msgid "term"
+msgid_plural "terms"
+msgstr[0] ""
+msgstr[1] ""
+
+#: code/internal/admin.php:472
+msgid "No terms assigned"
+msgstr ""
+
+#: code/internal/admin.php:142
+msgid "GD Custom Posts And Taxonomies Tools 3.5"
+msgstr ""
+
+#: code/internal/admin.php:146
+msgid "Walktrough GD Custom Posts And Taxonomies Tools 3.0"
+msgstr ""
+
+#: code/internal/admin.php:150
+msgid "Custom permalinks for custom post types"
+msgstr ""
+
+#: code/internal/admin.php:154
+msgid "Custom post types admin icons and location"
+msgstr ""
+
+#: code/internal/admin.php:158
+msgid "Custom Meta Boxes in GD CPT Tools 3.0"
+msgstr ""
+
+#: code/internal/admin.php:162
+msgid "Enhanced custom post types URL rewriting"
+msgstr ""
+
+#: code/internal/admin.php:166
+msgid "Advanced Roles Capabilties in GD CPT Tools 3.0"
+msgstr ""
+
+#: code/internal/admin.php:170
+msgid "Edit default post types and taxonomies settings"
+msgstr ""
+
+#: code/internal/admin.php:174
+msgid "Enhance WordPress: Taxonomy terms Images"
+msgstr ""
+
+#: code/internal/admin.php:178
+msgid "Additional templates for posts and date archives"
+msgstr ""
+
+#: code/internal/admin.php:182
+msgid "Custom post types archive templates"
+msgstr ""
+
+#: code/internal/admin.php:186
+msgid "Migrating to GD Custom Posts And Taxonomies Tools"
+msgstr ""
+
+#: code/internal/admin.php:310
+#: code/meta/admin/advanced.php:118
+#: code/meta/fields.php:158
+#: code/modules/content_fields/fields/post.admin.php:44
+#: code/modules/content_fields/fields/term.admin.php:44
+#: code/modules/content_fields/fields/user.admin.php:44
+msgid "ID"
+msgstr ""
+
+#: code/internal/admin.php:318
+#: code/meta/admin/advanced.php:80
+#: forms/settings/metabox.php:14
+msgid "Image"
+msgstr ""
+
+#: code/internal/admin.php:351
+#: code/internal/ajax.php:632
+#: code/internal/ajax.php:649
+#: forms/cpt/editor.php:290
+#: forms/tax/editor.php:220
+msgid "View"
+msgstr ""
+
+#: code/internal/admin.php:366
+msgid "View all"
+msgstr ""
+
+#: code/internal/admin.php:397
+msgid "Attach Image to Term"
+msgstr ""
+
+#: code/internal/admin.php:486
+msgid "Option Help"
+msgstr ""
+
+#: code/internal/admin.php:487
+msgid "Error Description"
+msgstr ""
+
+#: code/internal/admin.php:488
+#: forms/meta/editor.php:25
+msgid "Select Field"
+msgstr ""
+
+#: code/internal/admin.php:489
+#: forms/meta/editor.php:19
+msgid "Select Meta Box"
+msgstr ""
+
+#: code/internal/admin.php:490
+msgid "Selected Image Preview"
+msgstr ""
+
+#: code/internal/admin.php:491
+msgid "Code and Name are required, and at least one field set!"
+msgstr ""
+
+#: code/internal/admin.php:492
+msgid "Code and Name are required, and at least one meta box!"
+msgstr ""
+
+#: code/internal/admin.php:493
+msgid "Both Code and Name are required!"
+msgstr ""
+
+#: code/internal/admin.php:494
+msgid "Nothing Selected!"
+msgstr ""
+
+#: code/internal/admin.php:496
+#: code/internal/admin.php:599
+msgid "Image Preview"
+msgstr ""
+
+#: code/internal/admin.php:497
+#: code/internal/admin.php:600
+msgid "Select Image"
+msgstr ""
+
+#: code/internal/admin.php:498
+#: code/meta/admin/maps.php:34
+#: code/meta/admin/maps.php:35
+#: code/meta/fields.php:161
+#: forms/meta/fields.php:29
+msgid "Yes"
+msgstr ""
+
+#: code/internal/admin.php:499
+#: code/internal/ajax.php:634
+#: code/internal/ajax.php:635
+#: code/internal/ajax.php:657
+#: code/meta/admin/maps.php:34
+#: code/meta/admin/maps.php:35
+#: code/meta/fields.php:161
+#: forms/cpt/editor.php:292
+#: forms/cpt/editor.php:293
+#: forms/cpt/editor.php:97
+#: forms/cpt/editor.php:102
+#: forms/cpt/editor.php:107
+#: forms/cpt/editor.php:180
+#: forms/cpt/simple.php:42
+#: forms/meta/boxes.php:104
+#: forms/meta/fields.php:29
+#: forms/tax/editor.php:228
+#: forms/tax/editor.php:92
+#: forms/tax/editor.php:96
+#: forms/tax/editor.php:140
+#: forms/tax/simple.php:35
+msgid "No"
+msgstr ""
+
+#: code/internal/admin.php:601
+msgid "No tags found"
+msgstr ""
+
+#: code/internal/admin.php:602
+msgid "Please wait, getting tags..."
+msgstr ""
+
+#: code/internal/admin.php:603
+msgid "Close"
+msgstr ""
+
+#: code/internal/admin.php:604
+msgid "Refresh"
+msgstr ""
+
+#: code/internal/admin.php:605
+msgid "Add All"
+msgstr ""
+
+#: code/internal/admin.php:606
+msgid "Clear ALL"
+msgstr ""
+
+#: code/internal/admin.php:607
+msgid "Internal"
+msgstr ""
+
+#: code/internal/admin.php:608
+msgid "Suggest terms based on content"
+msgstr ""
+
+#: code/internal/admin.php:664
+msgid "Attached Image Preview"
+msgstr ""
+
+#: code/internal/admin.php:930
+msgid "Post Types Archives"
+msgstr ""
+
+#: code/internal/admin.php:1021
+msgid "Post Template"
+msgstr ""
+
+#: code/internal/admin.php:1027
+#: code/modules/content_fields/fields/post.admin.php:87
+#: code/core.php:379
+#: forms/cpt/permalinks.php:99
+#: forms/cpt/theme.php:2
+#: widgets/gdtt-terms-cloud/form.php:34
+#: widgets/gdtt-terms-list/form.php:34
+msgid "Post Type"
+msgstr ""
+
+#: code/internal/admin.php:1048
+#: code/internal/admin.php:1048
+#: forms/cpt/editor.php:107
+msgid "Archive"
+msgstr ""
+
+#: code/internal/admin.php:1071
+msgid "Scheduled"
+msgstr ""
+
+#: code/internal/admin.php:1097
+msgid "Drafts"
+msgstr ""
+
+#: code/internal/admin.php:1108
+#: code/internal/admin.php:1108
+msgid "Front Page"
+msgstr ""
+
+#: code/internal/admin.php:1109
+#: code/internal/admin.php:1109
+msgid "About Plugin"
+msgstr ""
+
+#: code/internal/admin.php:1110
+#: code/internal/admin.php:1110
+#: code/internal/admin.php:1271
+#: code/internal/panels.php:750
+#: code/modules/toolbar_menu/load.php:65
+#: forms/caps/editor.php:8
+#: forms/front/posttypes.php:51
+#: forms/meta/boxes.php:6
+#: forms/meta/groups.php:6
+#: forms/render/tax.header.php:5
+#: forms/tax/editor.php:43
+#: forms/tax/quick.php:19
+#: forms/tax/simple.php:22
+#: widgets/gdtt-posttypes-list/form.php:2
+msgid "Post Types"
+msgstr ""
+
+#: code/internal/admin.php:1111
+#: code/internal/admin.php:1111
+#: code/modules/toolbar_menu/load.php:136
+#: forms/front/posttypes.php:52
+#: forms/shared/all.footer.php:49
+msgid "New Post Type"
+msgstr ""
+
+#: code/internal/admin.php:1112
+#: code/internal/admin.php:1112
+#: code/internal/admin.php:1270
+#: code/internal/panels.php:883
+#: code/modules/toolbar_menu/load.php:113
+#: forms/caps/editor.php:9
+#: forms/cpt/editor.php:40
+#: forms/cpt/permalinks.php:102
+#: forms/cpt/quick.php:21
+#: forms/cpt/simple.php:21
+#: forms/front/taxonomies.php:51
+#: forms/render/cpt.header.php:6
+#: forms/render/meta.header.php:5
+msgid "Taxonomies"
+msgstr ""
+
+#: code/internal/admin.php:1113
+#: code/internal/admin.php:1113
+#: code/modules/toolbar_menu/load.php:156
+#: forms/front/taxonomies.php:52
+#: forms/shared/all.footer.php:34
+msgid "New Taxonomy"
+msgstr ""
+
+#: code/internal/admin.php:1114
+#: code/internal/admin.php:1114
+#: code/internal/admin.php:1272
+#: code/internal/debug.php:32
+#: code/internal/panels.php:730
+#: code/modules/toolbar_menu/load.php:182
+#: forms/front/posttypes.php:53
+#: forms/meta/editor.php:192
+#: forms/meta/groups.php:5
+#: forms/settings.php:9
+msgid "Meta Boxes"
+msgstr ""
+
+#: code/internal/admin.php:1115
+#: code/internal/panels.php:711
+msgid "Roles &amp; Capabilities"
+msgstr ""
+
+#: code/internal/admin.php:1115
+msgid "Roles &amp; Caps"
+msgstr ""
+
+#: code/internal/admin.php:1116
+#: code/internal/admin.php:1116
+#: code/internal/admin.php:1168
+#: code/internal/panels.php:618
+#: code/internal/panels.php:640
+#: code/modules/toolbar_menu/load.php:188
+#: code/modules/admin.php:12
+#: forms/cpt/editor.php:249
+#: forms/cpt/quick.php:52
+#: forms/cpt/simple.php:71
+#: forms/tax/editor.php:181
+#: forms/tax/quick.php:46
+#: forms/tax/simple.php:58
+#: forms/tools.php:15
+msgid "Modules"
+msgstr ""
+
+#: code/internal/admin.php:1117
+#: code/internal/admin.php:1117
+#: code/internal/admin.php:1279
+#: code/internal/debug.php:19
+#: code/internal/panels.php:655
+#: code/modules/toolbar_menu/load.php:194
+#: code/modules/save.php:20
+#: forms/cpt/editor.php:31
+#: forms/cpt/quick.php:19
+#: forms/render/cpt.header.php:8
+#: forms/render/tax.header.php:6
+#: forms/tax/editor.php:34
+#: forms/tax/quick.php:17
+#: forms/tools.php:13
+msgid "Settings"
+msgstr ""
+
+#: code/internal/admin.php:1118
+#: code/internal/admin.php:1118
+#: code/internal/panels.php:669
+#: code/modules/toolbar_menu/load.php:200
+msgid "Tools"
+msgstr ""
+
+#: code/internal/admin.php:1136
+msgid "Website"
+msgstr ""
+
+#: code/internal/admin.php:1137
+msgid "On Twitter"
+msgstr ""
+
+#: code/internal/admin.php:1138
+msgid "On Facebook"
+msgstr ""
+
+#: code/internal/admin.php:1142
+msgid "Get Help"
+msgstr ""
+
+#: code/internal/admin.php:1143
+msgid "General plugin information"
+msgstr ""
+
+#: code/internal/admin.php:1144
+msgid "Plugin Website"
+msgstr ""
+
+#: code/internal/admin.php:1145
+msgid "Frequently asked questions"
+msgstr ""
+
+#: code/internal/admin.php:1146
+msgid "Development roadmap"
+msgstr ""
+
+#: code/internal/admin.php:1147
+msgid "Support for the plugin on Dev4Press"
+msgstr ""
+
+#: code/internal/admin.php:1148
+msgid "Support Overview"
+msgstr ""
+
+#: code/internal/admin.php:1149
+msgid "Support Forum"
+msgstr ""
+
+#: code/internal/admin.php:1150
+msgid "Documentation"
+msgstr ""
+
+#: code/internal/admin.php:1151
+#: code/internal/admin.php:1174
+#: code/internal/admin.php:1183
+msgid "Tutorials"
+msgstr ""
+
+#: code/internal/admin.php:1163
+msgid "Nothing found."
+msgstr ""
+
+#: code/internal/admin.php:1169
+msgid "List of available Modules"
+msgstr ""
+
+#: code/internal/admin.php:1170
+msgid "Index"
+msgstr ""
+
+#: code/internal/admin.php:1170
+msgid "Add letter or number based indexes and index archive pages for posts belonging to any post type."
+msgstr ""
+
+#: code/internal/admin.php:1175
+msgid "Panel specific tutorials"
+msgstr ""
+
+#: code/internal/admin.php:1180
+msgid "On Dev4Press website you can find many useful plugins, themes and tutorials, all for WordPress. Please, take a few minutes to browse some of these resources, you might find some of them very useful."
+msgstr ""
+
+#: code/internal/admin.php:1181
+msgid "Plugins"
+msgstr ""
+
+#: code/internal/admin.php:1181
+msgid "We have more than 10 plugins available, some of them are commercial and some are available for free."
+msgstr ""
+
+#: code/internal/admin.php:1182
+msgid "Themes"
+msgstr ""
+
+#: code/internal/admin.php:1182
+msgid "All our themes are based on our own xScape Theme Framework, and only available as premium."
+msgstr ""
+
+#: code/internal/admin.php:1183
+msgid "Premium and free tutorials for our plugins themes, and many general and practical WordPress tutorials."
+msgstr ""
+
+#: code/internal/admin.php:1184
+msgid "Central Documentation"
+msgstr ""
+
+#: code/internal/admin.php:1184
+msgid "Growing collection of functions, classes, hooks, constants with examples for our plugins and themes."
+msgstr ""
+
+#: code/internal/admin.php:1185
+msgid "Support Forums"
+msgstr ""
+
+#: code/internal/admin.php:1185
+msgid "Premium support forum for all with valid licenses to get help. Also, report bugs and leave suggestions."
+msgstr ""
+
+#: code/internal/admin.php:1273
+msgid "FAQ"
+msgstr ""
+
+#: code/internal/ajax.php:211
+msgid "Standard Attributes"
+msgstr ""
+
+#: code/internal/ajax.php:213
+msgid "Advanced Attributes"
+msgstr ""
+
+#: code/internal/ajax.php:215
+msgid "Multiple Values Handling Attributes"
+msgstr ""
+
+#: code/internal/ajax.php:219
+msgid "None Available"
+msgstr ""
+
+#: code/internal/ajax.php:524
+msgid "Meta box group with this code already exists."
+msgstr ""
+
+#: code/internal/ajax.php:566
+msgid "Meta box with this code already exists."
+msgstr ""
+
+#: code/internal/ajax.php:604
+msgid "Field with this code already exists."
+msgstr ""
+
+#: code/internal/ajax.php:627
+#: code/internal/ajax.php:629
+#: code/internal/ajax.php:651
+#: code/internal/panels.php:754
+#: code/internal/panels.php:889
+#: forms/cpt/editor.php:285
+#: forms/cpt/editor.php:287
+#: forms/cpt/editor.php:79
+#: forms/tax/editor.php:222
+msgid "Add New"
+msgstr ""
+
+#: code/internal/ajax.php:628
+#: code/internal/ajax.php:630
+#: code/internal/ajax.php:648
+#: forms/cpt/editor.php:286
+#: forms/cpt/editor.php:288
+#: forms/tax/editor.php:219
+msgid "Edit"
+msgstr ""
+
+#: code/internal/ajax.php:631
+#: code/internal/ajax.php:655
+#: forms/cpt/editor.php:289
+#: forms/tax/editor.php:226
+msgid "New"
+msgstr ""
+
+#: code/internal/ajax.php:633
+#: code/internal/ajax.php:645
+#: forms/cpt/editor.php:291
+#: forms/shared/meta.gmap.php:3
+#: forms/tax/editor.php:216
+msgid "Search"
+msgstr ""
+
+#: code/internal/ajax.php:634
+#: forms/cpt/editor.php:292
+msgid "Found"
+msgstr ""
+
+#: code/internal/ajax.php:635
+#: forms/cpt/editor.php:293
+msgid "Found In Trash"
+msgstr ""
+
+#: code/internal/ajax.php:636
+#: code/internal/ajax.php:644
+#: code/internal/ajax.php:654
+#: forms/cpt/editor.php:294
+#: forms/tax/editor.php:215
+#: forms/tax/editor.php:225
+msgid "Parent"
+msgstr ""
+
+#: code/internal/ajax.php:637
+#: code/internal/ajax.php:647
+#: forms/cpt/editor.php:295
+#: forms/tax/editor.php:218
+msgid "All"
+msgstr ""
+
+#: code/internal/ajax.php:646
+#: forms/tax/editor.php:217
+msgid "Popular"
+msgstr ""
+
+#: code/internal/ajax.php:650
+#: forms/tax/editor.php:221
+msgid "Update"
+msgstr ""
+
+#: code/internal/ajax.php:652
+#: forms/tax/editor.php:223
+msgid "Add or remove"
+msgstr ""
+
+#: code/internal/ajax.php:653
+#: forms/tax/editor.php:224
+msgid "Choose from the most used"
+msgstr ""
+
+#: code/internal/ajax.php:655
+#: code/modules/content_fields/fields/post.admin.php:44
+#: code/modules/content_fields/fields/term.admin.php:44
+#: code/modules/content_fields/fields/user.admin.php:44
+#: forms/cpt/editor.php:26
+#: forms/cpt/editor.php:69
+#: forms/cpt/quick.php:15
+#: forms/cpt/simple.php:15
+#: forms/cpt/quick.php:28
+#: forms/cpt/simple.php:39
+#: forms/cpt/theme.php:4
+#: forms/meta/boxes.php:4
+#: forms/meta/boxes.php:95
+#: forms/meta/fields.php:4
+#: forms/meta/fields.php:81
+#: forms/meta/groups.php:4
+#: forms/meta/groups.php:93
+#: forms/render/cpt.header.php:4
+#: forms/render/meta.header.php:4
+#: forms/render/tax.header.php:3
+#: forms/tax/editor.php:226
+#: forms/tax/editor.php:29
+#: forms/tax/editor.php:60
+#: forms/tax/quick.php:14
+#: forms/tax/quick.php:26
+#: forms/tax/simple.php:32
+#: forms/tax/simple.php:15
+#: forms/tax/theme.php:4
+msgid "Name"
+msgstr ""
+
+#: code/internal/ajax.php:656
+#: forms/tax/editor.php:227
+msgid "Separate"
+msgstr ""
+
+#: code/internal/ajax.php:656
+#: forms/tax/editor.php:227
+msgid "with commas"
+msgstr ""
+
+#: code/internal/ajax.php:657
+#: forms/tax/editor.php:228
+msgid "found"
+msgstr ""
+
+#: code/internal/ajax.php:796
+#: code/internal/ajax.php:855
+#: code/internal/ajax.php:978
+#: code/internal/ajax.php:1076
+msgid "Name is required."
+msgstr ""
+
+#: code/internal/ajax.php:798
+#: code/internal/ajax.php:857
+#: code/internal/ajax.php:980
+#: code/internal/ajax.php:1078
+msgid "Name you used is not valid."
+msgstr ""
+
+#: code/internal/ajax.php:800
+#: code/internal/ajax.php:859
+#: code/internal/ajax.php:982
+#: code/internal/ajax.php:1080
+msgid "Name you used is reserved."
+msgstr ""
+
+#: code/internal/ajax.php:808
+#: code/internal/ajax.php:815
+#: code/internal/ajax.php:867
+#: code/internal/ajax.php:874
+#: code/internal/ajax.php:994
+#: code/internal/ajax.php:1092
+msgid "Label value is required."
+msgstr ""
+
+#: code/internal/ajax.php:997
+#: code/internal/ajax.php:1095
+msgid "You can use Auto Fill button to get this value."
+msgstr ""
+
+#: code/internal/classes.php:413
+msgid "View all posts filed under %s"
+msgstr ""
+
+#: code/internal/classes.php:427
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: code/internal/data.php:12
+#: code/internal/data.php:13
+#: code/internal/data.php:14
+#: code/internal/data.php:15
+#: code/internal/data.php:16
+#: code/internal/functions.php:266
+#: forms/cpt/permalinks.php:41
+msgid "Default"
+msgstr ""
+
+#: code/internal/data.php:12
+msgid "Genders"
+msgstr ""
+
+#: code/internal/data.php:13
+msgid "Continets"
+msgstr ""
+
+#: code/internal/data.php:14
+msgid "Countries"
+msgstr ""
+
+#: code/internal/data.php:15
+#: code/meta/display/datetime.php:107
+msgid "Months"
+msgstr ""
+
+#: code/internal/data.php:16
+msgid "Days of the Week"
+msgstr ""
+
+#: code/internal/data.php:22
+#: code/internal/data.php:23
+#: code/internal/data.php:24
+#: code/internal/data.php:25
+msgid "Mask Default"
+msgstr ""
+
+#: code/internal/data.php:22
+msgid "Percent"
+msgstr ""
+
+#: code/internal/data.php:23
+msgid "Phone Number US"
+msgstr ""
+
+#: code/internal/data.php:24
+msgid "Phone Number International"
+msgstr ""
+
+#: code/internal/data.php:25
+msgid "SSN"
+msgstr ""
+
+#: code/internal/data.php:31
+#: code/internal/data.php:32
+#: code/internal/data.php:33
+#: code/internal/data.php:34
+#: code/internal/data.php:35
+#: code/internal/data.php:36
+#: code/internal/data.php:37
+msgid "Regex Default"
+msgstr ""
+
+#: code/internal/data.php:31
+msgid "Integer"
+msgstr ""
+
+#: code/internal/data.php:32
+msgid "Positive Integer"
+msgstr ""
+
+#: code/internal/data.php:33
+msgid "Float"
+msgstr ""
+
+#: code/internal/data.php:34
+msgid "Positive Float"
+msgstr ""
+
+#: code/internal/data.php:35
+msgid "Letters"
+msgstr ""
+
+#: code/internal/data.php:36
+msgid "Alphanumeric"
+msgstr ""
+
+#: code/internal/data.php:37
+msgid "Hex Number"
+msgstr ""
+
+#: code/internal/debug.php:9
+msgid "GD CPT Tools"
+msgstr ""
+
+#: code/internal/debug.php:10
+msgid "GD CPT Tools Plugin."
+msgstr ""
+
+#: code/internal/debug.php:16
+msgid "Special Features"
+msgstr ""
+
+#: code/internal/debug.php:26
+#: forms/cpt/list.php:17
+#: forms/cpt/list.php:18
+#: forms/settings/enhanced.php:17
+#: forms/tools/reset.php:7
+#: forms/tools/settings.php:21
+#: forms/tools/settings.php:112
+msgid "Custom Post Types"
+msgstr ""
+
+#: code/internal/debug.php:29
+#: forms/front/taxonomies.php:16
+#: forms/settings/enhanced.php:40
+#: forms/tax/list.php:19
+#: forms/tax/list.php:20
+#: forms/tools/reset.php:11
+#: forms/tools/settings.php:27
+#: forms/tools/settings.php:129
+msgid "Custom Taxonomies"
+msgstr ""
+
+#: code/internal/debug.php:35
+msgid "Override Post Types"
+msgstr ""
+
+#: code/internal/debug.php:38
+msgid "Override Taxonomies"
+msgstr ""
+
+#: code/internal/functions.php:61
+msgid "All post types"
+msgstr ""
+
+#: code/internal/panels.php:617
+#: code/modules/toolbar_menu/load.php:222
+msgid "About"
+msgstr ""
+
+#: code/internal/panels.php:619
+#: code/defaults.php:156
+#: forms/cpt/permalinks.php:106
+#: forms/meta/boxes.php:5
+#: forms/meta/editor.php:202
+#: forms/settings/metabox.php:10
+msgid "Custom Fields"
+msgstr ""
+
+#: code/internal/panels.php:753
+#: code/internal/panels.php:888
+#: code/modules/toolbar_menu/load.php:142
+#: code/modules/toolbar_menu/load.php:162
+msgid "Add Quick"
+msgstr ""
+
+#: code/internal/panels.php:759
+#: code/internal/panels.php:894
+#: forms/settings/integration.php:2
+msgid "Theme Templates"
+msgstr ""
+
+#: code/internal/panels.php:766
+#: code/internal/panels.php:901
+#: forms/meta/editor.php:67
+msgid "Function"
+msgstr ""
+
+#: code/internal/panels.php:776
+msgid "Post Type: Simple Edit"
+msgstr ""
+
+#: code/internal/panels.php:790
+#: code/internal/panels.php:842
+#: code/defaults.php:140
+msgid "Custom Post Template"
+msgstr ""
+
+#: code/internal/panels.php:790
+#: code/internal/panels.php:842
+#: code/defaults.php:140
+msgid "Additional template for posts similar to templates implemented for pages."
+msgstr ""
+
+#: code/internal/panels.php:791
+#: code/internal/panels.php:843
+#: code/defaults.php:141
+msgid "Remove Quick Edit"
+msgstr ""
+
+#: code/internal/panels.php:791
+#: code/internal/panels.php:843
+#: code/defaults.php:141
+msgid "Remove quick edit option from post s efitor lists."
+msgstr ""
+
+#: code/internal/panels.php:792
+#: code/internal/panels.php:844
+#: code/defaults.php:143
+msgid "Drafts in Menu"
+msgstr ""
+
+#: code/internal/panels.php:792
+#: code/internal/panels.php:844
+#: code/defaults.php:143
+#: forms/settings/enhanced.php:31
+msgid "Adds drafts quick access link in the post type menu."
+msgstr ""
+
+#: code/internal/panels.php:793
+#: code/internal/panels.php:845
+#: code/defaults.php:144
+msgid "Future Posts in Menu"
+msgstr ""
+
+#: code/internal/panels.php:793
+#: code/internal/panels.php:845
+#: code/defaults.php:144
+#: forms/settings/enhanced.php:33
+msgid "Adds scheduled posts quick access link in the post type menu."
+msgstr ""
+
+#: code/internal/panels.php:805
+#: code/internal/panels.php:812
+#: code/internal/panels.php:820
+msgid "Add new Custom Post Type"
+msgstr ""
+
+#: code/internal/panels.php:828
+#: code/modules/toolbar_menu/load.php:82
+#: forms/cpt/function.php:3
+#: forms/cpt/theme.php:25
+msgid "Edit Post Type"
+msgstr ""
+
+#: code/internal/panels.php:857
+msgid "Edit Custom Post Type"
+msgstr ""
+
+#: code/internal/panels.php:912
+msgid "Taxonomy: Simple Edit"
+msgstr ""
+
+#: code/internal/panels.php:931
+#: code/internal/panels.php:938
+#: code/internal/panels.php:945
+msgid "Add new Custom Taxonomy"
+msgstr ""
+
+#: code/internal/panels.php:953
+#: forms/tax/function.php:3
+#: forms/tax/theme.php:21
+msgid "Edit Taxonomy"
+msgstr ""
+
+#: code/internal/panels.php:972
+msgid "Edit Custom Taxonomy"
+msgstr ""
+
+#: code/internal/render.php:6
+#: code/modules/content_fields/fields/post.dialog.php:29
+#: code/modules/content_fields/fields/term.dialog.php:29
+#: code/modules/content_fields/fields/user.dialog.php:29
+#: forms/meta/editor.php:109
+#: forms/meta/editor.php:123
+#: forms/meta/editor.php:159
+#: forms/meta/editor.php:137
+#: forms/meta/editor.php:145
+msgid "Save"
+msgstr ""
+
+#: code/internal/render.php:10
+#: code/modules/toolbar_menu/load.php:212
+msgid "Information"
+msgstr ""
+
+#: code/internal/shortcodes.php:10
+msgid "Custom Field Value"
+msgstr ""
+
+#: code/internal/shortcodes.php:14
+msgid "Link to taxonomy term"
+msgstr ""
+
+#: code/internal/shortcodes.php:19
+msgid "List of Post Types"
+msgstr ""
+
+#: code/internal/shortcodes.php:23
+#: forms/settings/integration.php:47
+#: widgets/gdtt-terms-cloud.php:27
+msgid "Terms Cloud"
+msgstr ""
+
+#: code/internal/shortcodes.php:27
+#: forms/settings/integration.php:49
+#: widgets/gdtt-terms-list.php:28
+msgid "Terms List"
+msgstr ""
+
+#: code/meta/admin/advanced.php:11
+#: code/meta/admin/advanced.php:44
+#: code/meta/admin/advanced.php:79
+#: code/meta/admin/advanced.php:137
+#: forms/cpt/editor.php:52
+#: forms/meta/editor.php:78
+#: forms/tax/editor.php:49
+msgid "Advanced"
+msgstr ""
+
+#: code/meta/admin/advanced.php:12
+#: forms/settings/metabox.php:14
+msgid "Color"
+msgstr ""
+
+#: code/meta/admin/advanced.php:13
+msgid "Color picker field"
+msgstr ""
+
+#: code/meta/admin/advanced.php:45
+#: forms/settings/metabox.php:14
+msgid "Rich Editor"
+msgstr ""
+
+#: code/meta/admin/advanced.php:46
+msgid "Full WP like editor field"
+msgstr ""
+
+#: code/meta/admin/advanced.php:81
+msgid "Image attach field"
+msgstr ""
+
+#: code/meta/admin/advanced.php:102
+#: widgets/gdtt-terms-list/form.php:58
+msgid "Display as"
+msgstr ""
+
+#: code/meta/admin/advanced.php:102
+#: code/meta/admin/maps.php:34
+#: code/meta/admin/maps.php:35
+#: code/meta/admin/maps.php:36
+#: code/meta/admin/maps.php:37
+#: code/meta/admin/maps.php:38
+#: code/meta/admin/maps.php:39
+msgid "How to represent the image URL."
+msgstr ""
+
+#: code/meta/admin/advanced.php:102
+msgid "IMG tag"
+msgstr ""
+
+#: code/meta/admin/advanced.php:102
+msgid "Just URL"
+msgstr ""
+
+#: code/meta/admin/advanced.php:103
+msgid "Size"
+msgstr ""
+
+#: code/meta/admin/advanced.php:103
+msgid "WordPress size strings or specify size as WIDTHxHEIGHT."
+msgstr ""
+
+#: code/meta/admin/advanced.php:113
+msgid "Preview selected image."
+msgstr ""
+
+#: code/meta/admin/advanced.php:114
+msgid "Select image from WP media library."
+msgstr ""
+
+#: code/meta/admin/advanced.php:138
+#: code/public/general.php:467
+#: forms/cpt/editor.php:43
+#: forms/cpt/editor.php:102
+#: forms/cpt/simple.php:26
+#: forms/settings/metabox.php:14
+#: forms/tax/editor.php:45
+#: forms/tax/editor.php:96
+msgid "Rewrite"
+msgstr ""
+
+#: code/meta/admin/advanced.php:139
+msgid "Special value to use in URL field"
+msgstr ""
+
+#: code/meta/admin/advanced.php:161
+msgid "This field value will mirror value for another field."
+msgstr ""
+
+#: code/meta/admin/datetime.php:12
+#: code/meta/admin/datetime.php:72
+#: code/meta/admin/datetime.php:132
+#: code/meta/admin/datetime.php:183
+#: code/meta/admin/datetime.php:235
+msgid "Date / Time"
+msgstr ""
+
+#: code/meta/admin/datetime.php:13
+#: forms/cpt/permalinks.php:100
+#: forms/settings/metabox.php:12
+msgid "Date"
+msgstr ""
+
+#: code/meta/admin/datetime.php:14
+msgid "Standard date field"
+msgstr ""
+
+#: code/meta/admin/datetime.php:35
+#: code/meta/admin/datetime.php:95
+#: code/meta/admin/datetime.php:150
+#: code/meta/admin/datetime.php:204
+#: code/meta/admin/standard.php:230
+#: code/meta/admin/standard.php:267
+#: code/meta/admin/units.php:30
+#: code/meta/admin/units.php:84
+msgid "Format"
+msgstr ""
+
+#: code/meta/admin/datetime.php:35
+#: code/meta/admin/datetime.php:95
+#: code/meta/admin/datetime.php:150
+#: code/meta/admin/datetime.php:204
+msgid "PHP date/time format used to display date."
+msgstr ""
+
+#: code/meta/admin/datetime.php:73
+#: code/meta/display/datetime.php:107
+#: forms/settings/metabox.php:12
+msgid "Month"
+msgstr ""
+
+#: code/meta/admin/datetime.php:74
+msgid "Standard month field"
+msgstr ""
+
+#: code/meta/admin/datetime.php:133
+#: forms/cpt/permalinks.php:101
+#: forms/settings/metabox.php:12
+msgid "Time"
+msgstr ""
+
+#: code/meta/admin/datetime.php:134
+msgid "Standard time field"
+msgstr ""
+
+#: code/meta/admin/datetime.php:184
+msgid "Date Time"
+msgstr ""
+
+#: code/meta/admin/datetime.php:185
+msgid "Standard date time field"
+msgstr ""
+
+#: code/meta/admin/datetime.php:236
+msgid "Time Period"
+msgstr ""
+
+#: code/meta/admin/datetime.php:237
+msgid "Standard time period field"
+msgstr ""
+
+#: code/meta/admin/maps.php:12
+msgid "Maps"
+msgstr ""
+
+#: code/meta/admin/maps.php:13
+msgid "Google Map"
+msgstr ""
+
+#: code/meta/admin/maps.php:14
+msgid "Google map field"
+msgstr ""
+
+#: code/meta/admin/maps.php:34
+msgid "Static Image"
+msgstr ""
+
+#: code/meta/admin/maps.php:35
+msgid "Streetview"
+msgstr ""
+
+#: code/meta/admin/maps.php:36
+msgid "Map Type"
+msgstr ""
+
+#: code/meta/admin/maps.php:36
+#: forms/shared/meta.gmap.php:27
+msgid "Terrain"
+msgstr ""
+
+#: code/meta/admin/maps.php:36
+#: forms/shared/meta.gmap.php:28
+msgid "Roadmap"
+msgstr ""
+
+#: code/meta/admin/maps.php:36
+#: forms/shared/meta.gmap.php:29
+msgid "Satellite"
+msgstr ""
+
+#: code/meta/admin/maps.php:36
+#: forms/shared/meta.gmap.php:30
+msgid "Hybrid"
+msgstr ""
+
+#: code/meta/admin/maps.php:37
+msgid "Zoom Level"
+msgstr ""
+
+#: code/meta/admin/maps.php:38
+#: code/meta/admin/maps.php:39
+#: forms/shared/meta.gmap.php:17
+msgid "Width"
+msgstr ""
+
+#: code/meta/admin/standard.php:12
+#: code/meta/admin/standard.php:81
+#: code/meta/admin/standard.php:118
+#: code/meta/admin/standard.php:153
+#: code/meta/admin/standard.php:183
+#: code/meta/admin/standard.php:215
+#: code/meta/admin/standard.php:252
+#: code/meta/admin/standard.php:289
+msgid "Standard"
+msgstr ""
+
+#: code/meta/admin/standard.php:13
+msgid "Text"
+msgstr ""
+
+#: code/meta/admin/standard.php:14
+msgid "Standard text field"
+msgstr ""
+
+#: code/meta/admin/standard.php:29
+msgid "Regex"
+msgstr ""
+
+#: code/meta/admin/standard.php:31
+msgid "Mask"
+msgstr ""
+
+#: code/meta/admin/standard.php:33
+msgid "Custom"
+msgstr ""
+
+#: code/meta/admin/standard.php:82
+msgid "Number"
+msgstr ""
+
+#: code/meta/admin/standard.php:83
+msgid "Standard number field"
+msgstr ""
+
+#: code/meta/admin/standard.php:96
+#: code/meta/admin/units.php:31
+#: code/meta/admin/units.php:85
+msgid "Decimals"
+msgstr ""
+
+#: code/meta/admin/standard.php:96
+#: code/meta/admin/units.php:31
+#: code/meta/admin/units.php:85
+msgid "Number of decimals to show. Leave emtpy to show unmodified."
+msgstr ""
+
+#: code/meta/admin/standard.php:119
+msgid "Boolean"
+msgstr ""
+
+#: code/meta/admin/standard.php:120
+msgid "Standard boolean field"
+msgstr ""
+
+#: code/meta/admin/standard.php:154
+msgid "HTML"
+msgstr ""
+
+#: code/meta/admin/standard.php:155
+msgid "Standard HTML ready field"
+msgstr ""
+
+#: code/meta/admin/standard.php:184
+msgid "Listing"
+msgstr ""
+
+#: code/meta/admin/standard.php:185
+msgid "Standard listing field"
+msgstr ""
+
+#: code/meta/admin/standard.php:216
+msgid "Website Link"
+msgstr ""
+
+#: code/meta/admin/standard.php:217
+msgid "Standard website link field"
+msgstr ""
+
+#: code/meta/admin/standard.php:230
+#: code/meta/admin/standard.php:267
+#: code/meta/admin/units.php:30
+#: code/meta/admin/units.php:84
+msgid "Format for the value to display."
+msgstr ""
+
+#: code/meta/admin/standard.php:230
+#: code/meta/admin/standard.php:267
+msgid "Clickable link"
+msgstr ""
+
+#: code/meta/admin/standard.php:230
+#: code/meta/admin/standard.php:267
+msgid "Raw value"
+msgstr ""
+
+#: code/meta/admin/standard.php:253
+msgid "Email"
+msgstr ""
+
+#: code/meta/admin/standard.php:254
+msgid "Standard email field"
+msgstr ""
+
+#: code/meta/admin/standard.php:290
+msgid "Select"
+msgstr ""
+
+#: code/meta/admin/standard.php:291
+msgid "Standard selection field"
+msgstr ""
+
+#: code/meta/admin/standard.php:327
+#: forms/render/cpt.item.php:48
+#: forms/render/tax.item.php:30
+msgid "function"
+msgstr ""
+
+#: code/meta/admin/units.php:11
+#: code/meta/admin/units.php:69
+#: code/meta/admin/units.php:123
+#: code/meta/admin/units.php:163
+msgid "Units"
+msgstr ""
+
+#: code/meta/admin/units.php:12
+#: forms/settings/metabox.php:18
+msgid "Custom Unit"
+msgstr ""
+
+#: code/meta/admin/units.php:13
+msgid "Selection of units field"
+msgstr ""
+
+#: code/meta/admin/units.php:30
+msgid "Space separated"
+msgstr ""
+
+#: code/meta/admin/units.php:30
+msgid "No space"
+msgstr ""
+
+#: code/meta/admin/units.php:42
+#: code/meta/admin/units.php:96
+msgid "Value"
+msgstr ""
+
+#: code/meta/admin/units.php:45
+#: code/meta/admin/units.php:186
+#: code/meta/admin/units.php:197
+#: code/meta/admin/units.php:208
+#: forms/meta/fields.php:149
+msgid "Unit"
+msgstr ""
+
+#: code/meta/admin/units.php:70
+#: code/meta/admin/units.php:99
+#: forms/settings/metabox.php:18
+msgid "Currency"
+msgstr ""
+
+#: code/meta/admin/units.php:71
+msgid "Currency field"
+msgstr ""
+
+#: code/meta/admin/units.php:84
+msgid "Value Currency Code"
+msgstr ""
+
+#: code/meta/admin/units.php:84
+msgid "Currency Code Value"
+msgstr ""
+
+#: code/meta/admin/units.php:84
+msgid "Currency Sign Value"
+msgstr ""
+
+#: code/meta/admin/units.php:124
+#: forms/settings/metabox.php:18
+msgid "Resolution"
+msgstr ""
+
+#: code/meta/admin/units.php:125
+msgid "Resolution field"
+msgstr ""
+
+#: code/meta/admin/units.php:142
+#: code/meta/admin/units.php:145
+msgid "pixels"
+msgstr ""
+
+#: code/meta/admin/units.php:164
+#: forms/settings/metabox.php:18
+msgid "Dimensions"
+msgstr ""
+
+#: code/meta/admin/units.php:165
+msgid "Dimensions field"
+msgstr ""
+
+#: code/meta/display/datetime.php:106
+msgid "Year"
+msgstr ""
+
+#: code/meta/display/datetime.php:106
+msgid "Years"
+msgstr ""
+
+#: code/meta/display/datetime.php:108
+msgid "Day"
+msgstr ""
+
+#: code/meta/display/datetime.php:108
+msgid "Days"
+msgstr ""
+
+#: code/meta/display/datetime.php:109
+msgid "Hour"
+msgstr ""
+
+#: code/meta/display/datetime.php:109
+msgid "Hours"
+msgstr ""
+
+#: code/meta/display/datetime.php:110
+msgid "Minute"
+msgstr ""
+
+#: code/meta/display/datetime.php:110
+msgid "Minutes"
+msgstr ""
+
+#: code/meta/display/datetime.php:111
+msgid "Second"
+msgstr ""
+
+#: code/meta/display/datetime.php:111
+msgid "Seconds"
+msgstr ""
+
+#: code/meta/display/standard.php:42
+msgid "True"
+msgstr ""
+
+#: code/meta/display/standard.php:42
+msgid "False"
+msgstr ""
+
+#: code/meta/fields.php:157
+msgid "Tag"
+msgstr ""
+
+#: code/meta/fields.php:157
+#: code/meta/fields.php:165
+#: code/meta/fields.php:166
+#: code/meta/fields.php:167
+msgid "Value is displayed within a tag. If set to empty, value will be displayed on its own."
+msgstr ""
+
+#: code/meta/fields.php:158
+msgid "ID for the element, only if the tag is defined."
+msgstr ""
+
+#: code/meta/fields.php:159
+msgid "Class"
+msgstr ""
+
+#: code/meta/fields.php:159
+msgid "CSS class for the element, only if the tag is defined."
+msgstr ""
+
+#: code/meta/fields.php:160
+msgid "Style"
+msgstr ""
+
+#: code/meta/fields.php:160
+msgid "CSS style for the element, only if the tag is defined."
+msgstr ""
+
+#: code/meta/fields.php:161
+#: forms/cpt/theme.php:3
+#: forms/render/meta.header.php:3
+#: forms/tax/theme.php:3
+msgid "Label"
+msgstr ""
+
+#: code/meta/fields.php:161
+msgid "Display name for the field with value."
+msgstr ""
+
+#: code/meta/fields.php:162
+#: code/modules/content_fields/fields/post.admin.php:17
+msgid "Post"
+msgstr ""
+
+#: code/meta/fields.php:162
+msgid "Post to get value for. Leave 0 for current post."
+msgstr ""
+
+#: code/meta/fields.php:165
+msgid "What to show"
+msgstr ""
+
+#: code/meta/fields.php:165
+msgid "All values"
+msgstr ""
+
+#: code/meta/fields.php:165
+msgid "Only first value"
+msgstr ""
+
+#: code/meta/fields.php:165
+msgid "Select by index"
+msgstr ""
+
+#: code/meta/fields.php:166
+msgid "Value Index"
+msgstr ""
+
+#: code/meta/fields.php:167
+msgid "Separator"
+msgstr ""
+
+#: code/meta/fields.php:203
+msgid "none"
+msgstr ""
+
+#: code/meta/fields.php:280
+msgid "Custom Field is not registered"
+msgstr ""
+
+#: code/modules/bbpress/forms/meta.php:36
+#: code/modules/bbpress/forms/meta.php:37
+msgid "Metabox to expand topic form"
+msgstr ""
+
+#: code/modules/bbpress/forms/meta.php:46
+#: code/modules/bbpress/forms/meta.php:47
+#: code/modules/bbpress/forms/meta.php:69
+#: code/modules/bbpress/forms/meta.php:70
+msgid "Add after"
+msgstr ""
+
+#: code/modules/bbpress/forms/meta.php:59
+#: code/modules/bbpress/forms/meta.php:60
+msgid "Metabox to expand reply form"
+msgstr ""
+
+#: code/modules/bbpress/forms/meta.php:5
+#: code/modules/bbpress/forms/meta.php:15
+#: code/modules/bbpress/forms/meta.php:24
+msgid "Use from parent"
+msgstr ""
+
+#: code/modules/bbpress/forms/meta.php:6
+#: code/modules/bbpress/forms/meta.php:16
+#: code/modules/bbpress/forms/meta.php:25
+msgid "Default from settings"
+msgstr ""
+
+#: code/modules/bbpress/forms/meta.php:7
+#: code/modules/bbpress/settings.php:23
+msgid "Before Title"
+msgstr ""
+
+#: code/modules/bbpress/forms/meta.php:8
+#: code/modules/bbpress/settings.php:24
+msgid "After Title"
+msgstr ""
+
+#: code/modules/bbpress/forms/meta.php:9
+#: code/modules/bbpress/forms/meta.php:18
+#: code/modules/bbpress/settings.php:25
+#: code/modules/bbpress/settings.php:32
+msgid "After Content"
+msgstr ""
+
+#: code/modules/bbpress/forms/meta.php:10
+#: code/modules/bbpress/forms/meta.php:19
+#: code/modules/bbpress/settings.php:26
+#: code/modules/bbpress/settings.php:33
+msgid "After Tags"
+msgstr ""
+
+#: code/modules/bbpress/forms/meta.php:11
+#: code/modules/bbpress/forms/meta.php:20
+#: code/modules/bbpress/settings.php:27
+#: code/modules/bbpress/settings.php:34
+msgid "Form End"
+msgstr ""
+
+#: code/modules/bbpress/forms/meta.php:17
+#: code/modules/bbpress/settings.php:31
+msgid "Before Content"
+msgstr ""
+
+#: code/modules/bbpress/forms/meta.php:26
+#: code/modules/bbpress/settings.php:14
+msgid "Do not use any"
+msgstr ""
+
+#: code/modules/bbpress/admin.php:33
+msgid "Topic and Reply Forms"
+msgstr ""
+
+#: code/modules/bbpress/defaults.php:22
+#: code/modules/toolbar_menu/defaults.php:22
+msgid "integration"
+msgstr ""
+
+#: code/modules/bbpress/defaults.php:23
+#: code/modules/toolbar_menu/defaults.php:23
+#: code/modules/toolbar_menu/settings.php:5
+msgid "Integrate plugin specific menu into WordPress toolbar."
+msgstr ""
+
+#: code/modules/bbpress/front.php:118
+msgid "ERROR"
+msgstr ""
+
+#: code/modules/bbpress/front.php:118
+msgid "cannot be empty."
+msgstr ""
+
+#: code/modules/bbpress/settings.php:38
+msgid "bbPress Integration"
+msgstr ""
+
+#: code/modules/bbpress/settings.php:38
+msgid "Plugin will allow assigining meta boxes to individual forums to expand the topic and reply forms with extra fields and data."
+msgstr ""
+
+#: code/modules/bbpress/settings.php:39
+msgid "Default Meta Boxes"
+msgstr ""
+
+#: code/modules/bbpress/settings.php:39
+msgid "All forums will use these meta boxes if you don't change it for individual forums from their edit panels."
+msgstr ""
+
+#: code/modules/bbpress/settings.php:40
+msgid "Embedding Content"
+msgstr ""
+
+#: code/modules/bbpress/settings.php:40
+#: code/modules/bbpress/settings.php:41
+msgid "Auto embed meta boxes results into topic and replies and control visibility of custom data."
+msgstr ""
+
+#: code/modules/bbpress/settings.php:41
+msgid "Styling and JavaScript"
+msgstr ""
+
+#: code/modules/bbpress/settings.php:45
+#: code/modules/bbpress/settings.php:51
+#: code/modules/toolbar_menu/settings.php:9
+#: forms/caps/cpt.php:45
+#: forms/caps/tax.php:45
+#: forms/cpt/editor.php:192
+#: forms/meta/boxes.php:104
+#: forms/tax/editor.php:144
+msgid "Active"
+msgstr ""
+
+#: code/modules/bbpress/settings.php:46
+msgid "Topic Metabox"
+msgstr ""
+
+#: code/modules/bbpress/settings.php:47
+msgid "Topic Location"
+msgstr ""
+
+#: code/modules/bbpress/settings.php:48
+msgid "Reply Metabox"
+msgstr ""
+
+#: code/modules/bbpress/settings.php:49
+msgid "Reply Location"
+msgstr ""
+
+#: code/modules/bbpress/settings.php:50
+msgid "Fieldset Container"
+msgstr ""
+
+#: code/modules/bbpress/settings.php:50
+msgid "Metabox will be placed in the form fieldset, with metabox name as fieldset label."
+msgstr ""
+
+#: code/modules/bbpress/settings.php:51
+msgid "Auto embed extra fields into the topics and replies."
+msgstr ""
+
+#: code/modules/bbpress/settings.php:52
+msgid "For Author"
+msgstr ""
+
+#: code/modules/bbpress/settings.php:52
+msgid "Topic or reply author will be able to see embedded data."
+msgstr ""
+
+#: code/modules/bbpress/settings.php:53
+msgid "For Anyone"
+msgstr ""
+
+#: code/modules/bbpress/settings.php:53
+msgid "Anyone will be able to see embedded data."
+msgstr ""
+
+#: code/modules/bbpress/settings.php:54
+msgid "For User Roles"
+msgstr ""
+
+#: code/modules/bbpress/settings.php:54
+msgid "User roles that will be able to see embedded data."
+msgstr ""
+
+#: code/modules/bbpress/settings.php:55
+msgid "Embed JavaScript"
+msgstr ""
+
+#: code/modules/bbpress/settings.php:55
+msgid "Additional jQueryUI powered code used by some of the control. It will be added to footer."
+msgstr ""
+
+#: code/modules/bbpress/settings.php:56
+msgid "Embed CSS"
+msgstr ""
+
+#: code/modules/bbpress/settings.php:56
+msgid "Default CSS will be added to page header. If you want to include your own styling, you can disable this option."
+msgstr ""
+
+#: code/modules/content_fields/fields/post.admin.php:85
+#: code/modules/content_fields/fields/term.admin.php:85
+#: code/modules/content_fields/fields/user.admin.php:95
+#: forms/meta/fields.php:113
+#: forms/meta/fields.php:127
+#: forms/meta/fields.php:147
+#: forms/meta/fields.php:173
+msgid "Field Settings"
+msgstr ""
+
+#: code/modules/content_fields/fields/post.admin.php:16
+#: code/modules/content_fields/fields/term.admin.php:16
+#: code/modules/content_fields/fields/user.admin.php:16
+msgid "Content Types"
+msgstr ""
+
+#: code/modules/content_fields/fields/post.admin.php:18
+msgid "Select post for post type field"
+msgstr ""
+
+#: code/modules/content_fields/fields/post.admin.php:39
+msgid "post type"
+msgstr ""
+
+#: code/modules/content_fields/fields/post.admin.php:44
+#: code/modules/content_fields/fields/term.admin.php:44
+#: code/modules/content_fields/fields/user.admin.php:44
+msgid "Display"
+msgstr ""
+
+#: code/modules/content_fields/fields/post.admin.php:44
+#: code/modules/content_fields/fields/term.admin.php:44
+#: code/modules/content_fields/fields/user.admin.php:44
+msgid "Select how to display selected value."
+msgstr ""
+
+#: code/modules/content_fields/fields/post.admin.php:44
+#: code/modules/content_fields/fields/term.admin.php:44
+msgid "Slug"
+msgstr ""
+
+#: code/modules/content_fields/fields/post.admin.php:44
+#: code/modules/content_fields/fields/term.admin.php:44
+#: code/modules/content_fields/fields/user.admin.php:44
+msgid "Link"
+msgstr ""
+
+#: code/modules/content_fields/fields/post.admin.php:52
+#: code/modules/content_fields/fields/term.admin.php:52
+#: code/modules/content_fields/fields/user.admin.php:67
+msgid "None Selected"
+msgstr ""
+
+#: code/modules/content_fields/fields/post.admin.php:60
+msgid "Select post from"
+msgstr ""
+
+#: code/modules/content_fields/fields/post.admin.php:62
+msgid "Post ID"
+msgstr ""
+
+#: code/modules/content_fields/fields/post.dialog.php:1
+msgid "Select Post"
+msgstr ""
+
+#: code/modules/content_fields/fields/post.dialog.php:9
+msgid "Search for post"
+msgstr ""
+
+#: code/modules/content_fields/fields/post.dialog.php:12
+#: code/modules/content_fields/fields/term.dialog.php:12
+#: code/modules/content_fields/fields/user.dialog.php:12
+#: forms/shared/all.footer.php:15
+msgid "Working. Please wait..."
+msgstr ""
+
+#: code/modules/content_fields/fields/post.dialog.php:26
+#: code/modules/content_fields/fields/term.dialog.php:26
+#: code/modules/content_fields/fields/user.dialog.php:26
+#: forms/meta/editor.php:146
+#: forms/meta/editor.php:124
+#: forms/meta/editor.php:117
+#: forms/meta/editor.php:110
+#: forms/meta/editor.php:131
+#: forms/meta/editor.php:139
+#: forms/meta/editor.php:153
+#: forms/meta/editor.php:161
+#: forms/metaboxes/shortcoder.php:14
+#: tinymce/plugin.php:132
+msgid "Cancel"
+msgstr ""
+
+#: code/modules/content_fields/fields/term.admin.php:87
+#: forms/tax/theme.php:2
+#: forms/tools/terms.php:16
+#: forms/tools/terms.php:44
+#: tinymce/plugin.php:23
+#: widgets/gdtt-terms-cloud/form.php:6
+#: widgets/gdtt-terms-list/form.php:6
+msgid "Taxonomy"
+msgstr ""
+
+#: code/modules/content_fields/fields/term.admin.php:17
+msgid "Taxonomy Term"
+msgstr ""
+
+#: code/modules/content_fields/fields/term.admin.php:18
+msgid "Select term from taxonomy field"
+msgstr ""
+
+#: code/modules/content_fields/fields/term.admin.php:39
+msgid "taxonomy"
+msgstr ""
+
+#: code/modules/content_fields/fields/term.admin.php:60
+msgid "Select term from"
+msgstr ""
+
+#: code/modules/content_fields/fields/term.admin.php:62
+msgid "Term ID"
+msgstr ""
+
+#: code/modules/content_fields/fields/term.dialog.php:1
+msgid "Select Term"
+msgstr ""
+
+#: code/modules/content_fields/fields/term.dialog.php:9
+msgid "Search for term"
+msgstr ""
+
+#: code/modules/content_fields/fields/user.admin.php:97
+msgid "User Selection"
+msgstr ""
+
+#: code/modules/content_fields/fields/user.admin.php:17
+msgid "User"
+msgstr ""
+
+#: code/modules/content_fields/fields/user.admin.php:18
+msgid "Select user field"
+msgstr ""
+
+#: code/modules/content_fields/fields/user.admin.php:39
+msgid "user class"
+msgstr ""
+
+#: code/modules/content_fields/fields/user.admin.php:44
+msgid "Username"
+msgstr ""
+
+#: code/modules/content_fields/fields/user.admin.php:44
+msgid "URL"
+msgstr ""
+
+#: code/modules/content_fields/fields/user.admin.php:52
+#: widgets/shared/form.php:11
+msgid "All Users"
+msgstr ""
+
+#: code/modules/content_fields/fields/user.admin.php:53
+msgid "Only Authors"
+msgstr ""
+
+#: code/modules/content_fields/fields/user.admin.php:57
+#: widgets/shared/form.php:14
+msgid "Role"
+msgstr ""
+
+#: code/modules/content_fields/fields/user.admin.php:75
+msgid "Select user from"
+msgstr ""
+
+#: code/modules/content_fields/fields/user.admin.php:77
+msgid "User ID"
+msgstr ""
+
+#: code/modules/content_fields/fields/user.dialog.php:1
+msgid "Select User"
+msgstr ""
+
+#: code/modules/content_fields/fields/user.dialog.php:9
+msgid "Search for user"
+msgstr ""
+
+#: code/modules/content_fields/ajax.php:16
+#: code/modules/content_fields/ajax.php:35
+#: code/modules/content_fields/ajax.php:66
+msgid "No results found."
+msgstr ""
+
+#: code/modules/content_fields/defaults.php:22
+msgid "expansion"
+msgstr ""
+
+#: code/modules/content_fields/defaults.php:23
+msgid "Custom fields based on the WordPress content."
+msgstr ""
+
+#: code/modules/content_fields/settings.php:5
+msgid "List of Included Custom Fields"
+msgstr ""
+
+#: code/modules/content_fields/settings.php:5
+msgid "Which of the custom fields to activate."
+msgstr ""
+
+#: code/modules/content_fields/settings.php:9
+msgid "Users"
+msgstr ""
+
+#: code/modules/content_fields/settings.php:10
+#: forms/meta/fields.php:10
+msgid "Posts"
+msgstr ""
+
+#: code/modules/content_fields/settings.php:11
+#: forms/render/tax.header.php:7
+#: forms/tools.php:12
+msgid "Terms"
+msgstr ""
+
+#: code/modules/toolbar_menu/load.php:52
+msgid "CPT Tools"
+msgstr ""
+
+#: code/modules/toolbar_menu/load.php:103
+msgid "Archives"
+msgstr ""
+
+#: code/modules/toolbar_menu/load.php:149
+#: code/modules/toolbar_menu/load.php:169
+msgid "Add Full"
+msgstr ""
+
+#: code/modules/toolbar_menu/load.php:233
+msgid "Homepage"
+msgstr ""
+
+#: code/modules/toolbar_menu/load.php:240
+msgid "Support"
+msgstr ""
+
+#: code/modules/toolbar_menu/load.php:247
+msgid "Official Website"
+msgstr ""
+
+#: code/modules/toolbar_menu/settings.php:5
+msgid "Integrate with Toolbar"
+msgstr ""
+
+#: code/modules/toolbar_menu/settings.php:10
+msgid "Menu Icon"
+msgstr ""
+
+#: code/modules/toolbar_menu/settings.php:11
+msgid "Create New Links"
+msgstr ""
+
+#: code/modules/admin.php:12
+msgid "activity status."
+msgstr ""
+
+#: code/modules/admin.php:13
+msgid "Internal Modules"
+msgstr ""
+
+#: code/modules/admin.php:13
+msgid "Activation of the modules built into plugin."
+msgstr ""
+
+#: code/modules/admin.php:14
+msgid "External Modules"
+msgstr ""
+
+#: code/modules/admin.php:14
+msgid "Activation of the modules loaded from external sources."
+msgstr ""
+
+#: code/modules/save.php:20
+msgid "Settings Saved."
+msgstr ""
+
+#: code/public/display.php:141
+#: code/public/display.php:150
+msgid "View all posts in %s"
+msgstr ""
+
+#: code/public/display.php:303
+msgid "No categories"
+msgstr ""
+
+#: code/public/filters.php:23
+msgid "Invalid Taxonomy"
+msgstr ""
+
+#: code/public/general.php:476
+msgid "No rules defined"
+msgstr ""
+
+#: code/public/general.php:382
+msgid "Conditional query tags do not work before the query is run. Before then, they always return false."
+msgstr ""
+
+#: code/public/general.php:424
+#: code/public/general.php:445
+msgid "Request"
+msgstr ""
+
+#: code/public/general.php:425
+#: code/public/general.php:428
+#: code/public/general.php:431
+#: code/public/general.php:446
+#: code/public/general.php:448
+#: code/public/general.php:450
+#: forms/meta/boxes.php:114
+#: forms/meta/fields.php:100
+#: forms/meta/groups.php:108
+msgid "None"
+msgstr ""
+
+#: code/public/general.php:427
+#: code/public/general.php:447
+msgid "Matched Rewrite Rule"
+msgstr ""
+
+#: code/public/general.php:430
+#: code/public/general.php:449
+msgid "Matched Rewrite Query"
+msgstr ""
+
+#: code/public/general.php:433
+#: code/public/general.php:451
+msgid "Loaded Template"
+msgstr ""
+
+#: code/public/general.php:464
+msgid "Rewrite Rules"
+msgstr ""
+
+#: code/public/general.php:466
+msgid "Rule"
+msgstr ""
+
+#: code/public/template.php:234
+#: code/public/template.php:289
+msgid "Empty Term"
+msgstr ""
+
+#: code/defaults.php:130
+msgid "Post edit filter"
+msgstr ""
+
+#: code/defaults.php:130
+msgid "Add filter for this taonomy above the post edit list"
+msgstr ""
+
+#: code/defaults.php:131
+msgid "Editor term link"
+msgstr ""
+
+#: code/defaults.php:131
+msgid "Add frontend permalink link for the taxonomy term for quick access."
+msgstr ""
+
+#: code/defaults.php:132
+msgid "Editor term ID column"
+msgstr ""
+
+#: code/defaults.php:132
+msgid "Add column with term ID on the terms list for the taxonomy."
+msgstr ""
+
+#: code/defaults.php:133
+msgid "Attach image to term"
+msgstr ""
+
+#: code/defaults.php:133
+msgid "Add column for attaching image to the terms."
+msgstr ""
+
+#: code/defaults.php:137
+msgid "Dashboard Right Now"
+msgstr ""
+
+#: code/defaults.php:137
+msgid "Add posts count into the Right Now widget on Dashboard."
+msgstr ""
+
+#: code/defaults.php:138
+msgid "Include in RSS feeds"
+msgstr ""
+
+#: code/defaults.php:138
+msgid "Inlcude posts in main RSS feed alongside standard posts."
+msgstr ""
+
+#: code/defaults.php:139
+msgid "Include on home page"
+msgstr ""
+
+#: code/defaults.php:139
+msgid "Inlcude posts alongside standard posts in the main home page query."
+msgstr ""
+
+#: code/defaults.php:142
+msgid "GD Star Rating"
+msgstr ""
+
+#: code/defaults.php:142
+msgid "Register post type with GD Star Rating plugin."
+msgstr ""
+
+#: code/defaults.php:145
+msgid "Archive Link in Menu"
+msgstr ""
+
+#: code/defaults.php:145
+msgid "Link to the posts archive."
+msgstr ""
+
+#: code/defaults.php:146
+msgid "Subscribe2 Notify"
+msgstr ""
+
+#: code/defaults.php:146
+msgid "Register post type for notifications in Subscribe2 plugin."
+msgstr ""
+
+#: code/defaults.php:150
+#: widgets/shared/form.php:2
+msgid "Title"
+msgstr ""
+
+#: code/defaults.php:150
+msgid "Post title edit field."
+msgstr ""
+
+#: code/defaults.php:151
+#: forms/cpt/editor.php:48
+msgid "Editor"
+msgstr ""
+
+#: code/defaults.php:151
+msgid "Post content editor."
+msgstr ""
+
+#: code/defaults.php:152
+msgid "Author"
+msgstr ""
+
+#: code/defaults.php:152
+msgid "Author selection"
+msgstr ""
+
+#: code/defaults.php:153
+msgid "Post Thumbnails"
+msgstr ""
+
+#: code/defaults.php:153
+msgid "Meta box for featured image."
+msgstr ""
+
+#: code/defaults.php:154
+msgid "Excerpts"
+msgstr ""
+
+#: code/defaults.php:154
+msgid "Post excerpt editor."
+msgstr ""
+
+#: code/defaults.php:155
+msgid "Trackbacks"
+msgstr ""
+
+#: code/defaults.php:155
+msgid "Allow trackbacks for the post."
+msgstr ""
+
+#: code/defaults.php:156
+msgid "Allow use and editing of custom fields."
+msgstr ""
+
+#: code/defaults.php:157
+msgid "Comments"
+msgstr ""
+
+#: code/defaults.php:157
+msgid "Allow comments for the post."
+msgstr ""
+
+#: code/defaults.php:158
+msgid "Revisions"
+msgstr ""
+
+#: code/defaults.php:158
+msgid "Save revisions while editing."
+msgstr ""
+
+#: code/defaults.php:159
+msgid "Page Attributes"
+msgstr ""
+
+#: code/defaults.php:159
+msgid "Meta box with attributes for hierarchical post types."
+msgstr ""
+
+#: code/defaults.php:160
+msgid "Post Formats"
+msgstr ""
+
+#: code/defaults.php:160
+msgid "Selection of post format."
+msgstr ""
+
+#: forms/about/about.php:2
+msgid "Plugin Development"
+msgstr ""
+
+#: forms/about/about.php:10
+msgid "Plugin Logo and Icon"
+msgstr ""
+
+#: forms/about/about.php:17
+msgid "Icons for Controls and Graphics"
+msgstr ""
+
+#: forms/about/about.php:19
+msgid "All controls and icons"
+msgstr ""
+
+#: forms/about/about.php:21
+msgid "Loading Animations"
+msgstr ""
+
+#: forms/about/about.php:24
+msgid "External Libraries and Services"
+msgstr ""
+
+#: forms/about/about.php:26
+msgid "JQuery"
+msgstr ""
+
+#: forms/about/about.php:40
+msgid "General PHP"
+msgstr ""
+
+#: forms/caps/cpt.php:6
+#: forms/caps/tax.php:6
+msgid "No custom capabilities rules available."
+msgstr ""
+
+#: forms/caps/cpt.php:17
+#: forms/caps/tax.php:17
+msgid "Rule:"
+msgstr ""
+
+#: forms/caps/cpt.php:20
+#: forms/caps/tax.php:20
+msgid "Role:"
+msgstr ""
+
+#: forms/caps/cpt.php:23
+#: forms/caps/tax.php:23
+msgid "Show"
+msgstr ""
+
+#: forms/caps/cpt.php:39
+#: forms/caps/tax.php:39
+msgid "Role Status"
+msgstr ""
+
+#: forms/caps/cpt.php:39
+#: forms/caps/tax.php:39
+msgid "Status for the capabilities for the role."
+msgstr ""
+
+#: forms/caps/cpt.php:40
+#: forms/caps/tax.php:40
+#: forms/cpt/editor.php:55
+#: forms/tax/editor.php:52
+msgid "List of individual Capabilities"
+msgstr ""
+
+#: forms/caps/cpt.php:40
+#: forms/caps/tax.php:40
+msgid "Help icon description shows the generated name for the capability."
+msgstr ""
+
+#: forms/caps/cpt.php:45
+#: forms/caps/tax.php:45
+msgid "When enabled, capabilities generated for the base rule name will be applied to the role. When disabled, capabilities will be removed from the role."
+msgstr ""
+
+#: forms/caps/cpt.php:48
+#: forms/cpt/editor.php:149
+msgid "Edit Post"
+msgstr ""
+
+#: forms/caps/cpt.php:49
+#: forms/cpt/editor.php:150
+msgid "Edit Posts"
+msgstr ""
+
+#: forms/caps/cpt.php:50
+#: forms/cpt/editor.php:151
+msgid "Edit Private Posts"
+msgstr ""
+
+#: forms/caps/cpt.php:51
+#: forms/cpt/editor.php:152
+msgid "Edit Published Posts"
+msgstr ""
+
+#: forms/caps/cpt.php:52
+#: forms/cpt/editor.php:153
+msgid "Edit Others Posts"
+msgstr ""
+
+#: forms/caps/cpt.php:53
+#: forms/cpt/editor.php:154
+msgid "Publish Posts"
+msgstr ""
+
+#: forms/caps/cpt.php:54
+#: forms/cpt/editor.php:156
+msgid "Read Post"
+msgstr ""
+
+#: forms/caps/cpt.php:55
+#: forms/cpt/editor.php:157
+msgid "Read Private Posts"
+msgstr ""
+
+#: forms/caps/cpt.php:56
+#: forms/cpt/editor.php:158
+msgid "Delete Post"
+msgstr ""
+
+#: forms/caps/cpt.php:57
+#: forms/cpt/editor.php:159
+msgid "Delete Posts"
+msgstr ""
+
+#: forms/caps/cpt.php:58
+#: forms/cpt/editor.php:160
+msgid "Delete Private Posts"
+msgstr ""
+
+#: forms/caps/cpt.php:59
+#: forms/cpt/editor.php:161
+msgid "Delete Published Posts"
+msgstr ""
+
+#: forms/caps/cpt.php:60
+#: forms/cpt/editor.php:162
+msgid "Delete Others Posts"
+msgstr ""
+
+#: forms/caps/editor.php:8
+#: forms/caps/editor.php:9
+msgid "roles with custom capabilities"
+msgstr ""
+
+#: forms/caps/tax.php:48
+#: forms/tax/editor.php:127
+msgid "Manage terms"
+msgstr ""
+
+#: forms/caps/tax.php:49
+#: forms/tax/editor.php:128
+msgid "Edit terms"
+msgstr ""
+
+#: forms/caps/tax.php:50
+#: forms/tax/editor.php:129
+msgid "Delete terms"
+msgstr ""
+
+#: forms/caps/tax.php:51
+#: forms/tax/editor.php:130
+msgid "Assign terms"
+msgstr ""
+
+#: forms/cpt/editor.php:283
+#: forms/tax/editor.php:213
+msgid "Both name and singular name must be filled first."
+msgstr ""
+
+#: forms/cpt/editor.php:348
+#: forms/cpt/quick.php:91
+#: forms/cpt/simple.php:127
+#: forms/tax/editor.php:267
+#: forms/tax/quick.php:84
+#: forms/tax/simple.php:95
+#: forms/modules.php:55
+#: forms/settings.php:31
+msgid "Save Settings"
+msgstr ""
+
+#: forms/cpt/editor.php:24
+#: forms/cpt/quick.php:14
+#: forms/cpt/simple.php:13
+#: forms/tax/editor.php:27
+#: forms/tax/quick.php:13
+#: forms/tax/simple.php:13
+msgid "Basics"
+msgstr ""
+
+#: forms/cpt/editor.php:24
+#: forms/cpt/simple.php:13
+#: forms/cpt/quick.php:14
+#: forms/tax/editor.php:27
+#: forms/tax/quick.php:13
+#: forms/tax/simple.php:13
+msgid "core and labels"
+msgstr ""
+
+#: forms/cpt/editor.php:24
+#: forms/cpt/quick.php:14
+#: forms/tax/editor.php:27
+#: forms/tax/quick.php:13
+msgid "Name, status, description and labels for post type."
+msgstr ""
+
+#: forms/cpt/editor.php:25
+#: forms/cpt/editor.php:44
+#: forms/cpt/editor.php:53
+#: forms/cpt/simple.php:14
+#: forms/cpt/simple.php:27
+#: forms/tax/editor.php:28
+#: forms/tax/editor.php:46
+#: forms/tax/editor.php:50
+#: forms/tax/simple.php:14
+msgid "Info"
+msgstr ""
+
+#: forms/cpt/editor.php:26
+#: forms/cpt/quick.php:15
+#: forms/cpt/simple.php:15
+#: forms/tax/quick.php:14
+msgid "Name for the post type. Restricitions apply."
+msgstr ""
+
+#: forms/cpt/editor.php:27
+#: forms/cpt/simple.php:16
+#: forms/tax/editor.php:30
+#: forms/tax/simple.php:16
+msgid "Status"
+msgstr ""
+
+#: forms/cpt/editor.php:27
+#: forms/cpt/simple.php:16
+msgid "Activity status for the post type."
+msgstr ""
+
+#: forms/cpt/editor.php:28
+#: forms/tax/editor.php:31
+msgid "Standard Labels"
+msgstr ""
+
+#: forms/cpt/editor.php:28
+#: forms/cpt/quick.php:17
+#: forms/tax/editor.php:31
+#: forms/tax/quick.php:15
+msgid "Main singular and plural labels."
+msgstr ""
+
+#: forms/cpt/editor.php:29
+#: forms/tax/editor.php:32
+msgid "Expanded Labels"
+msgstr ""
+
+#: forms/cpt/editor.php:29
+#: forms/tax/editor.php:32
+msgid "Additional labels used by WordPress interface."
+msgstr ""
+
+#: forms/cpt/editor.php:31
+#: forms/tax/editor.php:34
+msgid "rewrite and visibiltiy"
+msgstr ""
+
+#: forms/cpt/editor.php:31
+#: forms/tax/editor.php:34
+msgid "Rewriting, hierarchy, navigation, UI and query for post type."
+msgstr ""
+
+#: forms/cpt/editor.php:32
+#: forms/cpt/editor.php:94
+#: forms/cpt/quick.php:20
+#: forms/cpt/quick.php:40
+#: forms/tax/editor.php:35
+#: forms/tax/editor.php:89
+#: forms/tax/editor.php:98
+#: forms/tax/quick.php:18
+#: forms/tax/quick.php:35
+msgid "Hierarchy"
+msgstr ""
+
+#: forms/cpt/editor.php:32
+#: forms/cpt/quick.php:20
+msgid "Hierarchy for the post type."
+msgstr ""
+
+#: forms/cpt/editor.php:33
+#: forms/tax/editor.php:36
+msgid "Query"
+msgstr ""
+
+#: forms/cpt/editor.php:33
+msgid "Query settings for the post type."
+msgstr ""
+
+#: forms/cpt/editor.php:34
+#: forms/tax/editor.php:37
+msgid "Rewriting"
+msgstr ""
+
+#: forms/cpt/editor.php:34
+msgid "Options for setting the rewriting for posts belonging to the post type."
+msgstr ""
+
+#: forms/cpt/editor.php:35
+#: forms/tax/editor.php:38
+#: forms/tax/simple.php:20
+msgid "Visibility"
+msgstr ""
+
+#: forms/cpt/editor.php:35
+#: forms/tax/editor.php:38
+msgid "Public visibiltiy, menu intergration and other UI related options."
+msgstr ""
+
+#: forms/cpt/editor.php:37
+#: forms/cpt/simple.php:18
+#: forms/tax/editor.php:40
+#: forms/tax/simple.php:18
+msgid "Features"
+msgstr ""
+
+#: forms/cpt/editor.php:37
+#: forms/cpt/simple.php:18
+#: forms/tax/editor.php:40
+#: forms/tax/simple.php:18
+msgid "standard and enhanced"
+msgstr ""
+
+#: forms/cpt/editor.php:37
+#: forms/cpt/simple.php:18
+#: forms/tax/editor.php:40
+#: forms/tax/simple.php:18
+msgid "Standard features, taxonomies, enhanced features for post type."
+msgstr ""
+
+#: forms/cpt/editor.php:38
+#: forms/settings.php:8
+msgid "Enhanced"
+msgstr ""
+
+#: forms/cpt/editor.php:38
+#: forms/cpt/simple.php:20
+#: forms/tax/editor.php:42
+#: forms/tax/simple.php:21
+msgid "Enahanced features added by this plugin."
+msgstr ""
+
+#: forms/cpt/editor.php:39
+#: forms/cpt/simple.php:19
+msgid "WordPress Standard"
+msgstr ""
+
+#: forms/cpt/editor.php:39
+#: forms/cpt/simple.php:19
+msgid "Features built into WordPress."
+msgstr ""
+
+#: forms/cpt/editor.php:40
+#: forms/cpt/quick.php:21
+#: forms/cpt/simple.php:21
+msgid "Taxonomies supported by post type."
+msgstr ""
+
+#: forms/cpt/editor.php:41
+msgid "Shortlink Integration"
+msgstr ""
+
+#: forms/cpt/editor.php:41
+msgid "This requires 'YOURLS - WordPress to Twitter' plugin active. Make sure you set it up before using this."
+msgstr ""
+
+#: forms/cpt/editor.php:43
+#: forms/cpt/simple.php:26
+msgid "single and archive"
+msgstr ""
+
+#: forms/cpt/editor.php:43
+#: forms/cpt/simple.php:26
+msgid "Advanced rewriting rules for single posts and archives."
+msgstr ""
+
+#: forms/cpt/editor.php:45
+#: forms/cpt/simple.php:28
+msgid "Single Post Rewriting"
+msgstr ""
+
+#: forms/cpt/editor.php:45
+#: forms/cpt/simple.php:28
+msgid "Additional rules for single post permalinks."
+msgstr ""
+
+#: forms/cpt/editor.php:46
+#: forms/cpt/simple.php:29
+msgid "Archive Rewriting"
+msgstr ""
+
+#: forms/cpt/editor.php:46
+#: forms/cpt/simple.php:29
+msgid "To use these options, post type archives rewrite must be enabled on Settings tab."
+msgstr ""
+
+#: forms/cpt/editor.php:46
+#: forms/cpt/simple.php:29
+msgid "Additional rules for archives intersections and permalinks."
+msgstr ""
+
+#: forms/cpt/editor.php:48
+msgid "columns and filters"
+msgstr ""
+
+#: forms/cpt/editor.php:48
+#: forms/cpt/editor.php:52
+#: forms/tax/editor.php:49
+msgid "Capability, capabilities type and list with more post type settings."
+msgstr ""
+
+#: forms/cpt/editor.php:49
+msgid "Posts List Columns"
+msgstr ""
+
+#: forms/cpt/editor.php:49
+msgid "Columns from meta fields."
+msgstr ""
+
+#: forms/cpt/editor.php:50
+msgid "Posts List Filters"
+msgstr ""
+
+#: forms/cpt/editor.php:50
+msgid "Filters from meta fields."
+msgstr ""
+
+#: forms/cpt/editor.php:52
+#: forms/tax/editor.php:49
+msgid "capabilities and more"
+msgstr ""
+
+#: forms/cpt/editor.php:54
+#: forms/tax/editor.php:51
+msgid "Basic Capabilities Settings"
+msgstr ""
+
+#: forms/cpt/editor.php:54
+msgid "Core capabilities settings."
+msgstr ""
+
+#: forms/cpt/editor.php:55
+msgid "Names for individual capabilities."
+msgstr ""
+
+#: forms/cpt/editor.php:56
+msgid "Miscellaneous Settings"
+msgstr ""
+
+#: forms/cpt/editor.php:56
+msgid "Extra settings that don't fit in other groups."
+msgstr ""
+
+#: forms/cpt/editor.php:69
+#: forms/cpt/quick.php:28
+#: forms/tax/editor.php:60
+#: forms/tax/quick.php:26
+msgid "Unique name, not used with any other data type, with maximum 20 characters in length. Use only lower case letters with no special characters except for the dash. Name will be checked against list of reserverd words to avoid conflicts. Once set, name can be changed only for custom post types when there are no posts for it."
+msgstr ""
+
+#: forms/cpt/editor.php:70
+#: forms/meta/boxes.php:8
+#: forms/meta/boxes.php:131
+#: forms/meta/fields.php:9
+#: forms/meta/fields.php:85
+#: forms/tax/editor.php:61
+msgid "Description"
+msgstr ""
+
+#: forms/cpt/editor.php:70
+msgid "Value is not required but it can be useful as summary on what post type is about."
+msgstr ""
+
+#: forms/cpt/editor.php:74
+#: forms/cpt/quick.php:34
+#: forms/tax/editor.php:65
+#: forms/tax/quick.php:29
+msgid "Plural"
+msgstr ""
+
+#: forms/cpt/editor.php:75
+#: forms/cpt/quick.php:35
+#: forms/tax/editor.php:66
+#: forms/tax/quick.php:30
+msgid "Singular"
+msgstr ""
+
+#: forms/cpt/editor.php:78
+#: forms/tax/editor.php:69
+msgid "Click this button to automatically fill expanded labes based on standard singular and plural labels."
+msgstr ""
+
+#: forms/cpt/editor.php:78
+#: forms/tax/editor.php:69
+msgid "Auto Fill"
+msgstr ""
+
+#: forms/cpt/editor.php:80
+#: forms/tax/editor.php:78
+msgid "Add New Item"
+msgstr ""
+
+#: forms/cpt/editor.php:81
+#: forms/tax/editor.php:75
+msgid "Edit Item"
+msgstr ""
+
+#: forms/cpt/editor.php:82
+msgid "New Item"
+msgstr ""
+
+#: forms/cpt/editor.php:83
+#: forms/tax/editor.php:76
+msgid "View Item"
+msgstr ""
+
+#: forms/cpt/editor.php:84
+#: forms/tax/editor.php:70
+msgid "Search Items"
+msgstr ""
+
+#: forms/cpt/editor.php:85
+#: forms/tax/editor.php:83
+msgid "Not Found"
+msgstr ""
+
+#: forms/cpt/editor.php:86
+msgid "Not Found In Trash"
+msgstr ""
+
+#: forms/cpt/editor.php:87
+#: forms/tax/editor.php:74
+msgid "Parent Item Colon"
+msgstr ""
+
+#: forms/cpt/editor.php:88
+#: forms/tax/editor.php:72
+msgid "All Items"
+msgstr ""
+
+#: forms/cpt/editor.php:89
+#: forms/tax/editor.php:84
+msgid "Menu Name"
+msgstr ""
+
+#: forms/cpt/editor.php:94
+#: forms/cpt/quick.php:40
+msgid "Hierarchical post type is equivalent of the pages in WordPress. Posts can have parents."
+msgstr ""
+
+#: forms/cpt/editor.php:97
+#: forms/tax/editor.php:92
+msgid "Query Variable"
+msgstr ""
+
+#: forms/cpt/editor.php:97
+msgid "Variable for the post type used for Query objects."
+msgstr ""
+
+#: forms/cpt/editor.php:97
+#: forms/cpt/editor.php:102
+#: forms/cpt/editor.php:107
+#: forms/tax/editor.php:92
+#: forms/tax/editor.php:96
+msgid "Yes, using name"
+msgstr ""
+
+#: forms/cpt/editor.php:97
+#: forms/cpt/editor.php:102
+#: forms/cpt/editor.php:107
+#: forms/tax/editor.php:92
+#: forms/tax/editor.php:96
+msgid "Yes, using custom value"
+msgstr ""
+
+#: forms/cpt/editor.php:98
+#: forms/tax/editor.php:93
+msgid "Custom Query Variable Name"
+msgstr ""
+
+#: forms/cpt/editor.php:99
+msgid "Publicly Queryable"
+msgstr ""
+
+#: forms/cpt/editor.php:99
+msgid "Allow for post type queries to be performed from the front end."
+msgstr ""
+
+#: forms/cpt/editor.php:102
+msgid "Create rewrite permalinks rules for post type."
+msgstr ""
+
+#: forms/cpt/editor.php:103
+#: forms/tax/editor.php:97
+msgid "Custom Rewrite Slug"
+msgstr ""
+
+#: forms/cpt/editor.php:103
+#: forms/tax/editor.php:97
+msgid "Custom slug for rewrite rules."
+msgstr ""
+
+#: forms/cpt/editor.php:104
+msgid "Feeds"
+msgstr ""
+
+#: forms/cpt/editor.php:104
+msgid "Generate permalink rules for feeds."
+msgstr ""
+
+#: forms/cpt/editor.php:105
+msgid "Pages"
+msgstr ""
+
+#: forms/cpt/editor.php:105
+msgid "Generate permalink rules for pages posts."
+msgstr ""
+
+#: forms/cpt/editor.php:106
+#: forms/tax/editor.php:99
+msgid "With Front"
+msgstr ""
+
+#: forms/cpt/editor.php:106
+#: forms/tax/editor.php:99
+msgid "Permalink rules will be prepended with front base permalink structure."
+msgstr ""
+
+#: forms/cpt/editor.php:107
+msgid "Enable post type archives. If you want to use advanced archive rewrite rules, this options must be active. If set to NO, you will not have archive pages for this post type."
+msgstr ""
+
+#: forms/cpt/editor.php:108
+msgid "Custom Archive Slug"
+msgstr ""
+
+#: forms/cpt/editor.php:108
+msgid "Custom slug for archive rewrite rules."
+msgstr ""
+
+#: forms/cpt/editor.php:111
+#: forms/render/cpt.item.php:71
+#: forms/render/tax.item.php:54
+#: forms/tax/editor.php:102
+msgid "Public"
+msgstr ""
+
+#: forms/cpt/editor.php:111
+#: forms/tax/editor.php:102
+msgid "Basic setting for other public related variables for UI and manus."
+msgstr ""
+
+#: forms/cpt/editor.php:112
+#: forms/render/cpt.item.php:72
+#: forms/render/tax.item.php:55
+#: forms/tax/editor.php:103
+msgid "Show UI"
+msgstr ""
+
+#: forms/cpt/editor.php:112
+#: forms/tax/editor.php:103
+msgid "Generate default UI elements for the post type."
+msgstr ""
+
+#: forms/cpt/editor.php:113
+msgid "Exclude From Search"
+msgstr ""
+
+#: forms/cpt/editor.php:113
+msgid "Exclude posts with this post type from search results."
+msgstr ""
+
+#: forms/cpt/editor.php:114
+#: forms/tax/editor.php:106
+#: forms/tax/simple.php:45
+msgid "Show In Navigation Menus"
+msgstr ""
+
+#: forms/cpt/editor.php:114
+msgid "Post type is made available for selecting in the navigation menu designer."
+msgstr ""
+
+#: forms/cpt/editor.php:115
+msgid "Show In Admin Menu"
+msgstr ""
+
+#: forms/cpt/editor.php:115
+msgid "Post type is visible in the main admin menu."
+msgstr ""
+
+#: forms/cpt/editor.php:116
+msgid "Show In Admin Bar"
+msgstr ""
+
+#: forms/cpt/editor.php:116
+msgid "Post type is visible in the toolbar."
+msgstr ""
+
+#: forms/cpt/editor.php:117
+msgid "Admin Menu Position"
+msgstr ""
+
+#: forms/cpt/editor.php:117
+msgid "Where in the main admin menu to display item for post type."
+msgstr ""
+
+#: forms/cpt/editor.php:118
+msgid "Default / Auto"
+msgstr ""
+
+#: forms/cpt/editor.php:118
+msgid "New menu items block"
+msgstr ""
+
+#: forms/cpt/editor.php:119
+msgid "Below Posts"
+msgstr ""
+
+#: forms/cpt/editor.php:119
+msgid "Below Media"
+msgstr ""
+
+#: forms/cpt/editor.php:119
+msgid "Below Links"
+msgstr ""
+
+#: forms/cpt/editor.php:119
+msgid "Below Pages"
+msgstr ""
+
+#: forms/cpt/editor.php:120
+msgid "Below Comments"
+msgstr ""
+
+#: forms/cpt/editor.php:120
+msgid "Below first separator"
+msgstr ""
+
+#: forms/cpt/editor.php:120
+msgid "Below Plugins"
+msgstr ""
+
+#: forms/cpt/editor.php:120
+msgid "Below Users"
+msgstr ""
+
+#: forms/cpt/editor.php:121
+msgid "Below Tools"
+msgstr ""
+
+#: forms/cpt/editor.php:121
+msgid "Below Settings"
+msgstr ""
+
+#: forms/cpt/editor.php:121
+msgid "Below second separator"
+msgstr ""
+
+#: forms/cpt/editor.php:123
+msgid "Custom Menu Icon"
+msgstr ""
+
+#: forms/cpt/editor.php:123
+msgid "Image to use instead of the default icon in the admin menu. It's recommended to use small square image 16x16 px."
+msgstr ""
+
+#: forms/cpt/editor.php:135
+msgid "Generate Short URL"
+msgstr ""
+
+#: forms/cpt/editor.php:135
+msgid "After new post is published, Yourls will generate shortlink for it."
+msgstr ""
+
+#: forms/cpt/editor.php:140
+msgid "Do not change anything on this page if you are not sure what are you doing."
+msgstr ""
+
+#: forms/cpt/editor.php:143
+msgid "Capabilites"
+msgstr ""
+
+#: forms/cpt/editor.php:143
+msgid "Method to create capabilities for post type."
+msgstr ""
+
+#: forms/cpt/editor.php:143
+msgid "Use Capability Base"
+msgstr ""
+
+#: forms/cpt/editor.php:143
+msgid "Use Capabilities List"
+msgstr ""
+
+#: forms/cpt/editor.php:144
+#: forms/tax/editor.php:122
+msgid "Capability Base"
+msgstr ""
+
+#: forms/cpt/editor.php:144
+msgid "Base capability type that will be used to generate all capabilites needed for the post type. Usually, this value is comparable to post type name. This can be shared across more than one post type."
+msgstr ""
+
+#: forms/cpt/editor.php:147
+#: forms/tax/editor.php:125
+msgid "Click this button to generate capabilities names based on the capability base set above."
+msgstr ""
+
+#: forms/cpt/editor.php:147
+#: forms/tax/editor.php:125
+msgid "Auto Generate"
+msgstr ""
+
+#: forms/cpt/editor.php:148
+msgid "Click this button to automatically fill all capabilities with default values, if some of them are empty. Default values are based on default 'post' post type."
+msgstr ""
+
+#: forms/cpt/editor.php:148
+#: forms/tax/editor.php:126
+msgid "Auto Fill Defaults"
+msgstr ""
+
+#: forms/cpt/editor.php:155
+msgid "Read"
+msgstr ""
+
+#: forms/cpt/editor.php:165
+msgid "Edit Link"
+msgstr ""
+
+#: forms/cpt/editor.php:165
+msgid "Post type edit link. Do not change this value unless you are sure you know what this will do. Value for this must be set!"
+msgstr ""
+
+#: forms/cpt/editor.php:166
+msgid "Can be Exported"
+msgstr ""
+
+#: forms/cpt/editor.php:166
+msgid "Posts can be exported."
+msgstr ""
+
+#: forms/cpt/editor.php:177
+msgid "You are editing built in post type. Be careful with this, you can break WordPress installation."
+msgstr ""
+
+#: forms/cpt/editor.php:180
+#: forms/cpt/simple.php:42
+#: forms/tax/editor.php:140
+#: forms/tax/simple.php:35
+msgid "Settings Override"
+msgstr ""
+
+#: forms/cpt/editor.php:180
+#: forms/cpt/simple.php:42
+#: forms/tax/editor.php:140
+#: forms/tax/simple.php:35
+msgid "Control scope of the settings to be overriden by this plugin."
+msgstr ""
+
+#: forms/cpt/editor.php:180
+#: forms/cpt/simple.php:42
+#: forms/tax/editor.php:140
+#: forms/tax/simple.php:35
+msgid "Full"
+msgstr ""
+
+#: forms/cpt/editor.php:180
+#: forms/cpt/simple.php:42
+#: forms/tax/editor.php:140
+#: forms/tax/simple.php:35
+msgid "Simple"
+msgstr ""
+
+#: forms/cpt/editor.php:183
+msgid "This is available only for custom post types created with this plugin."
+msgstr ""
+
+#: forms/cpt/editor.php:190
+#: forms/cpt/quick.php:16
+#: forms/cpt/quick.php:31
+msgid "Icon"
+msgstr ""
+
+#: forms/cpt/editor.php:190
+#: forms/cpt/quick.php:31
+msgid "Use one of the built in icons."
+msgstr ""
+
+#: forms/cpt/editor.php:192
+msgid "If you deactivate this custom post type, all the posts associated with it will remain intact, but inaccessable while the post type is not active."
+msgstr ""
+
+#: forms/cpt/editor.php:198
+#: forms/cpt/editor.php:202
+#: forms/cpt/simple.php:47
+#: forms/tax/editor.php:164
+#: forms/tax/editor.php:160
+msgid "Be careful with rewrite rules, because you may cause conflict with other rewrite rules. Test to make sure that everything is working."
+msgstr ""
+
+#: forms/cpt/editor.php:198
+#: forms/cpt/simple.php:47
+#: forms/tax/editor.php:160
+msgid "For post types not registered with this plugin there is no guarantee that this will work at all."
+msgstr ""
+
+#: forms/cpt/editor.php:208
+#: forms/cpt/permalinks.php:11
+msgid "Custom Permalinks"
+msgstr ""
+
+#: forms/cpt/editor.php:208
+#: forms/cpt/permalinks.php:11
+msgid "Activate use of custom structure for the single post permalink. Depending on the rules you made, you may end up with the conflict with some other rules and that will result in 404 page. Test different setups to make sure that there is no conflict."
+msgstr ""
+
+#: forms/cpt/editor.php:209
+#: forms/cpt/editor.php:214
+#: forms/cpt/permalinks.php:12
+#: forms/cpt/permalinks.php:17
+msgid "Permalinks Structure"
+msgstr ""
+
+#: forms/cpt/editor.php:209
+#: forms/cpt/permalinks.php:12
+msgid "Link structure for single posts for this post type. Use only taxonomies you have set for post type, or they will be replaced by a dash."
+msgstr ""
+
+#: forms/cpt/editor.php:212
+#: forms/cpt/permalinks.php:15
+msgid "Date based archives"
+msgstr ""
+
+#: forms/cpt/editor.php:212
+#: forms/cpt/permalinks.php:15
+msgid "Generate rewrite structures for post type archives for dates."
+msgstr ""
+
+#: forms/cpt/editor.php:213
+#: forms/cpt/permalinks.php:16
+msgid "Archive taxonomy intersection"
+msgstr ""
+
+#: forms/cpt/editor.php:213
+#: forms/cpt/permalinks.php:16
+msgid "Allow for intersection by combining custom post type and taxonomies. Taxonomy name and term will be added to the post type archive to filter posts by term."
+msgstr ""
+
+#: forms/cpt/editor.php:213
+msgid "No archive intersections"
+msgstr ""
+
+#: forms/cpt/editor.php:213
+msgid "Simple archive intersections"
+msgstr ""
+
+#: forms/cpt/editor.php:213
+#: forms/cpt/permalinks.php:16
+msgid "Advanced intersections"
+msgstr ""
+
+#: forms/cpt/editor.php:213
+#: forms/cpt/permalinks.php:16
+msgid "Simple and Advanced intersections"
+msgstr ""
+
+#: forms/cpt/editor.php:214
+#: forms/cpt/permalinks.php:17
+msgid "Link structure for archives for this post type. Use only taxonomies you have set for post type, or you will get no results for display. Use only taxonmies separated by slash characters."
+msgstr ""
+
+#: forms/cpt/editor.php:215
+#: forms/cpt/permalinks.php:18
+msgid "Generate partial intersections"
+msgstr ""
+
+#: forms/cpt/editor.php:215
+#: forms/cpt/permalinks.php:18
+msgid "If you set to use 2 or more taxonomies for advanced intersection, with this option plugin will generate rules with partial taxonomies. For 4 taxonomies in intersection, plugin with generate rules for 1, 2 and 3 also. Be careful with this option, it can generate petentially conflicting rules."
+msgstr ""
+
+#: forms/cpt/editor.php:221
+msgid "You are editing custom post type."
+msgstr ""
+
+#: forms/cpt/editor.php:227
+msgid "Creating new post type, naming convention and restrictions apply."
+msgstr ""
+
+#: forms/cpt/editor.php:249
+#: forms/cpt/quick.php:52
+#: forms/cpt/simple.php:71
+#: forms/tax/editor.php:181
+#: forms/tax/quick.php:46
+#: forms/tax/simple.php:58
+msgid "extended setup"
+msgstr ""
+
+#: forms/cpt/editor.php:249
+#: forms/cpt/quick.php:52
+#: forms/cpt/simple.php:71
+#: forms/tax/editor.php:181
+#: forms/tax/quick.php:46
+#: forms/tax/simple.php:58
+msgid "Control settings added by the plugin modules."
+msgstr ""
+
+#: forms/cpt/function.php:0
+msgid "Function run to register this custom post type"
+msgstr ""
+
+#: forms/cpt/list.php:17
+#: forms/tax/list.php:19
+msgid "created with this plugin"
+msgstr ""
+
+#: forms/cpt/list.php:18
+#: forms/tax/list.php:20
+msgid "by third party plugin or theme"
+msgstr ""
+
+#: forms/cpt/list.php:19
+msgid "Default Post Types"
+msgstr ""
+
+#: forms/cpt/list.php:19
+#: forms/tax/list.php:21
+msgid "built into WordPress"
+msgstr ""
+
+#: forms/cpt/list.php:99
+msgid "Add New Custom Post Type"
+msgstr ""
+
+#: forms/cpt/list.php:38
+#: forms/cpt/list.php:75
+#: forms/tax/list.php:39
+#: forms/tax/list.php:87
+msgid "Nothing here."
+msgstr ""
+
+#: forms/cpt/list.php:44
+msgid "Inactive Custom Post Types:"
+msgstr ""
+
+#: forms/cpt/permalinks.php:27
+#: forms/cpt/permalinks.php:86
+msgid "Save post type before you can set up this field."
+msgstr ""
+
+#: forms/cpt/permalinks.php:30
+#: forms/cpt/permalinks.php:98
+msgid "You can use following URL elements"
+msgstr ""
+
+#: forms/cpt/permalinks.php:3
+msgid "No baseless taxonomy"
+msgstr ""
+
+#: forms/cpt/permalinks.php:16
+msgid "No intersections"
+msgstr ""
+
+#: forms/cpt/permalinks.php:16
+msgid "Simple intersections"
+msgstr ""
+
+#: forms/cpt/permalinks.php:19
+msgid "Taxonomy for baseless intersection"
+msgstr ""
+
+#: forms/cpt/permalinks.php:53
+msgid "Numeric"
+msgstr ""
+
+#: forms/cpt/permalinks.php:45
+msgid "Year and Name"
+msgstr ""
+
+#: forms/cpt/permalinks.php:49
+msgid "Month and Name"
+msgstr ""
+
+#: forms/cpt/permalinks.php:19
+msgid "Simple intersection will use taxonomy slug to form the archive link. But, for one taxonomy (and only one), you can leave out the taxonomy slug from URL. Also, rewrite slug for archive and single posts for this post type must be different!"
+msgstr ""
+
+#: forms/cpt/permalinks.php:63
+msgid "List of permalinks examples"
+msgstr ""
+
+#: forms/cpt/permalinks.php:57
+msgid "Numeric and Name"
+msgstr ""
+
+#: forms/cpt/permalinks.php:103
+msgid "Other Elements"
+msgstr ""
+
+#: forms/cpt/quick.php:16
+msgid "Icon to use on the admin side."
+msgstr ""
+
+#: forms/cpt/quick.php:17
+#: forms/tax/quick.php:15
+msgid "Labels"
+msgstr ""
+
+#: forms/cpt/quick.php:19
+msgid "hierarchy and taxonomies"
+msgstr ""
+
+#: forms/cpt/quick.php:19
+msgid "Basic needed settings for post type."
+msgstr ""
+
+#: forms/meta/boxes.php:9
+#: forms/meta/fields.php:11
+#: forms/meta/groups.php:8
+#: forms/render/meta.header.php:10
+msgid "Options"
+msgstr ""
+
+#: forms/cpt/simple.php:13
+msgid "Name, description and status for post type."
+msgstr ""
+
+#: forms/cpt/simple.php:20
+#: forms/tax/editor.php:42
+#: forms/tax/simple.php:21
+msgid "GD CPT Tools Enhanced"
+msgstr ""
+
+#: forms/cpt/simple.php:39
+msgid "Names of default post types or custom post types that are not created with this plugin, can't be changed"
+msgstr ""
+
+#: forms/cpt/simple.php:36
+#: forms/tax/simple.php:29
+msgid "This is panel for only some settings that can be considered safe to change and override,<br/>and enhanced features implemented by this plugin."
+msgstr ""
+
+#: forms/cpt/theme.php:9
+#: forms/cpt/theme.php:14
+#: forms/tax/theme.php:9
+#: forms/tax/theme.php:13
+msgid "This file should be based on standard %s template."
+msgstr ""
+
+#: forms/cpt/theme.php:7
+#: forms/cpt/theme.php:11
+#: forms/tax/theme.php:7
+#: forms/tax/theme.php:11
+msgid "Template"
+msgstr ""
+
+#: forms/cpt/theme.php:7
+msgid "Single Post"
+msgstr ""
+
+#: forms/cpt/theme.php:8
+#: forms/cpt/theme.php:13
+#: forms/tax/theme.php:8
+#: forms/tax/theme.php:12
+msgid "File Name"
+msgstr ""
+
+#: forms/front/taxonomies.php:33
+msgid "Third party Custom Taxonomies"
+msgstr ""
+
+#: forms/cpt/theme.php:11
+msgid "Posts Archive"
+msgstr ""
+
+#: forms/front/posttypes.php:1
+msgid "Basic Post Types Statistics"
+msgstr ""
+
+#: forms/cpt/theme.php:19
+#: forms/tax/theme.php:15
+msgid "Notice"
+msgstr ""
+
+#: forms/cpt/theme.php:20
+msgid "Post type is not public."
+msgstr ""
+
+#: forms/front/posttypes.php:16
+msgid "Custom Posts Types"
+msgstr ""
+
+#: forms/front/posttypes.php:33
+msgid "Third party Custom Posts Types"
+msgstr ""
+
+#: forms/front/posttypes.php:3
+msgid "Default Posts Types"
+msgstr ""
+
+#: forms/front/posttypes.php:30
+msgid "No custom post types found."
+msgstr ""
+
+#: forms/front/taxonomies.php:1
+msgid "Basic Taxonomies Statistics"
+msgstr ""
+
+#: forms/front/taxonomies.php:3
+#: forms/tax/list.php:21
+msgid "Default Taxonomies"
+msgstr ""
+
+#: forms/front/taxonomies.php:30
+msgid "No custom taxonomies found."
+msgstr ""
+
+#: forms/front/posttypes.php:47
+msgid "No third party custom post types found."
+msgstr ""
+
+#: forms/meta/boxes.php:3
+#: forms/meta/boxes.php:91
+#: forms/meta/fields.php:3
+#: forms/meta/fields.php:77
+#: forms/meta/groups.php:3
+#: forms/meta/groups.php:89
+msgid "Code"
+msgstr ""
+
+#: forms/cpt/theme.php:16
+msgid "Archives for this post type are disabled."
+msgstr ""
+
+#: forms/front/taxonomies.php:47
+msgid "No third party custom taxonomies found."
+msgstr ""
+
+#: forms/meta/boxes.php:7
+#: forms/meta/boxes.php:99
+#: forms/meta/groups.php:7
+#: forms/meta/groups.php:97
+msgid "Location"
+msgstr ""
+
+#: forms/meta/editor.php:59
+msgid "Masks"
+msgstr ""
+
+#: forms/meta/boxes.php:54
+msgid "Delete Meta Box"
+msgstr ""
+
+#: forms/meta/boxes.php:55
+#: forms/meta/groups.php:53
+msgid "Read this before deleting the meta box"
+msgstr ""
+
+#: forms/meta/boxes.php:67
+msgid "Select one or more post types you want to use this Meta box."
+msgstr ""
+
+#: forms/meta/boxes.php:52
+msgid "Add New Meta Box"
+msgstr ""
+
+#: forms/meta/boxes.php:61
+msgid "Delete plugin definition for this meta box."
+msgstr ""
+
+#: forms/meta/boxes.php:65
+msgid "Post types to use this Meta Box"
+msgstr ""
+
+#: forms/meta/boxes.php:57
+msgid "Removing meta box definition doesn't affect any data stored in the database associeted with the fields in the meta box."
+msgstr ""
+
+#: forms/meta/boxes.php:93
+#: forms/meta/groups.php:91
+msgid "Required, must be unique. Use letters, numbers and underscore only."
+msgstr ""
+
+#: forms/meta/boxes.php:84
+msgid "Meta Box Editor"
+msgstr ""
+
+#: forms/meta/boxes.php:89
+#: forms/meta/groups.php:87
+msgid "Basic settings"
+msgstr ""
+
+#: forms/meta/boxes.php:41
+#: forms/meta/editor.php:179
+#: forms/meta/editor.php:180
+#: forms/meta/editor.php:181
+#: forms/meta/fields.php:36
+#: forms/render/cpt.item.php:107
+#: forms/meta/groups.php:39
+#: forms/render/cpt.front.php:7
+#: forms/render/cpt.item.php:116
+#: forms/render/tax.front.php:7
+#: forms/render/tax.item.php:68
+#: forms/render/tax.item.php:76
+msgid "edit"
+msgstr ""
+
+#: forms/meta/boxes.php:69
+#: forms/meta/groups.php:67
+msgid "Select post types"
+msgstr ""
+
+#: forms/meta/boxes.php:97
+#: forms/meta/groups.php:95
+#: forms/meta/fields.php:83
+msgid "Required, used by the plugin, be descriptive but not too long."
+msgstr ""
+
+#: forms/meta/boxes.php:101
+#: forms/meta/groups.php:99
+msgid "Where on the post editor to add meta box by default. If the user moves the meta box, last used location will override this setting."
+msgstr ""
+
+#: forms/meta/boxes.php:103
+msgid "Field Repeater"
+msgstr ""
+
+#: forms/meta/boxes.php:118
+#: forms/meta/fields.php:104
+#: forms/meta/groups.php:112
+msgid "Comma separated list of user roles that can edit this field value."
+msgstr ""
+
+#: forms/meta/boxes.php:113
+#: forms/meta/fields.php:5
+#: forms/meta/fields.php:70
+#: forms/meta/fields.php:99
+#: forms/meta/groups.php:107
+#: forms/shared/meta.gmap.php:25
+msgid "Type"
+msgstr ""
+
+#: forms/meta/boxes.php:116
+#: forms/meta/boxes.php:114
+#: forms/meta/fields.php:102
+#: forms/meta/fields.php:100
+#: forms/meta/groups.php:110
+#: forms/meta/groups.php:108
+msgid "User Roles"
+msgstr ""
+
+#: forms/meta/boxes.php:105
+msgid "If active, each field (with exception of rich editors) will have option to add multiple instances."
+msgstr ""
+
+#: forms/meta/boxes.php:133
+msgid "Optional, used by the plugin, longer description of the field. This will be displayed in the meta box."
+msgstr ""
+
+#: forms/meta/boxes.php:122
+#: forms/meta/fields.php:108
+#: forms/meta/groups.php:116
+msgid "Comma separated list of user capabilities. User needs one of them to be able to edit this field value."
+msgstr ""
+
+#: forms/meta/boxes.php:129
+msgid "Additional Settings"
+msgstr ""
+
+#: forms/meta/boxes.php:59
+#: forms/meta/groups.php:57
+msgid "Confirm deletion"
+msgstr ""
+
+#: forms/meta/boxes.php:120
+#: forms/meta/fields.php:106
+#: forms/meta/groups.php:114
+msgid "User Caps"
+msgstr ""
+
+#: forms/meta/boxes.php:136
+msgid "List of fields"
+msgstr ""
+
+#: forms/meta/boxes.php:16
+msgid "There are no meta boxes right now."
+msgstr ""
+
+#: forms/meta/boxes.php:43
+#: forms/meta/editor.php:179
+#: forms/meta/editor.php:180
+#: forms/meta/groups.php:41
+msgid "post types"
+msgstr ""
+
+#: forms/meta/boxes.php:42
+#: forms/meta/editor.php:180
+#: forms/meta/editor.php:179
+#: forms/meta/editor.php:181
+#: forms/meta/fields.php:38
+#: forms/meta/groups.php:40
+#: forms/render/cpt.item.php:111
+#: forms/render/tax.item.php:72
+msgid "delete"
+msgstr ""
+
+#: forms/meta/boxes.php:114
+#: forms/meta/fields.php:100
+#: forms/meta/groups.php:108
+msgid "User Capabilities"
+msgstr ""
+
+#: forms/meta/editor.php:116
+#: forms/meta/editor.php:130
+#: forms/meta/editor.php:152
+msgid "Delete"
+msgstr ""
+
+#: forms/settings/metabox.php:12
+#: forms/settings/metabox.php:14
+#: forms/settings/metabox.php:18
+#: forms/settings/metabox.php:16
+msgid "Contains"
+msgstr ""
+
+#: forms/meta/editor.php:138
+#: forms/meta/editor.php:160
+msgid "Clear"
+msgstr ""
+
+#: forms/meta/boxes.php:111
+#: forms/meta/fields.php:97
+#: forms/meta/groups.php:105
+msgid "User Restriction"
+msgstr ""
+
+#: forms/meta/editor.php:181
+#: forms/meta/fields.php:37
+msgid "copy"
+msgstr ""
+
+#: forms/meta/editor.php:197
+msgid "Metabox Groups"
+msgstr ""
+
+#: forms/meta/editor.php:198
+#: forms/meta/editor.php:193
+msgid "to use for post types"
+msgstr ""
+
+#: forms/meta/editor.php:9
+msgid "Select Post Type"
+msgstr ""
+
+#: forms/meta/editor.php:18
+msgid "No Field Mirroring"
+msgstr ""
+
+#: forms/meta/editor.php:84
+msgid "For Date, Date/Time and Month"
+msgstr ""
+
+#: forms/meta/editor.php:203
+msgid "to use in the meta boxes"
+msgstr ""
+
+#: forms/meta/editor.php:35
+msgid "Select Function"
+msgstr ""
+
+#: forms/meta/editor.php:51
+msgid "General"
+msgstr ""
+
+#: forms/meta/editor.php:53
+msgid "Use Custom Regex"
+msgstr ""
+
+#: forms/meta/editor.php:54
+msgid "Use Custom Mask"
+msgstr ""
+
+#: forms/meta/editor.php:52
+msgid "Not Restricted"
+msgstr ""
+
+#: forms/meta/editor.php:65
+msgid "Normal List"
+msgstr ""
+
+#: forms/meta/editor.php:66
+msgid "Associative List"
+msgstr ""
+
+#: forms/meta/editor.php:56
+msgid "Regular Expressions"
+msgstr ""
+
+#: forms/meta/editor.php:72
+msgid "Single Item / Radio Control"
+msgstr ""
+
+#: forms/meta/editor.php:73
+msgid "Multi Items / Select Control"
+msgstr ""
+
+#: forms/meta/editor.php:71
+msgid "Single Item / Select Control"
+msgstr ""
+
+#: forms/meta/editor.php:79
+msgid "Normal"
+msgstr ""
+
+#: forms/meta/editor.php:80
+msgid "Side"
+msgstr ""
+
+#: forms/meta/editor.php:74
+msgid "Multi Items / Checkbox Control"
+msgstr ""
+
+#: forms/meta/fields.php:53
+msgid "You can remove only saved data, and still leave custom field definition."
+msgstr ""
+
+#: forms/meta/editor.php:86
+msgid "MySQL"
+msgstr ""
+
+#: forms/meta/editor.php:88
+msgid "For Date, Time and Month"
+msgstr ""
+
+#: forms/meta/editor.php:85
+msgid "Timestamp"
+msgstr ""
+
+#: forms/meta/editor.php:91
+msgid "Dashed"
+msgstr ""
+
+#: forms/meta/editor.php:89
+msgid "Colon"
+msgstr ""
+
+#: forms/meta/fields.php:6
+#: forms/meta/fields.php:89
+msgid "Required"
+msgstr ""
+
+#: forms/meta/fields.php:7
+msgid "Values"
+msgstr ""
+
+#: forms/meta/fields.php:8
+msgid "Limit"
+msgstr ""
+
+#: forms/meta/fields.php:49
+msgid "Delete Custom Field"
+msgstr ""
+
+#: forms/meta/fields.php:50
+msgid "Read this before deleting the custom field"
+msgstr ""
+
+#: forms/meta/fields.php:59
+msgid "Delete all post meta data for this custom field."
+msgstr ""
+
+#: forms/meta/fields.php:47
+msgid "Add New Custom Field"
+msgstr ""
+
+#: forms/meta/fields.php:55
+msgid "Confirm what do you want to delete"
+msgstr ""
+
+#: forms/meta/fields.php:57
+msgid "Delete plugin definition for this custom field."
+msgstr ""
+
+#: forms/meta/fields.php:52
+msgid "Removing custom field definition only, will not remove the data saved in the posts meta table in the database associated with this custom field."
+msgstr ""
+
+#: forms/meta/fields.php:68
+msgid "Select type of this field"
+msgstr ""
+
+#: forms/meta/editor.php:90
+msgid "Dotted"
+msgstr ""
+
+#: forms/meta/fields.php:63
+msgid "Custom Field Editor"
+msgstr ""
+
+#: forms/meta/fields.php:79
+msgid "Required, must be unique. This will be used to store data into the database. Use letters, numbers and underscore only."
+msgstr ""
+
+#: forms/meta/fields.php:75
+msgid "Basic settings for the field"
+msgstr ""
+
+#: forms/meta/fields.php:87
+msgid "Optional, used by the plugin, longer description of the field."
+msgstr ""
+
+#: forms/meta/fields.php:91
+msgid "Optional, if enabled, field must be filled by the user. This is not applied to Boolean fields."
+msgstr ""
+
+#: forms/meta/fields.php:117
+msgid "PHP string for formating the date for display. Leave empty to use default format."
+msgstr ""
+
+#: forms/meta/fields.php:175
+msgid "Selection"
+msgstr ""
+
+#: forms/meta/fields.php:119
+msgid "Save Format"
+msgstr ""
+
+#: forms/meta/fields.php:121
+msgid "Format to use when saving data in the database."
+msgstr ""
+
+#: forms/meta/fields.php:115
+msgid "Date Format"
+msgstr ""
+
+#: forms/meta/fields.php:129
+msgid "Length Limit"
+msgstr ""
+
+#: forms/meta/fields.php:131
+msgid "Maximal number of character for the field. Leave 0 for unlimited field."
+msgstr ""
+
+#: forms/meta/fields.php:141
+msgid "If the field is selected on this list, this field will be hidden from the metabox display, but it's value will be auto populated based on the selected field using URL safe cleaned value."
+msgstr ""
+
+#: forms/meta/fields.php:137
+msgid "Mirror Value"
+msgstr ""
+
+#: forms/meta/fields.php:165
+msgid "Custom Mask"
+msgstr ""
+
+#: forms/meta/fields.php:158
+#: forms/meta/fields.php:178
+msgid "Method"
+msgstr ""
+
+#: forms/meta/fields.php:161
+msgid "Custom Regex"
+msgstr ""
+
+#: forms/meta/fields.php:156
+msgid "Restrictions"
+msgstr ""
+
+#: forms/meta/fields.php:167
+#: forms/meta/fields.php:163
+msgid "This must be JavaScript compatible regular expression."
+msgstr ""
+
+#: forms/meta/fields.php:184
+msgid "Normal list of values"
+msgstr ""
+
+#: forms/meta/fields.php:187
+msgid "One value per line."
+msgstr ""
+
+#: forms/meta/fields.php:202
+msgid "Function to get values from"
+msgstr ""
+
+#: forms/meta/fields.php:18
+msgid "Nothing here"
+msgstr ""
+
+#: forms/meta/fields.php:193
+msgid "Associative list of values"
+msgstr ""
+
+#: forms/meta/groups.php:52
+msgid "Delete Meta Box Group"
+msgstr ""
+
+#: forms/meta/groups.php:50
+msgid "Add New Meta Box Group"
+msgstr ""
+
+#: forms/meta/groups.php:63
+msgid "Post types to use this Meta Box Groups"
+msgstr ""
+
+#: forms/meta/groups.php:55
+msgid "Removing meta box group definition doesn't affect any data stored in the database associeted with the fields in the meta boxes."
+msgstr ""
+
+#: forms/meta/fields.php:196
+msgid "One value per line. Value and title must be separated by pipe character."
+msgstr ""
+
+#: forms/meta/groups.php:65
+msgid "Select one or more post types you want to use this Meta box group."
+msgstr ""
+
+#: forms/meta/groups.php:59
+msgid "Delete plugin definition for this meta box group."
+msgstr ""
+
+#: forms/meta/fields.php:139
+msgid "Source Field"
+msgstr ""
+
+#: forms/meta/groups.php:123
+msgid "List of meta boxes"
+msgstr ""
+
+#: forms/meta/groups.php:15
+msgid "There are no meta box groups right now."
+msgstr ""
+
+#: forms/metaboxes/custom_meta.php:46
+msgid "Insert shortcode for this custom field."
+msgstr ""
+
+#: forms/metaboxes/shortcoder.php:18
+#: tinymce/plugin.php:135
+msgid "Insert"
+msgstr ""
+
+#: forms/metaboxes/post_type.php:11
+msgid "Be careful with changing the post type!"
+msgstr ""
+
+#: forms/metaboxes/custom_meta.php:74
+msgid "Remove element."
+msgstr ""
+
+#: forms/metaboxes/shortcoder.php:1
+msgid "Build Shortcode"
+msgstr ""
+
+#: forms/metaboxes/custom_meta.php:73
+msgid "Add new element."
+msgstr ""
+
+#: forms/render/cpt.item.php:57
+#: forms/render/cpt.item.php:55
+#: forms/render/cpt.item.php:53
+msgid "open"
+msgstr ""
+
+#: forms/render/cpt.header.php:7
+msgid "Meta"
+msgstr ""
+
+#: forms/render/cpt.item.php:132
+#: forms/render/tax.item.php:92
+msgid "Rewrite Disabled"
+msgstr ""
+
+#: forms/render/cpt.header.php:5
+#: forms/render/tax.header.php:4
+msgid "Rewrite & Query"
+msgstr ""
+
+#: forms/render/cpt.item.php:125
+#: forms/render/tax.item.php:86
+msgid "code"
+msgstr ""
+
+#: forms/render/cpt.item.php:126
+#: forms/render/tax.item.php:87
+msgid "control"
+msgstr ""
+
+#: forms/render/cpt.item.php:49
+msgid "Help with settings up theme templates for this post type."
+msgstr ""
+
+#: forms/render/cpt.item.php:21
+msgid "Group"
+msgstr ""
+
+#: forms/render/cpt.item.php:48
+msgid "Show the function that generates this post type."
+msgstr ""
+
+#: forms/meta/groups.php:82
+msgid "Meta Box Group Editor"
+msgstr ""
+
+#: forms/render/cpt.item.php:11
+msgid "Box"
+msgstr ""
+
+#: forms/render/cpt.item.php:49
+#: forms/render/tax.item.php:31
+msgid "templates"
+msgstr ""
+
+#: forms/render/cpt.item.php:53
+msgid "Open editor screen for this post type."
+msgstr ""
+
+#: forms/render/cpt.item.php:55
+#: forms/render/tax.item.php:45
+msgid "Open navigation menues editor."
+msgstr ""
+
+#: forms/render/cpt.item.php:70
+#: forms/render/tax.item.php:53
+#: forms/render/meta.header.php:8
+msgid "Hierarchical"
+msgstr ""
+
+#: forms/render/cpt.item.php:61
+msgid "Open website front archive page."
+msgstr ""
+
+#: forms/render/cpt.item.php:61
+msgid "archive"
+msgstr ""
+
+#: forms/render/cpt.item.php:57
+msgid "Open media library."
+msgstr ""
+
+#: forms/render/cpt.item.php:75
+msgid "Can Export"
+msgstr ""
+
+#: forms/render/cpt.item.php:73
+#: forms/render/tax.item.php:56
+msgid "In Nav Menu"
+msgstr ""
+
+#: forms/render/cpt.header.php:9
+#: forms/render/meta.header.php:9
+msgid "Items"
+msgstr ""
+
+#: forms/render/cpt.item.php:76
+msgid "In Admin Menu"
+msgstr ""
+
+#: forms/render/cpt.item.php:107
+msgid "Edit post type."
+msgstr ""
+
+#: forms/render/cpt.item.php:74
+msgid "Excluded from Search"
+msgstr ""
+
+#: forms/render/cpt.item.php:111
+msgid "Delete post type. Operation is not reversible. Exisiting posts for it will remain in the database."
+msgstr ""
+
+#: forms/render/cpt.item.php:118
+msgid "Edit only some post type settings, including plugin enhanced features."
+msgstr ""
+
+#: forms/render/cpt.item.php:140
+#: forms/render/tax.item.php:99
+msgid "rewrite slug"
+msgstr ""
+
+#: forms/render/cpt.item.php:108
+#: forms/render/tax.item.php:69
+msgid "duplicate"
+msgstr ""
+
+#: forms/render/cpt.item.php:117
+#: forms/render/tax.item.php:77
+msgid "full"
+msgstr ""
+
+#: forms/render/cpt.item.php:108
+#: forms/render/tax.item.php:69
+msgid "Create new post type from all same settings as this one. Name will be empty."
+msgstr ""
+
+#: forms/render/cpt.item.php:147
+#: forms/render/tax.item.php:103
+msgid "Query Disabled"
+msgstr ""
+
+#: forms/render/cpt.item.php:137
+msgid "feeds"
+msgstr ""
+
+#: forms/render/cpt.item.php:136
+#: forms/render/tax.item.php:96
+msgid "front"
+msgstr ""
+
+#: forms/render/cpt.item.php:149
+#: forms/render/tax.item.php:105
+msgid "query var"
+msgstr ""
+
+#: forms/render/cpt.item.php:138
+msgid "pages"
+msgstr ""
+
+#: forms/render/cpt.item.php:118
+#: forms/render/tax.item.php:78
+msgid "simple"
+msgstr ""
+
+#: forms/render/meta.header.php:6
+msgid "Public / UI"
+msgstr ""
+
+#: forms/render/cpt.item.php:117
+msgid "Edit all post type settings."
+msgstr ""
+
+#: forms/render/tax.item.php:72
+msgid "Delete taxonomy. Operation is not reversible."
+msgstr ""
+
+#: forms/render/tax.item.php:30
+msgid "Show the function that generates this taxonomy."
+msgstr ""
+
+#: forms/render/tax.item.php:45
+msgid "menus"
+msgstr ""
+
+#: forms/render/tax.item.php:47
+msgid "terms"
+msgstr ""
+
+#: forms/render/tax.item.php:57
+msgid "Tag Cloud"
+msgstr ""
+
+#: forms/render/tax.item.php:47
+msgid "Open editor screen for this taxonomy."
+msgstr ""
+
+#: forms/render/tax.item.php:68
+msgid "Edit taxonomy."
+msgstr ""
+
+#: forms/render/tax.item.php:58
+msgid "Admin Column"
+msgstr ""
+
+#: forms/render/tax.item.php:97
+msgid "hierarchical"
+msgstr ""
+
+#: forms/render/tax.item.php:78
+msgid "Edit only some taxonomy settings, including plugin enhanced features."
+msgstr ""
+
+#: forms/render/tax.item.php:31
+msgid "Help with settings up theme templates for this taxonomy."
+msgstr ""
+
+#: forms/render/tax.item.php:77
+msgid "Edit all taxonomy settings."
+msgstr ""
+
+#: forms/settings/accessibility.php:1
+msgid "Plugin Controls"
+msgstr ""
+
+#: forms/settings/accessibility.php:5
+msgid "Enhancements"
+msgstr ""
+
+#: forms/settings/enhanced.php:8
+msgid "Custom Rewriting"
+msgstr ""
+
+#: forms/settings/enhanced.php:3
+msgid "Caching of the post types and taxonomies registration data."
+msgstr ""
+
+#: forms/settings/enhanced.php:5
+msgid "If active, registration data will be cached to avoid repeated analysis of the settings and creating registration arrays."
+msgstr ""
+
+#: forms/settings/accessibility.php:15
+msgid "Some of plugin controls are enhanced for better visual and usability purposes, but unfortunatly, some of the enhancements can cause accessibility problems. Blind users use screen readers that detects contols on the screen, and some of our enhanced elements can't be detected. These elements are checkboxes, radioboxes and multi select dropdown elements. With this option, set to disabled all these enhancements will be disabled, and normal controls displayed."
+msgstr ""
+
+#: forms/settings/enhanced.php:19
+msgid "Add posts from custom post types to home page."
+msgstr ""
+
+#: forms/settings/enhanced.php:12
+msgid "Custom post types custom permalinks rewriting."
+msgstr ""
+
+#: forms/settings/enhanced.php:14
+msgid "These options must be enabled if you want to use expanded rewriting and permalinks."
+msgstr ""
+
+#: forms/settings/enhanced.php:57
+msgid "Add custom taxonomy column to the posts edit grid."
+msgstr ""
+
+#: forms/settings/enhanced.php:10
+msgid "Custom post types and custom taxonomies archive intersection."
+msgstr ""
+
+#: forms/settings/enhanced.php:21
+msgid "Add posts from custom post types to RSS feeds."
+msgstr ""
+
+#: forms/settings/enhanced.php:23
+msgid "Add custom post types into Right Now widget on the admin dashboard."
+msgstr ""
+
+#: forms/settings/enhanced.php:27
+msgid "Remove Quick Edit option from post edit list."
+msgstr ""
+
+#: forms/settings/enhanced.php:29
+msgid "Adds posts archives link in the post type menu."
+msgstr ""
+
+#: forms/settings/enhanced.php:25
+msgid "Add custom templates support, similar to page templates."
+msgstr ""
+
+#: forms/settings/enhanced.php:35
+msgid "Adds support for Subscribe2 plugin notify for post types."
+msgstr ""
+
+#: forms/settings/enhanced.php:37
+msgid "Only special features enabled here will be used, regardless of the settings of individual custom post types."
+msgstr ""
+
+#: forms/settings/enhanced.php:50
+msgid "Allow customizing meta boxes."
+msgstr ""
+
+#: forms/settings/enhanced.php:44
+msgid "Add view term archive links to the terms edit panels."
+msgstr ""
+
+#: forms/settings/enhanced.php:46
+msgid "Add ID column on the terms edit panels."
+msgstr ""
+
+#: forms/settings/enhanced.php:1
+msgid "Cache"
+msgstr ""
+
+#: forms/settings/enhanced.php:42
+msgid "Add custom taxonomy filter to the posts edit grid."
+msgstr ""
+
+#: forms/settings/enhanced.php:52
+msgid "Only special features enabled here will be used, regardless of the settings of individual custom taxonomies."
+msgstr ""
+
+#: forms/settings/enhanced.php:55
+msgid "Custom Taxonomies: Legacy"
+msgstr ""
+
+#: forms/settings/enhanced.php:48
+msgid "Add controls for attaching images to terms."
+msgstr ""
+
+#: forms/settings/integration.php:45
+msgid "Load Widgets"
+msgstr ""
+
+#: forms/settings/enhanced.php:62
+msgid "Delete terms from database once the taxonomy is deleted."
+msgstr ""
+
+#: forms/settings/enhanced.php:64
+msgid "If this options is not checked, after deleting taxonomy all it's terms will remain in the database."
+msgstr ""
+
+#: forms/settings/integration.php:8
+msgid "Add extra date periods based templates for date archives."
+msgstr ""
+
+#: forms/settings/enhanced.php:60
+msgid "Deleting Taxonomy"
+msgstr ""
+
+#: forms/settings/integration.php:4
+msgid "WordPress 3.1 or newer."
+msgstr ""
+
+#: forms/settings/integration.php:6
+msgid "Add extra ID and slug based templates to single posts."
+msgstr ""
+
+#: forms/settings/integration.php:16
+msgid "Templates names"
+msgstr ""
+
+#: forms/settings/integration.php:12
+msgid "Add custom post types archive template for date period based templates."
+msgstr ""
+
+#: forms/settings/integration.php:14
+msgid "Prioritize custom post type archive template over generic date and archive templates."
+msgstr ""
+
+#: forms/render/meta.header.php:7
+msgid "Menu"
+msgstr ""
+
+#: forms/settings/integration.php:10
+msgid "Add extra templates for post type and taxonomy intersection archives."
+msgstr ""
+
+#: forms/settings/integration.php:19
+msgid "Post Editor"
+msgstr ""
+
+#: forms/settings/integration.php:33
+msgid "Add Clear All to all non hierarchical taxonomies meta boxes."
+msgstr ""
+
+#: forms/settings/integration.php:16
+msgid "Additional templates structure is outlined in the article on Dev4Press"
+msgstr ""
+
+#: forms/settings/integration.php:38
+msgid "TinyMCE Editor"
+msgstr ""
+
+#: forms/settings/integration.php:40
+msgid "Auto create taxonomy on when performing check operation."
+msgstr ""
+
+#: forms/settings/integration.php:51
+#: forms/shared/all.footer.php:42
+#: forms/shared/all.footer.php:50
+#: widgets/gdtt-posttypes-list.php:19
+msgid "Post Types List"
+msgstr ""
+
+#: forms/settings/integration.php:35
+msgid "This will add Yahoo Suggest and Clear All buttons to Post Tags and other similar taxonomies meta boxes on post edit panel."
+msgstr ""
+
+#: forms/settings/integration.php:42
+msgid "Use shortcode instead of direct linking when adding code back to the editor."
+msgstr ""
+
+#: forms/settings/metabox.php:7
+msgid "Add meta box allowing change of post type for posts."
+msgstr ""
+
+#: forms/settings/metabox.php:1
+msgid "Main Settings"
+msgstr ""
+
+#: forms/settings/metabox.php:3
+msgid "Load pre defined set of functions to get data for Select custom field type."
+msgstr ""
+
+#: forms/settings/integration.php:4
+msgid "Add type named custom post type archive templates."
+msgstr ""
+
+#: forms/settings/integration.php:0
+msgid "Add %s for terms to all non hierarchical taxonomies meta boxes."
+msgstr ""
+
+#: forms/settings/metabox.php:12
+msgid "Load Date / Time custom fields."
+msgstr ""
+
+#: forms/settings/metabox.php:5
+msgid "Display clean title for meta boxes with no plugin name as prefix."
+msgstr ""
+
+#: forms/tax/theme.php:11
+msgid "For Any Taxonomy"
+msgstr ""
+
+#: forms/settings/metabox.php:16
+msgid "Load Google Maps custom field"
+msgstr ""
+
+#: forms/settings/metabox.php:23
+msgid "Load chosen.js library on the post editor panels."
+msgstr ""
+
+#: forms/settings/metabox.php:14
+msgid "Load Advanced custom fields."
+msgstr ""
+
+#: forms/settings/metabox.php:21
+msgid "Chosen Library"
+msgstr ""
+
+#: forms/settings/metabox.php:34
+msgid "Load Google Maps on front end pages."
+msgstr ""
+
+#: forms/settings/metabox.php:27
+msgid "Apply Chosen transformation for multi select control."
+msgstr ""
+
+#: forms/settings/metabox.php:30
+#: forms/settings/metabox.php:16
+msgid "Google Maps"
+msgstr ""
+
+#: forms/settings/tagger.php:13
+msgid "Yahoo API"
+msgstr ""
+
+#: forms/settings/metabox.php:25
+msgid "Apply Chosen transformation for single select control."
+msgstr ""
+
+#: forms/settings/metabox.php:36
+msgid "If Google Maps are enabled, plugin will need to load the JavaScript from Google website. But, if you have other means of loading these (some other plugin), you can disable loading from here. For this to work, Google Maps must be loaded in the page header."
+msgstr ""
+
+#: forms/settings/metabox.php:32
+msgid "Load Google Maps on administration post edit panels."
+msgstr ""
+
+#: forms/settings/metabox.php:12
+msgid "Datetime"
+msgstr ""
+
+#: forms/settings/tagger.php:1
+msgid "Internal API"
+msgstr ""
+
+#: forms/settings/metabox.php:18
+msgid "Load Units custom fields."
+msgstr ""
+
+#: forms/settings/tagger.php:5
+msgid "Tags Limit"
+msgstr ""
+
+#: forms/settings/tagger.php:10
+msgid "Internal API can return hundred of results, this will limit that number."
+msgstr ""
+
+#: forms/shared/all.footer.php:26
+#: forms/shared/all.footer.php:33
+#: forms/shared/all.footer.php:41
+#: forms/shared/all.footer.php:48
+msgid "Edit Again"
+msgstr ""
+
+#: forms/settings/tagger.php:22
+msgid "This can be anything, it's used internally by Yahoo."
+msgstr ""
+
+#: forms/settings/tagger.php:25
+msgid "OpenCalais API"
+msgstr ""
+
+#: forms/settings/tagger.php:47
+msgid "To get API Key, you must register on the Alchemy website"
+msgstr ""
+
+#: forms/settings/tagger.php:17
+msgid "Application ID"
+msgstr ""
+
+#: forms/settings/tagger.php:38
+msgid "Alchemy API"
+msgstr ""
+
+#: forms/settings/tagger.php:42
+#: forms/settings/tagger.php:29
+#: forms/settings/tagger.php:55
+msgid "API Key"
+msgstr ""
+
+#: forms/shared/all.footer.php:10
+msgid "Are you sure? Operation is not reversible."
+msgstr ""
+
+#: forms/settings/tagger.php:60
+msgid "To get API Key, you must register on the Zemanta website"
+msgstr ""
+
+#: forms/settings/tagger.php:51
+msgid "Zemanta API"
+msgstr ""
+
+#: forms/shared/all.footer.php:13
+msgid "Saving Settings..."
+msgstr ""
+
+#: forms/shared/all.footer.php:8
+msgid "Confirmation"
+msgstr ""
+
+#: forms/shared/all.footer.php:20
+msgid "Please fix the errors and try again. Fields with errors are displayed in red."
+msgstr ""
+
+#: forms/shared/all.footer.php:23
+msgid "Taxonomy Simple Edit"
+msgstr ""
+
+#: forms/shared/all.footer.php:32
+#: forms/shared/all.footer.php:25
+#: forms/shared/all.footer.php:40
+#: forms/shared/all.footer.php:47
+msgid "Data is saved. What do you want to do now?"
+msgstr ""
+
+#: forms/shared/all.footer.php:18
+msgid "Error"
+msgstr ""
+
+#: forms/shared/all.footer.php:27
+#: forms/shared/all.footer.php:35
+msgid "Taxonomies List"
+msgstr ""
+
+#: forms/shared/all.footer.php:30
+msgid "Taxonomy Edit"
+msgstr ""
+
+#: forms/settings/tagger.php:34
+msgid "To get API Key, you must register on the OpenCalais website"
+msgstr ""
+
+#: forms/shared/all.footer.php:38
+msgid "Post Type Simple Edit"
+msgstr ""
+
+#: forms/shared/front.header.php:14
+msgid "Status: "
+msgstr ""
+
+#: forms/shared/front.header.php:10
+msgid "Release Date: "
+msgstr ""
+
+#: forms/shared/front.header.php:12
+msgid "Version: "
+msgstr ""
+
+#: forms/shared/meta.gmap.php:9
+msgid "Latitude"
+msgstr ""
+
+#: forms/shared/front.header.php:16
+msgid "Build: "
+msgstr ""
+
+#: forms/shared/meta.gmap.php:20
+msgid "Height"
+msgstr ""
+
+#: forms/shared/meta.gmap.php:12
+msgid "Longitude"
+msgstr ""
+
+#: forms/shared/front.header.php:4
+msgid "Enhancing WordPress content management..."
+msgstr ""
+
+#: forms/shared/all.footer.php:45
+msgid "Post Type Edit"
+msgstr ""
+
+#: forms/tax/editor.php:29
+#: forms/tax/simple.php:15
+msgid "Name for the taxonomy. Restricitions apply."
+msgstr ""
+
+#: forms/tax/editor.php:30
+#: forms/tax/simple.php:16
+msgid "Activity status for the taxonomy."
+msgstr ""
+
+#: forms/tax/editor.php:35
+#: forms/tax/quick.php:18
+msgid "Hierarchy for the taxonomy."
+msgstr ""
+
+#: forms/tax/editor.php:37
+msgid "Options for setting the rewriting for terms belonging to the taxonomy."
+msgstr ""
+
+#: forms/tax/editor.php:36
+msgid "Query settings for the taxonomy."
+msgstr ""
+
+#: forms/tax/editor.php:112
+#: forms/tax/simple.php:40
+msgid "Limited: Multi Terms"
+msgstr ""
+
+#: forms/tax/editor.php:41
+#: forms/tax/simple.php:19
+msgid "Meta Box Format"
+msgstr ""
+
+#: forms/tax/editor.php:45
+msgid "archive and extra"
+msgstr ""
+
+#: forms/tax/editor.php:71
+msgid "Popular Items"
+msgstr ""
+
+#: forms/tax/editor.php:43
+#: forms/tax/simple.php:22
+#: forms/tax/quick.php:19
+msgid "Post types to register taxonomies with."
+msgstr ""
+
+#: forms/tax/editor.php:47
+msgid "Taxonomy Index Rewriting"
+msgstr ""
+
+#: forms/tax/editor.php:47
+msgid "Additional rules for taxonomy terms index page."
+msgstr ""
+
+#: forms/tax/editor.php:45
+msgid "Additional rewriting rules for taxonomy archives."
+msgstr ""
+
+#: forms/tax/editor.php:61
+msgid "Value is not required but it can be useful as summary on what taxonomy is about."
+msgstr ""
+
+#: forms/tax/editor.php:41
+#: forms/tax/simple.php:19
+msgid "Control of the display of the meta box."
+msgstr ""
+
+#: forms/tax/editor.php:73
+msgid "Parent Item"
+msgstr ""
+
+#: forms/tax/editor.php:79
+msgid "New Item Name"
+msgstr ""
+
+#: forms/tax/editor.php:77
+msgid "Update Item"
+msgstr ""
+
+#: forms/tax/editor.php:81
+msgid "Add or Remove Items"
+msgstr ""
+
+#: forms/tax/editor.php:82
+msgid "Choose from Most Used"
+msgstr ""
+
+#: forms/tax/editor.php:80
+msgid "Separate with Commas"
+msgstr ""
+
+#: forms/tax/editor.php:89
+#: forms/tax/quick.php:35
+msgid "Hierarchical taxonomy allows for terms to have child terms."
+msgstr ""
+
+#: forms/tax/editor.php:92
+msgid "Variable for the taxonomy used for Query objects."
+msgstr ""
+
+#: forms/tax/editor.php:93
+msgid "Custom variable for query."
+msgstr ""
+
+#: forms/tax/editor.php:96
+msgid "Create rewrite permalinks rules for taxonomy."
+msgstr ""
+
+#: forms/tax/editor.php:104
+#: forms/tax/simple.php:43
+msgid "Add column for this taxonomy to post edit list."
+msgstr ""
+
+#: forms/tax/editor.php:104
+#: forms/tax/simple.php:43
+msgid "Show Admin Column"
+msgstr ""
+
+#: forms/tax/editor.php:107
+msgid "Sort Order"
+msgstr ""
+
+#: forms/tax/editor.php:105
+#: forms/tax/simple.php:44
+msgid "Taxonomy is available for use in the terms cloud."
+msgstr ""
+
+#: forms/tax/editor.php:105
+#: forms/tax/simple.php:44
+msgid "Tag Cloud Widget"
+msgstr ""
+
+#: forms/tax/editor.php:107
+msgid "Remember order of adding terms to objects. Wehn enabled, this can slow down operations for adding terms."
+msgstr ""
+
+#: forms/tax/editor.php:112
+#: forms/tax/simple.php:40
+msgid "Meta box format"
+msgstr ""
+
+#: forms/tax/editor.php:106
+#: forms/tax/simple.php:45
+msgid "Taxonomy is made available for selecting in the navigation menu designer."
+msgstr ""
+
+#: forms/tax/editor.php:112
+#: forms/tax/simple.php:40
+msgid "Automatic / Default"
+msgstr ""
+
+#: forms/tax/editor.php:112
+#: forms/tax/simple.php:40
+msgid "Hidden"
+msgstr ""
+
+#: forms/tax/editor.php:122
+msgid "Base capability type that will be used to generate all capabilites needed for the taxonomy. Usually, this value is comparable to categories. This can be shared across more than one taxonomy. If you set custom value here, you must use Auto Generate button bellow to fill actual capabilities."
+msgstr ""
+
+#: forms/tax/editor.php:112
+#: forms/tax/simple.php:40
+msgid "Plugin implements two additional formats that don't allow adding of new terms, they are limited to existing terms only."
+msgstr ""
+
+#: forms/tax/editor.php:119
+msgid "Do not change anything on this page if you are not sure what are you doing. Default values here will make sure that post type created behaves similar to 'post' in terms of usability."
+msgstr ""
+
+#: forms/tax/editor.php:112
+#: forms/tax/simple.php:40
+msgid "Limited: Single Terms"
+msgstr ""
+
+#: forms/tax/editor.php:126
+msgid "Click this button to automatically fill all capabilities with default values, if some of them are empty."
+msgstr ""
+
+#: forms/tax/editor.php:144
+msgid "If you deactivate this custom taxonomy, all the terns associated with it will remain intact, but inaccessable while the taxonomy is not active."
+msgstr ""
+
+#: forms/tax/editor.php:137
+msgid "You are editing built in taxonomy. Be careful with this, you can break WordPress installation."
+msgstr ""
+
+#: forms/tax/editor.php:154
+msgid "Creating new taxonomy, naming convention and restrictions apply."
+msgstr ""
+
+#: forms/tax/editor.php:98
+msgid "Allow generating hierarchical rewrite rules for hierarchical taxonomies."
+msgstr ""
+
+#: forms/tax/editor.php:149
+msgid "You are editing custom taxonomy."
+msgstr ""
+
+#: forms/tax/editor.php:169
+msgid "Normal archives"
+msgstr ""
+
+#: forms/tax/editor.php:169
+msgid "Generate terms index for the taxonomy archive."
+msgstr ""
+
+#: forms/tax/editor.php:170
+msgid "Generate terms index for the taxonomy and post type intersections archive."
+msgstr ""
+
+#: forms/tax/editor.php:170
+msgid "Intersection archives"
+msgstr ""
+
+#: forms/tax/function.php:0
+msgid "Function run to register this custom taxonomy"
+msgstr ""
+
+#: forms/tax/list.php:111
+msgid "Add New Custom Taxonomy"
+msgstr ""
+
+#: forms/tax/list.php:62
+msgid "Deleting the taxonomy will also delete the relationship entries in the database. Backup your database before proceeding with any deletion operation."
+msgstr ""
+
+#: forms/tax/list.php:63
+msgid "After deleting taxonomy, terms relationships in the database will remain."
+msgstr ""
+
+#: forms/tax/list.php:46
+msgid "Inactive Custom Taxonomies:"
+msgstr ""
+
+#: forms/tax/list.php:64
+msgid "You can change that on the settings panel."
+msgstr ""
+
+#: forms/tax/quick.php:17
+msgid "hierarachy and post types"
+msgstr ""
+
+#: forms/tax/quick.php:17
+msgid "Basic needed settings for taxonomy."
+msgstr ""
+
+#: forms/tax/simple.php:13
+msgid "Name, description and status for taxonomy."
+msgstr ""
+
+#: forms/tools/settings.php:3
+#: forms/tools/settings.php:4
+msgid "Don't import"
+msgstr ""
+
+#: forms/tax/simple.php:20
+msgid "Menu intergration and other UI related options."
+msgstr ""
+
+#: forms/tax/simple.php:32
+msgid "Names of default taxonomies or custom taxonomies that are not created with this plugin, can't be changed"
+msgstr ""
+
+#: forms/tools/reset.php:23
+msgid "Meta fields and boxes"
+msgstr ""
+
+#: forms/tax/theme.php:7
+msgid "Taxonomy Term Posts Archive"
+msgstr ""
+
+#: forms/tax/theme.php:13
+msgid "All taxonomies can use this template if they don't have own named based file."
+msgstr ""
+
+#: forms/tax/theme.php:16
+msgid "Taxonomy is not public."
+msgstr ""
+
+#: forms/tools/reset.php:3
+msgid "Data to Reset"
+msgstr ""
+
+#: forms/tools/reset.php:15
+msgid "Post Types Overrides"
+msgstr ""
+
+#: forms/tools/reset.php:19
+msgid "Taxonomies Overrides"
+msgstr ""
+
+#: forms/tools/settings.php:58
+msgid "If you use append operation, new elements from import file will replace old ones in case of the name conflict."
+msgstr ""
+
+#: forms/tools/reset.php:31
+msgid "Taxonomies Order"
+msgstr ""
+
+#: forms/tools/reset.php:35
+msgid "Plugins Settings"
+msgstr ""
+
+#: forms/tools/reset.php:58
+msgid "WordPress rewrite rules"
+msgstr ""
+
+#: forms/tools/reset.php:27
+msgid "Post Types Order"
+msgstr ""
+
+#: forms/tools/reset.php:50
+msgid "Cache and Rules<br/>to Reset"
+msgstr ""
+
+#: forms/tools/reset.php:54
+msgid "Plugin registration cache"
+msgstr ""
+
+#: forms/tools/reset.php:40
+msgid "Selected elements will be deleted. Make sure that you make a backup before proceeding because operation is not reversible."
+msgstr ""
+
+#: forms/tools/settings.php:17
+#: forms/tools/terms.php:12
+msgid "Import settings"
+msgstr ""
+
+#: forms/tools/reset.php:67
+#: forms/tools/reset.php:44
+#: forms/tools.php:14
+msgid "Reset"
+msgstr ""
+
+#: forms/tools/settings.php:10
+#: forms/tools/terms.php:3
+msgid "Import from file"
+msgstr ""
+
+#: forms/tools/reset.php:63
+msgid "Removing this is considered safe, it will be regenerated automatically."
+msgstr ""
+
+#: forms/tools/settings.php:14
+msgid "File must be created by export settings tool from this plugin. File contains serialized data, so do not change this file in any way, or the import will fail."
+msgstr ""
+
+#: forms/tools/settings.php:39
+#: forms/tools/settings.php:150
+msgid "Custom Capabilities"
+msgstr ""
+
+#: forms/tools/settings.php:45
+#: forms/tools/settings.php:154
+msgid "Meta Fields and Boxes"
+msgstr ""
+
+#: forms/tools/settings.php:33
+#: forms/tools/settings.php:146
+msgid "Objects Overrides"
+msgstr ""
+
+#: forms/tools/settings.php:62
+#: forms/tools/terms.php:29
+msgid "Import"
+msgstr ""
+
+#: forms/tools/settings.php:107
+#: forms/tools/terms.php:40
+msgid "Export to file"
+msgstr ""
+
+#: forms/tools/settings.php:51
+#: forms/tools/settings.php:158
+msgid "Plugin Settings"
+msgstr ""
+
+#: forms/tools/settings.php:162
+msgid "Selected elements will be serialized and exported into the file."
+msgstr ""
+
+#: forms/tools/settings.php:166
+#: forms/tools/terms.php:57
+msgid "Export"
+msgstr ""
+
+#: widgets/gdtt-terms-cloud/form.php:66
+msgid "Smallest term size"
+msgstr ""
+
+#: forms/tools/settings.php:3
+msgid "Add to existing"
+msgstr ""
+
+#: forms/tools/terms.php:9
+msgid "Example files are in the plugin info folder."
+msgstr ""
+
+#: forms/tools/settings.php:3
+#: forms/tools/settings.php:4
+msgid "Replace existing"
+msgstr ""
+
+#: forms/tools/terms.php:7
+msgid "This must be plain text file (any extension will do). Each line must contain only one term."
+msgstr ""
+
+#: forms/tools/terms.php:8
+msgid "If you want to import hierarhical terms, child items should start with sign *. Hierarchy depth is determined by number of * signs."
+msgstr ""
+
+#: forms/tools/terms.php:25
+msgid "If you import file with hierarchy into non hierarhical taxonomy, hierarchy will be ignored."
+msgstr ""
+
+#: forms/tools.php:5
+msgid "Import of settings and definitions file completed."
+msgstr ""
+
+#: forms/tools/terms.php:48
+msgid "Export hierarchy"
+msgstr ""
+
+#: forms/settings.php:8
+msgid "plugin added features"
+msgstr ""
+
+#: forms/tools/terms.php:53
+msgid "If the taxonomy is not hierarchical, hierarchy export option will be ignored."
+msgstr ""
+
+#: forms/settings.php:7
+msgid "into WordPress panels"
+msgstr ""
+
+#: forms/settings.php:1
+msgid "Settings saved."
+msgstr ""
+
+#: forms/settings.php:11
+msgid "Accessibility"
+msgstr ""
+
+#: forms/settings.php:9
+msgid "integration and control"
+msgstr ""
+
+#: forms/settings.php:10
+msgid "Tagger"
+msgstr ""
+
+#: forms/settings.php:11
+msgid "and visual enhancements"
+msgstr ""
+
+#: forms/settings.php:10
+msgid "API's access and settings"
+msgstr ""
+
+#: tinymce/plugin.php:81
+msgid "Enclose the selection with term permalink."
+msgstr ""
+
+#: forms/tools.php:12
+#: forms/tools.php:13
+msgid "import and export"
+msgstr ""
+
+#: forms/tools.php:7
+msgid "Import failed. File is not in expected format."
+msgstr ""
+
+#: forms/tools.php:14
+msgid "settings and rules"
+msgstr ""
+
+#: tinymce/plugin.php:49
+msgid "check term"
+msgstr ""
+
+#: forms/tools.php:3
+msgid "Import terms completed. Total of %s %s imported"
+msgstr ""
+
+#: forms/shared/meta.gmap.php:33
+msgid "Zoom"
+msgstr ""
+
+#: forms/tools.php:15
+msgid "specific tools"
+msgstr ""
+
+#: tinymce/plugin.php:50
+msgid "search for term"
+msgstr ""
+
+#: tinymce/plugin.php:53
+msgid "Term not found for selected taxonomy."
+msgstr ""
+
+#: tinymce/plugin.php:39
+msgid "Term Text"
+msgstr ""
+
+#: tinymce/plugin.php:62
+msgid "Term:"
+msgstr ""
+
+#: tinymce/plugin.php:63
+msgid "Permalink:"
+msgstr ""
+
+#: tinymce/plugin.php:102
+msgid "Limit number of search results"
+msgstr ""
+
+#: tinymce/plugin.php:54
+msgid "add term"
+msgstr ""
+
+#: tinymce/plugin.php:89
+msgid "Add term for this taxonomy if not already added."
+msgstr ""
+
+#: tinymce/plugin.php:96
+msgid "Linking settings and additional information"
+msgstr ""
+
+#: tinymce/plugin.php:73
+msgid "Replace original selection in the editor."
+msgstr ""
+
+#: tinymce/plugin.php:126
+msgid "If you use direct links, links will be hardcoded using current permalink to the term, and you will have to change everyone of them if you make changes that modify the permalinks structure."
+msgstr ""
+
+#: tinymce/plugin.php:118
+msgid "Use shortcode instead of direct linking"
+msgstr ""
+
+#: tinymce/plugin.php:125
+msgid "If you use shortcodes for linking, you will get more flexibility because links will not be hardcoded. If you change domain, or make permalinks changes links will still be correct."
+msgstr ""
+
+#: tinymce/plugin.php:110
+msgid "Auto create taxonomy on check"
+msgstr ""
+
+#: tinymce/plugin.php:125
+msgid "For shortcode to work, you need this plugin active."
+msgstr ""
+
+#: forms/settings.php:7
+msgid "Integration"
+msgstr ""
+
+#: widgets/gdtt-posttypes-list/form.php:25
+msgid "Show post counter"
+msgstr ""
+
+#: widgets/gdtt-posttypes-list/form.php:31
+msgid "Mark current post type"
+msgstr ""
+
+#: widgets/gdtt-terms-cloud/form.php:18
+#: widgets/gdtt-terms-list/form.php:18
+msgid "Term slug"
+msgstr ""
+
+#: widgets/gdtt-posttypes-list/form.php:21
+#: widgets/gdtt-terms-cloud/form.php:58
+#: widgets/gdtt-terms-list/form.php:74
+msgid "Additional CSS class"
+msgstr ""
+
+#: widgets/gdtt-terms-cloud/form.php:14
+#: widgets/gdtt-terms-list/form.php:14
+msgid "Sort by"
+msgstr ""
+
+#: widgets/gdtt-terms-cloud/form.php:17
+#: widgets/gdtt-terms-list/form.php:17
+msgid "Term name"
+msgstr ""
+
+#: widgets/gdtt-terms-cloud/form.php:2
+#: widgets/gdtt-terms-list/form.php:2
+msgid "Maximum terms to show"
+msgstr ""
+
+#: widgets/gdtt-terms-cloud/form.php:29
+#: widgets/gdtt-terms-list/form.php:29
+msgid "Descending"
+msgstr ""
+
+#: widgets/gdtt-terms-cloud/form.php:20
+#: widgets/gdtt-terms-list/form.php:20
+msgid "Random"
+msgstr ""
+
+#: widgets/gdtt-terms-cloud/form.php:25
+#: widgets/gdtt-terms-list/form.php:25
+msgid "Order"
+msgstr ""
+
+#: widgets/gdtt-terms-list/form.php:28
+#: widgets/gdtt-terms-cloud/form.php:28
+msgid "Ascending"
+msgstr ""
+
+#: widgets/gdtt-terms-cloud/form.php:19
+#: widgets/gdtt-terms-list/form.php:19
+msgid "Posts count"
+msgstr ""
+
+#: widgets/gdtt-terms-cloud/form.php:42
+#: widgets/gdtt-terms-list/form.php:42
+msgid "Exclude"
+msgstr ""
+
+#: widgets/gdtt-terms-cloud/form.php:49
+#: widgets/gdtt-terms-list/form.php:49
+msgid "Hide empty"
+msgstr ""
+
+#: widgets/gdtt-terms-cloud/form.php:45
+#: widgets/gdtt-terms-list/form.php:45
+msgid "Comma or space separated list of term ID's."
+msgstr ""
+
+#: widgets/gdtt-terms-cloud/form.php:70
+msgid "Largest term size"
+msgstr ""
+
+#: widgets/gdtt-terms-cloud/form.php:74
+#: widgets/gdtt-terms-list/form.php:90
+msgid "Mark current term"
+msgstr ""
+
+#: widgets/gdtt-terms-cloud/form.php:62
+msgid "Font size unit"
+msgstr ""
+
+#: widgets/shared/form.php:11
+msgid "Only Visitors"
+msgstr ""
+
+#: widgets/gdtt-terms-list/form.php:62
+msgid "Drop down"
+msgstr ""
+
+#: widgets/gdtt-terms-list/form.php:61
+msgid "List"
+msgstr ""
+
+#: widgets/gdtt-terms-list/form.php:84
+msgid "Display terms hierarchy"
+msgstr ""
+
+#: widgets/gdtt-terms-list/form.php:70
+msgid "Used only for drop down display."
+msgstr ""
+
+#: widgets/gdtt-terms-list/form.php:67
+msgid "First Option"
+msgstr ""
+
+#: widgets/gdtt-terms-list/form.php:78
+msgid "Show number of posts"
+msgstr ""
+
+#: widgets/shared/form.php:23
+msgid "Results Cache"
+msgstr ""
+
+#: widgets/shared/form.php:26
+msgid "To use cache and speed up the widget, enter number of hours for cached results to be kept. Leave 0 to disable cache."
+msgstr ""
+
+#: widgets/gdtt-posttypes-list.php:18
+msgid "Display list of post types."
+msgstr ""
+
+#: widgets/shared/form.php:6
+msgid "Display To"
+msgstr ""
+
+#: widgets/shared/form.php:11
+msgid "Everyone"
+msgstr ""
+
+#: widgets/gdtt-terms-list.php:27
+msgid "Display list with taxonomy terms."
+msgstr ""
+
+#: widgets/gdtt-posttypes-list.php:67
+msgid "View posts for %s"
+msgstr ""
+
+#: widgets/gdtt-terms-cloud.php:26
+msgid "Display cloud with taxonomy terms."
+msgstr ""
+
+#: export.php:15
+msgid "Only administrators can use export features."
+msgstr ""
+

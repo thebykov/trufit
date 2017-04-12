@@ -1,0 +1,8 @@
+th.column-gdcpt_image { width: 92px; }
+th.column-gdcpt_term_id { width: 48px; }
+.gdtt-term-image { background: transparent url(../gfx/ui/no-image.png); width: 64px; height: 64px; float: left; margin-right: 8px; }
+.gdtt-term-controls { width: 16px; float: left; }
+.gdtt-term-controls a img { width: 16px; height: 16px; }
+.gdtt-term-controls a.gtc-edit img { background: transparent url(../gfx/ui/image-ctrl.png) no-repeat -32px 0; }
+.gdtt-term-controls a.gtc-delete img { background: transparent url(../gfx/ui/image-ctrl.png) no-repeat -16px 0; }
+.gdtt-term-controls a.gtc-preview img { background: transparent url(../gfx/ui/image-ctrl.png) no-repeat -48px 0; }

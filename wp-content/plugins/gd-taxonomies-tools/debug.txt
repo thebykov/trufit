@@ -1,0 +1,71 @@
+Array
+(
+    [id] => 1
+    [source] => 
+    [name] => wod_tags
+    [description] => 
+    [active] => 1
+    [labels] => Array
+        (
+            [name] => WOD Tags
+            [singular_name] => WOD Tag
+            [search_items] => Search WOD Tags
+            [popular_items] => Popular WOD Tags
+            [all_items] => All WOD Tags
+            [parent_item] => Parent WOD Tag
+            [parent_item_colon] => Parent WOD Tag:
+            [edit_item] => Edit WOD Tag
+            [view_item] => View WOD Tag
+            [update_item] => Update WOD Tag
+            [add_new_item] => Add New WOD Tag
+            [new_item_name] => New WOD Tag Name
+            [separate_items_with_commas] => Separate WOD Tags with commas
+            [add_or_remove_items] => Add or remove WOD Tags
+            [choose_from_most_used] => Choose from the most used WOD Tags
+            [not_found] => No WOD Tags found.
+            [menu_name] => WOD Tags
+        )
+
+    [query] => yes_name
+    [query_custom] => 
+    [rewrite] => yes_name
+    [rewrite_custom] => 
+    [rewrite_front] => yes
+    [public] => yes
+    [ui] => yes
+    [cloud] => yes
+    [nav_menus] => yes
+    [metabox] => auto
+    [post_types] => Array
+        (
+            [wods] => on
+        )
+
+    [caps_type] => categories
+    [caps] => Array
+        (
+            [manage_terms] => manage_categories
+            [edit_terms] => manage_categories
+            [delete_terms] => manage_categories
+            [assign_terms] => manage_categories
+        )
+
+    [domain] => wods
+    [supports] => Array
+        (
+        )
+
+    [special] => Array
+        (
+            [0] => term_link
+            [1] => term_id
+        )
+
+    [hierarchy] => no
+    [rewrite_hierarchy] => no
+    [sort] => no
+    [show_admin_column] => no
+    [index_normal] => no
+    [index_intersect] => yes
+)
+
