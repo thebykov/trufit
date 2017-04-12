@@ -1,0 +1,240 @@
+.d-words {
+    margin-top: 40px;
+
+    .left-side {
+        @media (max-width: 767px) {
+            text-align: center;
+        }
+
+        img {
+            border-radius: 100px;
+        }
+    }
+
+    .right-side {
+        h2 {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+}
+
+.newsletter-cta {
+    padding: 50px 10px 30px;
+    background: url(http://trufitbootcamp.com/wp-content/uploads/2016/05/Tru-Fit-Facebook-Photo-2-1024x474.jpg) center center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    background-size: cover;
+}
+
+.newsletter-cta:before {
+    content: '';
+    position: absolute;
+    background: rgba(241, 103, 37, 0.85);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.newsletter-cta .input-wrapper {
+    width: 50%;
+    margin: 0 25%;
+}
+
+.newsletter-cta .input-wrapper input {
+    width: 100%;
+    margin-bottom: 20px;
+    color: #000;
+    border: 0px;
+}
+
+.content form input[type="submit"] {
+    margin-top: 0px;
+}
+
+.newsletter-cta input[type="submit"] {
+    white-space: normal;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    visibility: inherit;
+    transition: none;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    letter-spacing: 3px;
+    min-height: 0px;
+    max-height: none;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
+    background-color: rgb(79, 119, 211);
+}
+
+.newsletter-cta input[type="submit"]:hover {
+    background-color: #6985c5;
+}
+
+.newletter_mail_icon {
+    background: #000;
+    display: inline-block;
+    padding: 32px;
+    border-radius: 50px;
+    font-size: 32px;
+}
+
+.black_on_white {
+    color: #000;
+    font-size: 24px;
+    width: 50%;
+    margin: 0 auto 40px;
+    line-height: 30px;
+}
+
+.mc4wp-response p {
+    color: #F16725;
+    font-size: 24px;
+    background: #000;
+    padding: 12px;
+    text-align: center;
+}
+
+#gform_5 .gform_body label {
+    display: none !important;
+}
+
+#gform_wrapper_5 ul li.gfield {
+    text-align: center;
+}
+
+#gform_wrapper_5 .ginput_complex input[type=text] {
+    width: 100% !important;
+}
+
+#gform_wrapper_5.ginput_complex.ginput_container.has_first_name.no_middle_name.has_last_name span {
+    width: 100% !important;
+}
+
+#gform_wrapper_5 .top_label input.large {
+    width: 100% !important;
+}
+
+#gform_wrapper_5 .ginput_complex.ginput_container.has_first_name.no_middle_name.has_last_name span {
+    width: 100% !important;
+}
+
+#gform_wrapper_5 ul li.gfield {
+    padding: 0 !important;
+}
+
+#gform_wrapper_5.gform_wrapper input[type=email], #gform_wrapper_5.gform_wrapper input[type=number], #gform_wrapper_5.gform_wrapper input[type=password], #gform_wrapper_5.gform_wrapper input[type=tel], #gform_wrapper_5.gform_wrapper input[type=text], #gform_wrapper_5.gform_wrapper input[type=url] {
+    font-size: inherit;
+    font-family: inherit;
+    padding: .313em 5px;
+    letter-spacing: normal;
+    text-indent: .25em;
+}
+
+#gform_wrapper_5.gform_wrapper .top_label .gfield_error {
+    width: 100%;
+}
+
+#gform_wrapper_5.gform_wrapper div.validation_error {
+    width: 100%;
+}
+
+.yelp_cta {
+    text-align: center;
+    background: #102a67;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+.yelp_cta a{
+    color: #dd9933;
+}
+.yelp_cta a:hover{
+    color: #ffce84;
+}
+
+a#signup_coupon_home {
+        color: #000;
+
+        .coupon-wrapper {
+            @media (max-width: 991px) {
+            }
+
+            @media (min-width: 992px) {
+            }
+
+            margin: auto;
+            background: #fff;
+            border: 1px solid #ddd;
+            position: relative;
+
+            //height: 150px;
+            padding: 5px;
+
+            .coupon {
+                border: 2px dashed #000;
+                animation: blink 1s step-start 0s infinite;
+                -webkit-animation: blink 1s step-start 0s infinite;
+
+                //height: 100%;
+                margin: auto;
+                padding: 10px 10px;
+
+                .price {
+                    //height: 100%;
+                    padding-left: 0;
+
+                    span {
+                        padding: 35px 20px 20px 10px;
+                        display: inline-block;
+                        background: #ddd;
+                        text-align: center;
+                        border-radius: 100px;
+                        font-size: 70px;
+                        line-height: 70px;
+                        color: $darkorange;
+                    }
+                }
+
+                .details {
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-top: 15px;
+                    line-height: 21px;
+                    padding: 0;
+
+                    span {
+                        font-size: 12px;
+                        line-height: 16px;
+                        display: inline-block;
+                        margin-top: 5px;
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+    }

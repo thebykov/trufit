@@ -1,0 +1,42 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="ignore">sportify_video_embed</custom-field>
+        <custom-field action="ignore">sportify_slider_categ</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">services</custom-type>
+        <custom-type translate="1">classes</custom-type>
+        <custom-type translate="1">testimonials</custom-type>
+        <custom-type translate="1">gallery_slider</custom-type>
+        <custom-type translate="1">team</custom-type>
+        <custom-type translate="1">events</custom-type>
+        <custom-type translate="1">video_slider</custom-type>
+        <custom-type translate="1">about_us</custom-type>
+        <custom-type translate="1">partners</custom-type>
+        <custom-type translate="1">price</custom-type>
+        <custom-type translate="1">timeline</custom-type>
+        <custom-type translate="1">shop_offers</custom-type>
+        <custom-type translate="1">shop_banner</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">team_tax</taxonomy>
+        <taxonomy translate="1">events_tax</taxonomy>
+        <taxonomy translate="1">price_tax</taxonomy>
+        <taxonomy translate="1">timeline_tax</taxonomy>
+    </taxonomies>    
+    <admin-texts>
+        <key name="sportify_options">
+            <key name="logo_text" />
+            <key name="email_contact" />
+            <key name="error_title" />
+            <key name="error_message" />
+            <key name="header_text" />
+            <key name="copyright_message" />
+            <key name="footer_text" />
+            <key name="title_contact" />
+            <key name="contact_address" />
+            <key name="contact_phone" />
+            <key name="contact_fax" />
+        </key>
+    </admin-texts>
+</wpml-config>

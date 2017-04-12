@@ -1,0 +1,1194 @@
+/*
+.blog-box .blog-items > div {
+    width: 50%;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+}
+*/
+/* Prevent animation on mobile when clicking hamburger */
+/*Time Table on Mobile moves end time to new line */
+/*Hides Sunday Column on Time Table*/
+.the_content.container {
+    background: #fff;
+    padding: 20px;
+}
+
+.cta_nobg_white {
+    color: #fff;
+    margin: 40px auto;
+}
+
+.cta_nobg_orange {
+    color: #F16725;
+    margin: 40px auto 0;
+}
+
+.social-links > li {
+    margin: 0 2px;
+}
+
+.social-links > li a {
+    width: 40px;
+}
+
+.main-header .socials {
+    border-left: 0;
+}
+
+.main-header .socials li a {
+    border: 1px solid #595959;
+}
+
+.main-header .socials li a:hover {
+    background: #ffcd93;
+}
+
+.main-header .socials li img {
+    padding: 2px;
+    display: block;
+}
+
+.main-header .ad {
+    text-align: center;
+}
+
+.main-header .ad img {
+    max-height: 150px;
+    margin: 10px 0;
+}
+
+.top_menu_class {
+    background: #ddd;
+}
+
+.top_menu_class ul {
+    height: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+    font-family: 'AntonioRegular';
+    text-transform: uppercase;
+    background-color: #F16725;
+}
+
+.top_menu_class ul:after {
+    clear: both;
+    display: block;
+}
+
+.top_menu_class > ul > li {
+    float: right;
+    padding: 0 10px;
+    list-style: none;
+    line-height: 36px;
+    position: relative;
+    min-width: 160px;
+    font-size: 24px;
+    padding-top: 4px;
+}
+
+.top_menu_class > ul > li:hover {
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+}
+
+.top_menu_class > ul > li:hover > a {
+    color: #fff;
+}
+
+.top_menu_class .sub-menu {
+    height: 0;
+    padding: 0;
+    background: #fff;
+    color: #000;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.top_menu_class li:hover .sub-menu {
+    height: initial;
+}
+
+.top_menu_class li:hover .sub-menu li {
+    padding: 0 10px;
+}
+
+.top_menu_class li:hover .sub-menu li:hover {
+    background-color: #ccc;
+    background-color: #666;
+}
+
+.copyright p {
+    color: #ffffff;
+}
+
+.copyright a {
+    color: #ff8800;
+}
+
+.copyright a:hover {
+    font-weight: bold;
+}
+
+.main-sidebar {
+    margin-top: 0;
+}
+
+.search-box .entry-title {
+    margin-bottom: 15px;
+}
+
+.archive-box .entry-title {
+    margin-bottom: 15px;
+}
+
+form input {
+    height: 42px;
+    border: 2px solid;
+    padding-left: 10px;
+}
+
+.gform_wrapper ul li.gfield {
+    clear: none !important;
+    padding: 10px 0;
+    margin-top: 0px !important;
+    padding-right: 1.3%;
+}
+
+.main-footer {
+    margin-top: 0px;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.main-footer .contact-info {
+    text-align: center;
+}
+
+.mobile-menu-wrapper {
+    height: 62px;
+}
+
+.white-grey-background input[type="text"] {
+    background: #fff;
+}
+
+.white-grey-background textarea {
+    background: #fff;
+}
+
+.contact-us-block form textarea:focus {
+    background: #ddd;
+}
+
+.contact-us-block input[type="text"]:focus {
+    background: #ddd;
+}
+
+.content .white-grey-background input[type="submit"] {
+    background: red;
+    color: black;
+}
+
+body {
+    background: url("http://trufit.thebykov.com/wp-content/uploads/2016/03/concrete_seamless.png") repeat 0 0 #fbfbfb;
+    background: url(" http://trufit.thebykov.com/wp-content/uploads/2016/03/congruent_outline.png") repeat 0 0 #fbfbfb;
+}
+
+body .popmake {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+body .popmake > .popmake-title {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+body .popmake > .popmake-close {
+    padding: 10px 20px;
+    background: #A9A9A9;
+    border-radius: 10px;
+    position: relative !important;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.contact-form-container {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.nav-bar {
+    background: rgba(0, 0, 0, 0.65);
+    background: #fff;
+}
+
+.blog-item .grey-background {
+    background: #000;
+}
+
+.blog-box .blog-items {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+
+.gmap-container .contact-map {
+    width: 100%;
+    height: 230px;
+}
+
+.footer-block {
+    padding: 30px 40px;
+}
+
+.menu {
+    padding-top: 0em;
+}
+
+#poststuff {
+    min-width: 0;
+}
+
+.label {
+    white-space: normal;
+}
+
+::-webkit-input-placeholder {
+    color: #000;
+}
+
+:-moz-placeholder {
+    color: #000;
+}
+
+::-moz-placeholder {
+    color: #000;
+}
+
+:-ms-input-placeholder {
+    color: #000;
+}
+
+.deal_table {
+    border: 1px solid #F9E8A2;
+    background: #F9E8A2;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.deal_table td {
+    border-top: 0;
+}
+
+.deal_table table {
+    background: transparent;
+}
+
+.deal_table a {
+    text-align: center;
+    display: block;
+}
+
+.main-nav > ul > li ul a {
+    color: #000;
+}
+
+.clients-box .clients-list li {
+    font-weight: bold;
+}
+
+.clients-box .clients-list li:nth-child(even) {
+    background-color: #525252 !important;
+}
+
+.gform_body textarea {
+    border: 2px solid #000 !important;
+}
+
+#menu-top-menu a {
+    color: #fff !important;
+}
+
+#menu-top-menu .sub-menu {
+    background-color: #F16725;
+}
+
+@media screen and (max-width: 990px) {
+    nav.main-nav.responsive-nav.active-menu {
+        position: fixed;
+        left: 0;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -moz-transform: translate(121px, 0) !important;
+        -ms-transform: translate(121px, 0) !important;
+        z-index: 99999;
+    }
+
+    body.menu-effect .show-content {
+        position: relative;
+        left: 0;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        -webkit-transform: translate(0, 0) !important;
+        -moz-transform: translate(0, 0) !important;
+        -ms-transform: translate(0, 0) !important;
+        transform: translate(0, 0) !important;
+    }
+
+    #popmake-691 {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .tl_timerange br {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-bar {
+        background: #dd9933;
+    }
+
+    #timeline_box .filter-box {
+        display: none;
+    }
+
+    .timetable tbody td {
+        padding: 2px;
+    }
+
+    .timetable a {
+        font-size: 10px;
+    }
+
+    .timetable span {
+        font-size: 10px;
+    }
+
+    .timetable thead th span {
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    body > .main-nav {
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -moz-transform: translate(121px, 0) !important;
+        -ms-transform: translate(121px, 0) !important;
+    }
+
+    .header-bar {
+        background: #F16725;
+    }
+}
+
+@media (max-width: 991px) {
+    .nav-bar .desktop_logo {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav-bar .mobile_logo {
+        display: none;
+    }
+
+    #field_2_3 .ginput_container {
+        width: 97.5%;
+    }
+
+    .header-bar {
+        background: #000;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .nav-bar .identity img {
+        max-height: 100%;
+    }
+}
+
+.main-nav > ul > li > a {
+    font-size: 18px;
+    padding: 12px 4px 6px;
+}
+
+@media (max-width: 1200px) {
+    .main-nav > ul > li > a {
+        margin-right: 10px;
+    }
+}
+
+.main-nav > ul > li:before {
+    display: none;
+}
+
+.blog-box .blog-items {
+    margin-bottom: 20px;
+}
+
+.post-box header figure img {
+    width: 100%;
+}
+
+.main-sidebar .widget h3 {
+    font-family: "AntonioRegular";
+    font-size: 32px;
+    line-height: 58px;
+    background: #F3670F;
+    padding-top: 6px;
+    padding-left: 20px;
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.submit-wrap:before {
+    background: url("../images/search-icon.png") no-repeat 0 0 #F3670F;
+}
+
+.search-wrap .search-line {
+    background: #fff;
+    color: #000;
+    border: 2px solid #F3670F;
+}
+
+.widget_tag_cloud div a:hover {
+    background: #F3670F;
+    color: #fff;
+}
+
+.main-footer form input, .main-footer form textarea {
+    font-family: "RobotoLight";
+    font-size: 14px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.main-footer form input[type='submit'] {
+    font-family: "AntonioRegular";
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #dd9933;
+    padding: 2px 40px 0;
+    margin-top: 20px;
+}
+
+.main-footer form input:hover, .main-footer form textarea:hover {
+    background: #ffffff;
+}
+
+a#vouncher_redeem {
+    font-family: "AntonioRegular";
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #dd9933;
+    padding: 14px 40px 12px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.d-words {
+    margin-top: 40px;
+}
+
+@media (max-width: 767px) {
+    .d-words .left-side {
+        text-align: center;
+    }
+}
+
+.d-words .left-side img {
+    border-radius: 100px;
+}
+
+.d-words .right-side h2 {
+    color: #fff;
+}
+
+.d-words .right-side p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.newsletter-cta {
+    padding: 50px 10px 30px;
+    background: url(http://trufitbootcamp.com/wp-content/uploads/2016/05/Tru-Fit-Facebook-Photo-2-1024x474.jpg) center center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    background-size: cover;
+}
+
+.newsletter-cta:before {
+    content: '';
+    position: absolute;
+    background: rgba(241, 103, 37, 0.85);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.newsletter-cta .input-wrapper {
+    width: 50%;
+    margin: 0 25%;
+}
+
+.newsletter-cta .input-wrapper input {
+    width: 100%;
+    margin-bottom: 20px;
+    color: #000;
+    border: 0px;
+}
+
+.content form input[type="submit"] {
+    margin-top: 0px;
+}
+
+.newsletter-cta input[type="submit"] {
+    white-space: normal;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px;
+    border: 0px solid transparent;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    visibility: inherit;
+    transition: none;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+    letter-spacing: 3px;
+    min-height: 0px;
+    max-height: none;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
+    background-color: #4f77d3;
+}
+
+.newsletter-cta input[type="submit"]:hover {
+    background-color: #6985c5;
+}
+
+.newletter_mail_icon {
+    background: #000;
+    display: inline-block;
+    padding: 32px;
+    border-radius: 50px;
+    font-size: 32px;
+}
+
+.black_on_white {
+    color: #000;
+    font-size: 24px;
+    width: 50%;
+    margin: 0 auto 40px;
+    line-height: 30px;
+}
+
+.mc4wp-response p {
+    color: #F16725;
+    font-size: 24px;
+    background: #000;
+    padding: 12px;
+    text-align: center;
+}
+
+#gform_5 .gform_body label {
+    display: none !important;
+}
+
+#gform_wrapper_5 ul li.gfield {
+    text-align: center;
+}
+
+#gform_wrapper_5 .ginput_complex input[type=text] {
+    width: 100% !important;
+}
+
+#gform_wrapper_5.ginput_complex.ginput_container.has_first_name.no_middle_name.has_last_name span {
+    width: 100% !important;
+}
+
+#gform_wrapper_5 .top_label input.large {
+    width: 100% !important;
+}
+
+#gform_wrapper_5 .ginput_complex.ginput_container.has_first_name.no_middle_name.has_last_name span {
+    width: 100% !important;
+}
+
+#gform_wrapper_5 ul li.gfield {
+    padding: 0 !important;
+}
+
+#gform_wrapper_5.gform_wrapper input[type=email], #gform_wrapper_5.gform_wrapper input[type=number], #gform_wrapper_5.gform_wrapper input[type=password], #gform_wrapper_5.gform_wrapper input[type=tel], #gform_wrapper_5.gform_wrapper input[type=text], #gform_wrapper_5.gform_wrapper input[type=url] {
+    font-size: inherit;
+    font-family: inherit;
+    padding: .313em 5px;
+    letter-spacing: normal;
+    text-indent: .25em;
+}
+
+#gform_wrapper_5.gform_wrapper .top_label .gfield_error {
+    width: 100%;
+}
+
+#gform_wrapper_5.gform_wrapper div.validation_error {
+    width: 100%;
+}
+
+.yelp_cta {
+    text-align: center;
+    background: #102a67;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+
+.yelp_cta a {
+    color: #dd9933;
+}
+
+.yelp_cta a:hover {
+    color: #ffce84;
+}
+
+a#signup_coupon_home {
+    color: #000;
+}
+
+a#signup_coupon_home .coupon-wrapper {
+    margin: auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    position: relative;
+    padding: 5px;
+}
+
+a#signup_coupon_home .coupon-wrapper .coupon {
+    border: 2px dashed #000;
+    animation: blink 1s step-start 0s infinite;
+    -webkit-animation: blink 1s step-start 0s infinite;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+a#signup_coupon_home .coupon-wrapper .coupon .price {
+    padding-left: 0;
+}
+
+a#signup_coupon_home .coupon-wrapper .coupon .price span {
+    padding: 35px 20px 20px 10px;
+    display: inline-block;
+    background: #ddd;
+    text-align: center;
+    border-radius: 100px;
+    font-size: 70px;
+    line-height: 70px;
+    color: #F3670F;
+}
+
+a#signup_coupon_home .coupon-wrapper .coupon .details {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    line-height: 21px;
+    padding: 0;
+}
+
+a#signup_coupon_home .coupon-wrapper .coupon .details span {
+    font-size: 12px;
+    line-height: 16px;
+    display: inline-block;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.timeline-box .filter-box {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .page-id-182 .container, .page-id-1357 .container {
+        padding: 0;
+    }
+
+    .page-id-182 .container .row, .page-id-1357 .container .row {
+        margin: 0;
+    }
+}
+
+.page-id-182 .page-content, .page-id-1357 .page-content {
+    padding: 0;
+    margin-top: 0;
+}
+
+.page-id-182 .page-content header, .page-id-1357 .page-content header {
+    display: none;
+}
+
+.page-id-182 .header-image, .page-id-1357 .header-image {
+    background-image: url("http://trufit.thebykov.com/wp-content/uploads/2016/05/Tru-Fit-Facebook-Photo-3-1024x789.jpg");
+    min-height: 500px;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+}
+
+.page-id-182 .header-image:before, .page-id-1357 .header-image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.page-id-182 .header-image .title, .page-id-1357 .header-image .title {
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    line-height: 60px;
+    padding-top: 180px;
+    font-weight: bold;
+    position: relative;
+}
+
+.page-id-182 a#signup_coupon, .page-id-1357 a#signup_coupon {
+    color: #000;
+}
+
+.page-id-182 a#signup_coupon .coupon-wrapper, .page-id-1357 a#signup_coupon .coupon-wrapper {
+    margin: auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-top: -75px;
+    position: relative;
+    padding: 5px;
+}
+
+@media (max-width: 991px) {
+    .page-id-182 a#signup_coupon .coupon-wrapper, .page-id-1357 a#signup_coupon .coupon-wrapper {
+        width: 90%;
+    }
+}
+
+@media (min-width: 992px) {
+    .page-id-182 a#signup_coupon .coupon-wrapper, .page-id-1357 a#signup_coupon .coupon-wrapper {
+        width: 35%;
+    }
+}
+
+.page-id-182 a#signup_coupon .coupon-wrapper .coupon, .page-id-1357 a#signup_coupon .coupon-wrapper .coupon {
+    border: 2px dashed #000;
+    animation: blink 1s step-start 0s infinite;
+    -webkit-animation: blink 1s step-start 0s infinite;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+.page-id-182 a#signup_coupon .coupon-wrapper .coupon .price, .page-id-1357 a#signup_coupon .coupon-wrapper .coupon .price {
+    padding-left: 0;
+}
+
+.page-id-182 a#signup_coupon .coupon-wrapper .coupon .price span, .page-id-1357 a#signup_coupon .coupon-wrapper .coupon .price span {
+    padding: 35px 20px 20px 10px;
+    display: inline-block;
+    background: #ddd;
+    text-align: center;
+    border-radius: 100px;
+    font-size: 70px;
+    line-height: 70px;
+    color: #F3670F;
+}
+
+.page-id-182 a#signup_coupon .coupon-wrapper .coupon .details, .page-id-1357 a#signup_coupon .coupon-wrapper .coupon .details {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    line-height: 21px;
+    padding: 0;
+}
+
+.page-id-182 a#signup_coupon .coupon-wrapper .coupon .details span, .page-id-1357 a#signup_coupon .coupon-wrapper .coupon .details span {
+    font-size: 12px;
+    line-height: 16px;
+    display: inline-block;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.page-id-182 .list-wrapper, .page-id-1357 .list-wrapper {
+    text-align: center;
+}
+
+.page-id-182 .list-wrapper .title, .page-id-1357 .list-wrapper .title {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.page-id-182 .list-wrapper .list-items, .page-id-1357 .list-wrapper .list-items {
+    text-align: center;
+    padding: 0 15px;
+    margin-top: 30px;
+}
+
+.page-id-182 .list-wrapper .list-items:after, .page-id-1357 .list-wrapper .list-items:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.page-id-182 .list-wrapper .list-items .list-item:first-of-type:before, .page-id-1357 .list-wrapper .list-items .list-item:first-of-type:before {
+    display: none;
+}
+
+.page-id-182 .list-wrapper .list-items .list-item, .page-id-1357 .list-wrapper .list-items .list-item {
+    position: relative;
+    margin: auto;
+}
+
+@media (max-width: 991px) {
+    .page-id-182 .list-wrapper .list-items .list-item, .page-id-1357 .list-wrapper .list-items .list-item {
+        width: 100%;
+        padding: 0 20px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 992px) {
+    .page-id-182 .list-wrapper .list-items .list-item, .page-id-1357 .list-wrapper .list-items .list-item {
+        width: 20%;
+        float: left;
+        padding: 0 10px;
+    }
+
+    .page-id-182 .list-wrapper .list-items .list-item:before, .page-id-1357 .list-wrapper .list-items .list-item:before {
+        content: '';
+        border-left: 1px solid #ddd;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        height: 140px;
+    }
+}
+
+.page-id-182 .list-wrapper .list-items .list-item img, .page-id-1357 .list-wrapper .list-items .list-item img {
+    max-width: 100%;
+    height: 50px !important;
+}
+
+.page-id-182 .list-wrapper .list-items .list-item .list-item-title, .page-id-1357 .list-wrapper .list-items .list-item .list-item-title {
+    color: #F3670F;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.page-id-182 .list-wrapper .list-items .list-item .list-item-details, .page-id-1357 .list-wrapper .list-items .list-item .list-item-details {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.page-id-182 .list-wrapper .button, .page-id-1357 .list-wrapper .button {
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.page-id-182 .list-wrapper .button a, .page-id-1357 .list-wrapper .button a {
+    padding: 2px 160px 20px;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.page-id-182 .list-wrapper .button a:hover, .page-id-1357 .list-wrapper .button a:hover {
+    background-color: #DD9933;
+}
+
+.page-id-182 .steps-wrapper, .page-id-1357 .steps-wrapper {
+    color: #fff;
+    background: #000;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media (max-width: 991px) {
+    .page-id-182 .steps-wrapper, .page-id-1357 .steps-wrapper {
+        padding: 40px 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .page-id-182 .steps-wrapper, .page-id-1357 .steps-wrapper {
+        padding: 50px 10px 50px 110px;
+    }
+}
+
+.page-id-182 .steps-wrapper .steps .step, .page-id-1357 .steps-wrapper .steps .step {
+    margin-top: 20px;
+}
+
+.page-id-182 .steps-wrapper .steps .step.step0, .page-id-1357 .steps-wrapper .steps .step.step0 {
+    margin-top: 0;
+}
+
+.page-id-182 .steps-wrapper .steps .step.step0 .title, .page-id-1357 .steps-wrapper .steps .step.step0 .title {
+    margin-left: -34px;
+}
+
+.page-id-182 .steps-wrapper .steps .step .title, .page-id-1357 .steps-wrapper .steps .step .title {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.page-id-182 .steps-wrapper .steps .step .title span, .page-id-1357 .steps-wrapper .steps .step .title span {
+    margin-right: 20px;
+}
+
+@media (min-width: 992px) {
+    .page-id-182 .steps-wrapper .steps .step .title span, .page-id-1357 .steps-wrapper .steps .step .title span {
+        margin-left: -34px;
+    }
+}
+
+.page-id-182 .steps-wrapper .steps .step .details, .page-id-1357 .steps-wrapper .steps .step .details {
+    margin-top: 10px;
+}
+
+.page-id-182 .steps-wrapper .steps-image-wrapper img, .page-id-1357 .steps-wrapper .steps-image-wrapper img {
+    max-width: 100%;
+}
+
+@media (max-width: 991px) {
+    .page-id-182 .steps-wrapper .steps-image-wrapper img, .page-id-1357 .steps-wrapper .steps-image-wrapper img {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .page-id-182 .steps-wrapper .steps-image-wrapper img, .page-id-1357 .steps-wrapper .steps-image-wrapper img {
+        margin-bottom: 20px;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border: 2px dashed #F3670F;
+    }
+}
+
+@-webkit-keyframes blink {
+    50% {
+        border: 2px dashed #F3670F;
+    }
+}
+
+.gform_wrapper .field_sublabel_above .ginput_complex label {
+    margin: .625em 0 .5em;
+    font-weight: 700;
+    display: -moz-inline-stack;
+    display: inline-block;
+    line-height: 1.3;
+    clear: both;
+    color: #666;
+    font-family: "AntonioRegular";
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #666;
+}
+
+.gform_button, .btn_orange, .comments-area .submit {
+    font-family: "AntonioRegular";
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #F3670F;
+    padding: 2px 40px 0;
+    margin-top: 20px;
+}
+
+.gform_button:hover, .btn_orange:hover, .comments-area .submit:hover {
+    background-color: #DD9933;
+}
+
+.main-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+@media screen and (max-width: 992px) {
+    body .mobile-menu-button {
+        left: 10px !important;
+        right: initial !important;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    nav.main-nav.responsive-nav.active-menu {
+        right: 0 !important;
+        left: initial !important;
+    }
+}
+
+@media (max-width: 992px) {
+    body > .main-nav {
+        right: -210px !important;
+        left: initial !important;
+    }
+}
+
+.white-background a[href*="mailto:"] {
+    color: #dd9933;
+}
+
+.wp-social-login-widget {
+    display: none;
+}
+
+form#commentform .form-submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.comment-respond .comment-form input[type="submit"]:hover {
+    background-color: #DD9933;
+    color: #fff;
+}
+
+.comments-wrap {
+    padding: 20px;
+}
+
+.cjfm-form form input {
+    height: inherit;
+    height: initial;
+}
+
+.cjfm-form .help-block {
+    font-size: 100%;
+    font-style: normal;
+    padding: 5px 0 0 0;
+    color: #000;
+    margin-top: -15px;
+}
+
+.cjfm-form .cjfm-heading {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cjfm-form .control-group {
+    margin-bottom: 20px;
+}
+
+.cjfm-form form select {
+    height: initial;
+    height: inherit;
+}
+
+.cjfm-form .checkbox .control-label, .cjfm-form .radio .control-label {
+    margin-left: -20px;
+}
+
+.cjfm-form form textarea {
+    margin-top: 0px;
+}
+
+.cf7-db-table {
+    border-top: 1px solid #000 !important;
+    font-size: 14px !important;
+}
+
+table.cf7-db-table tbody td {
+    font-size: 12px !important;
+}
+
+.page-template-template-empty {
+    background: #fff !important;
+}
+
+#empty-template .main-header {
+    display: none;
+}
+
+#empty-template .main-footer {
+    display: none;
+}
+
+#empty-template .sticky-popup {
+    display: none;
+}
+
+#weightdata {
+    display: none;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    background: orange;
+    padding: 20px;
+    text-align: left;
+    width: 80%;
+    height: 80%;
+    z-index: 99999;
+    overflow: auto;
+}
+
+.modal-overlay {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99998;
+    background: rgba(0, 0, 0, 0.3);
+}

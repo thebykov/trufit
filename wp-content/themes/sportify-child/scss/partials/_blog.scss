@@ -1,0 +1,40 @@
+.blog-box .blog-items {
+    margin-bottom: 20px;
+}
+
+.post-box {
+    header {
+        figure {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.main-sidebar .widget h3 {
+    font-family: "AntonioRegular";
+    font-size: 32px;
+    line-height: 58px;
+    background: $darkorange;
+    padding-top: 6px;
+    padding-left: 20px;
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.submit-wrap:before {
+    background: url("../images/search-icon.png") no-repeat 0 0 $darkorange;
+}
+
+.search-wrap .search-line {
+    background: #fff;
+    color: #000;
+    border: 2px solid $darkorange;
+}
+
+.widget_tag_cloud div a:hover {
+    background: $darkorange;
+    color: #fff;
+}

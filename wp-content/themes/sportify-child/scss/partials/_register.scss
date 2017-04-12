@@ -1,0 +1,41 @@
+.cjfm-form {
+    form input {
+        height: inherit;
+        height: initial;
+    }
+
+    .radio, h2 .checkbox h2 {
+        //margin-left: -20px;
+   
+    }
+
+    .help-block {
+        font-size: 100%;
+        font-style: normal;
+        padding: 5px 0 0 0;
+        color: #000;
+        margin-top: -15px;
+    }
+
+    .cjfm-heading {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .control-group {
+        margin-bottom: 20px;
+    }
+
+    form select {
+        height: initial;
+        height: inherit;
+    }
+
+    .checkbox .control-label, .radio .control-label {
+        margin-left: -20px;
+    }
+
+    form textarea {
+        margin-top: 0px;
+    }
+}

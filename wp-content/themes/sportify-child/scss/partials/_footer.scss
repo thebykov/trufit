@@ -1,0 +1,32 @@
+.main-footer form input, .main-footer form textarea {
+    font-family: "RobotoLight";
+    font-size: 14px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.main-footer form input[type='submit'] {
+    font-family: "AntonioRegular";
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #dd9933;
+    padding: 2px 40px 0;
+    margin-top: 20px;
+}
+
+.main-footer form input:hover, .main-footer form textarea:hover {
+    background: #ffffff;
+}
+
+a#vouncher_redeem {
+    font-family: "AntonioRegular";
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #dd9933;
+    padding: 14px 40px 12px;
+    display: inline-block;
+    margin-bottom: 20px;
+}

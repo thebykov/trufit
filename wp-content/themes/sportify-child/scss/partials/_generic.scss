@@ -1,0 +1,73 @@
+.gform_button, .btn_orange, .comments-area .submit {
+    font-family: "AntonioRegular";
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: $darkorange;
+    padding: 2px 40px 0;
+    margin-top: 20px;
+
+    &:hover {
+        background-color: $lightorange;
+    }
+}
+
+.main-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+@media screen and (max-width: 992px){
+body .mobile-menu-button {
+    left: 10px !important;
+    right: initial !important;
+}
+}
+
+@media screen and (max-width: 990px){
+nav.main-nav.responsive-nav.active-menu {
+    right: 0 !important;
+    left: initial !important;
+}
+}
+
+@media (max-width: 992px){
+body > .main-nav {
+right: -210px !important;
+left: initial !important;
+    }
+}
+
+.white-background a[href*="mailto:"]{
+  color: #dd9933;
+}
+
+
+
+.wp-social-login-widget{
+  display:none;
+}
+
+form#commentform .form-submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.comment-respond .comment-form input[type="submit"]:hover {
+    background-color: #DD9933;
+    color: #fff;
+}
+
+.comments-wrap{
+  padding:20px;
+}
+
+.container{
+    // overflow: auto;
+}

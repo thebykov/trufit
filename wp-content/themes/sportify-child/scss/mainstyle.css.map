@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,kBAAmB;EACf,MAAM,EAAE,KAAK",
+"sources": ["mainstyle.scss"],
+"names": [],
+"file": "mainstyle.css"
+}
