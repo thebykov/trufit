@@ -16,13 +16,3 @@ wp-content/plugins/hello.php
 /sitemap.xml
 /sitemap.xml.gz
 
-githubkey*
-
-wp-admin/
-wp-content/mu-plugins/gd-system-plugin.php
-wp-content/mu-plugins/
-wp-includes/
-wp-*.php
-!wp-config.php
-index.php
-gd-config.php
