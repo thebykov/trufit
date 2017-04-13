@@ -570,7 +570,7 @@ function prevActive(){
 
     echo '<div class="prevbtn-wrapper"><div class="prevbtn" onclick="prevActive();">&lt; Prev Day</div></div><div class="nextbtn-wrapper"><div class="nextbtn" onclick="nextActive();">Next Day &gt;</div></div>';
 
-    echo '<div class="level level1">Level 0</div><div class="level level2">Level 2</div><div class="level level3">Level 3</div>';
+    echo '<div class="level level1">Level 1</div><div class="level level2">Level 2</div><div class="level level3">Level 3</div>';
 
     echo '';
 
