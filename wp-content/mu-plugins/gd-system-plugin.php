@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: System Plugin
- * Version: 3.5.0
+ * Version: 3.6.1
  * License: GPL-2.0
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: gd-system-plugin
@@ -52,7 +52,7 @@ final class Plugin {
 
 		}
 
-		self::$data['version']    = '3.5.0';
+		self::$data['version']    = '3.6.1';
 		self::$data['basename']   = plugin_basename( __FILE__ );
 		self::$data['base_dir']   = __DIR__ . '/gd-system-plugin/';
 		self::$data['assets_url'] = WPMU_PLUGIN_URL . '/gd-system-plugin/assets/';
@@ -116,6 +116,7 @@ final class Plugin {
 		new Admin\Growl;
 		new Admin\Pages;
 		new Admin\Pointers;
+		new Admin\Themes_Tab;
 		new Admin\WalkMe;
 
 		/**

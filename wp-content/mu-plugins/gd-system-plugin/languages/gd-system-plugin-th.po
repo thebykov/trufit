@@ -1,19 +1,18 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the gd-system-plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Copyright (c) 2017 GoDaddy Operating Company, LLC. All Rights Reserved.
 msgid ""
 msgstr ""
-"Project-Id-Version: gd-system-plugin 3.0.1\n"
-"POT-Creation-Date: 2017-01-10 21:12:15+00:00\n"
-"PO-Revision-Date: 2017-01-10 15:11-0600\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: th\n"
+"Project-Id-Version: System Plugin 3.5.0\n"
+"POT-Creation-Date: 2017-03-30 17:39:12+00:00\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
 
 #: gd-system-plugin/includes/admin/class-bar.php:105
 #: gd-system-plugin/includes/admin/class-pages.php:242
@@ -33,7 +32,7 @@ msgstr "WordPress ภายใต้การจัดการ"
 msgid "Flush Cache"
 msgstr "ล้างแคช"
 
-#: gd-system-plugin/includes/admin/class-bar.php:234
+#: gd-system-plugin/includes/admin/class-bar.php:219
 msgid "Account Settings"
 msgstr "การตั้งค่าบัญชี"
 
@@ -63,7 +62,8 @@ msgstr "เรียนรู้เพิ่มเติม"
 msgid ""
 "If you enable file editing all plugin and theme files on the server will "
 "become editable."
-msgstr "หากคุณเปิดใช้งานการแก้ไขไฟล์ คุณจะสามารถแก้ไขปลั๊กอินและไฟล์ธีมบนเซิร์ฟเวอร์ได้"
+msgstr ""
+"หากคุณเปิดใช้งานการแก้ไขไฟล์ คุณจะสามารถแก้ไขปลั๊กอินและไฟล์ธีมบนเซิร์ฟเวอร์ได้"
 
 #: gd-system-plugin/includes/admin/class-file-editor.php:176
 msgid "I understand the risks involved with enabling this feature"
@@ -99,9 +99,10 @@ msgstr "เว็บไซต์ดูน่าเบื่อหรือไม
 
 #: gd-system-plugin/includes/admin/class-pages.php:522
 msgid ""
-"Having a pro build your business' website is the fast, cost-effective way to "
-"a great-looking, branded web presence."
-msgstr "การให้มือโปรสร้างเว็บไซต์สำหรับธุรกิจของคุณเป็นวิธีที่รวดเร็วและคุ้มค่าในการมีตัวตนบนเว็บที่ดูดีและมีเอกลักษณ์"
+"Having a pro build your business' website is the fast, cost-effective way "
+"to a great-looking, branded web presence."
+msgstr ""
+"การให้มือโปรสร้างเว็บไซต์สำหรับธุรกิจของคุณเป็นวิธีที่รวดเร็วและคุ้มค่าในการมีตัวตนบนเว็บที่ดูดีและมีเอกลักษณ์"
 
 #: gd-system-plugin/includes/admin/class-pages.php:546
 msgid "Hide this tab"
@@ -154,8 +155,50 @@ msgid ""
 "You can now access <strong>Flush Cache</strong> and other links directly "
 "from the admin bar using your desktop or mobile device."
 msgstr ""
-"ตอนนี้คุณสามารถเข้าถึง <strong>การล้างแคช</strong> และลิงค์อื่นๆ "
-"ได้โดยตรงจากแถบผู้ดูแลระบบโดยใช้เดสก์ท็อปหรืออุปกรณ์เคลื่อนที่ของคุณได้"
+"ตอนนี้คุณสามารถเข้าถึง <strong>การล้างแคช</strong> และลิงค์อื่นๆ ได้โดยตรงจากแถบผู้ดูแลระบบโดยใช้เดสก์ท็อปหรืออุปกรณ์เคลื่อนที่ของคุณได้"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:88
+msgid "GoDaddy Themes"
+msgstr "ธีม GoDaddy"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:89
+#: gd-system-plugin/includes/admin/class-themes-tab.php:186
+msgid "Installed"
+msgstr "ติดตั้งแล้ว"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:90
+msgid "Error Installing Theme"
+msgstr "ข้อผิดพลาดการติดตั้งธีม"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:91
+#: gd-system-plugin/includes/admin/class-themes-tab.php:190
+msgid "Activate"
+msgstr "เปิดใช้งาน"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:92
+#: gd-system-plugin/includes/admin/class-themes-tab.php:192
+msgid "Live Preview"
+msgstr "ดูตัวอย่างออนไลน์"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:93
+msgid "Theme Install"
+msgstr "ติดตั้งธีม"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:170
+msgid "Install %s"
+msgstr "ติดตั้ง %s"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:173
+msgid "Install"
+msgstr "ติดตั้ง"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:214
+msgid "View Demo"
+msgstr "ดูตัวอย่าง"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:215
+msgid "By GoDaddy"
+msgstr "โดย GoDaddy"
 
 #: gd-system-plugin/includes/class-blacklist.php:222
 msgid "Not Available"
@@ -166,10 +209,10 @@ msgid ""
 "This plugin is not allowed on our system due to performance, security, or "
 "compatibility concerns. Please contact support with any questions."
 msgstr ""
-"ไม่อนุญาตปลั๊กอินนี้บนระบบของเรา เนื่องจากความกังวลต่อการปฏิบัติงาน ความปลอดภัย "
-"หรือความสามารถในการทำงานแทนกันได้ โปรดติดต่อฝ่่ายสนับสนุนหากมีคำถามใดๆ"
+"ไม่อนุญาตปลั๊กอินนี้บนระบบของเรา เนื่องจากความกังวลต่อการปฏิบัติงาน "
+"ความปลอดภัย หรือความสามารถในการทำงานแทนกันได้ โปรดติดต่อฝ่่ายสนับสนุนหากมีคำถามใดๆ"
 
-#: gd-system-plugin/includes/class-cache.php:114
+#: gd-system-plugin/includes/class-cache.php:116
 msgid "Cache cleared"
 msgstr "ล้างแคชแล้ว"
 
@@ -191,23 +234,24 @@ msgstr "เปลี่ยนแปลงโดเมน"
 msgid "%s This is your staging site and the domain cannot be changed."
 msgstr "%s นี่เป็นไซต์ที่กำลังเตรียมของคุณ และไม่สามารถเปลี่ยนแปลงโดเมนได้"
 
-#: gd-system-plugin/includes/class-sso.php:119
+#: gd-system-plugin/includes/class-sso.php:128
 msgid ""
 "We were unable to log you in automatically. Please enter your WordPress "
 "username and password."
-msgstr "เราไม่สามารถล็อคอินคุณได้อย่างอัตโนมัติ โปรดใส่ชื่อผู้ใช้และรหัสผ่าน WordPress ของคุณ"
+msgstr ""
+"เราไม่สามารถล็อคอินคุณได้อย่างอัตโนมัติ โปรดใส่ชื่อผู้ใช้และรหัสผ่าน "
+"WordPress ของคุณ"
 
 #: gd-system-plugin/includes/class-temp-domain.php:44
 msgid ""
-"<strong>Note:</strong> You're using the temporary domain <strong>%s</"
-"strong>. <a href=\"%s\" target=\"_blank\">Change domain</a>"
+"<strong>Note:</strong> You're using the temporary domain "
+"<strong>%s</strong>. <a href=\"%s\" target=\"_blank\">Change domain</a>"
 msgstr ""
-"<strong>หมายเหตุ:</strong> คุณกำลังใช้โดเมนชั่วคราว <strong>%s</strong> <a href="
-"\"%s\" target=\"_blank\">เปลี่ยนโดเมน</a>"
+"<strong>หมายเหตุ:</strong> คุณกำลังใช้โดเมนชั่วคราว <strong>%s</strong> <a "
+"href=\"%s\" target=\"_blank\">เปลี่ยนโดเมน</a>"
 
 #: gd-system-plugin/includes/class-temp-domain.php:112
-msgid ""
-"%s This is your staging site and it cannot be indexed by search engines."
+msgid "%s This is your staging site and it cannot be indexed by search engines."
 msgstr "%s นี่คือเว็บไซต์ที่กำลังทดสอบของคุณ และโปรแกรมค้นหาไม่สามารถทำดัชนีเว็บไซต์ได้"
 
 #: gd-system-plugin/includes/class-temp-domain.php:119
@@ -308,22 +352,21 @@ msgstr "ไอคอนไซต์"
 msgid "Site Language"
 msgstr "ภาษาไซต์"
 
-#: gd-system-plugin/includes/log/components/class-post.php:26
+#: gd-system-plugin/includes/log/components/trait-post-helpers.php:85
 msgid "Post"
 msgstr "โพสต์"
 
-#: gd-system-plugin/includes/log/components/class-post.php:94
-#: gd-system-plugin/includes/log/components/class-post.php:342
+#: gd-system-plugin/includes/log/components/trait-post-helpers.php:149
 msgid "M j, Y @ H:i"
 msgstr "M j, Y @ H:i"
 
-#: gd-system-plugin.php:127
+#: gd-system-plugin.php:129
 msgid "Note: This is a staging site."
-msgstr ""
+msgstr "หมายเหตุ: นี่คือเว็บไซต์ที่อยู่ระหว่างการจัดเตรียม"
 
 #. Plugin Name of the plugin/theme
 msgid "System Plugin"
-msgstr ""
+msgstr "ปลั๊กอินระบบ"
 
 #: gd-system-plugin/includes/admin/class-dashboard-widgets.php:59
 msgctxt "The name of our company blog found at https://www.godaddy.com/garage"
@@ -354,12 +397,12 @@ msgstr "%s นี่เป็นไซต์ที่กำลังเตรี
 #: gd-system-plugin/includes/log/components/class-beaverbuilder.php:71
 msgctxt "2. singular post type name (e.g. page), 1. post title"
 msgid "Beaver Builder %2$s \"%1$s\" drafted"
-msgstr ""
+msgstr "Beaver Builder %2$s \"%1$s\" ที่ร่างแบบไว้"
 
 #: gd-system-plugin/includes/log/components/class-beaverbuilder.php:94
 msgctxt "2. singular post type name (e.g. page), 1. post title"
 msgid "Beaver Builder %2$s \"%1$s\" discarded"
-msgstr ""
+msgstr "Beaver Builder %2$s \"%1$s\" ที่ไม่ใช้งาน"
 
 #: gd-system-plugin/includes/log/components/class-customizer.php:90
 msgctxt "1. Option name, 2. Theme name"
@@ -371,118 +414,118 @@ msgctxt "Option name"
 msgid "\"%s\" option updated"
 msgstr "อัปเดตตัวเลือก \"%s\" แล้ว"
 
-#: gd-system-plugin/includes/log/components/class-plugin.php:93
+#: gd-system-plugin/includes/log/components/class-plugin.php:29
 msgctxt "Plugin name"
 msgid "\"%s\" plugin activated"
 msgstr "เปิดใช้งานปลั๊กอิน \"%s\" แล้ว"
 
-#: gd-system-plugin/includes/log/components/class-plugin.php:101
+#: gd-system-plugin/includes/log/components/class-plugin.php:37
 msgctxt "Plugin name"
 msgid "\"%s\" plugin activated network wide"
 msgstr "เปิดใช้งานปลั๊กอิน \"%s\" สำหรับเครือข่ายบริเวณกว้างแล้ว"
 
-#: gd-system-plugin/includes/log/components/class-plugin.php:137
+#: gd-system-plugin/includes/log/components/class-plugin.php:63
 msgctxt "Plugin name"
 msgid "\"%s\" plugin deactivated"
 msgstr "ปิดใช้งานปลั๊กอิน \"%s\" แล้ว"
 
-#: gd-system-plugin/includes/log/components/class-plugin.php:145
+#: gd-system-plugin/includes/log/components/class-plugin.php:71
 msgctxt "Plugin name"
 msgid "\"%s\" plugin deactivated network wide"
 msgstr "ปิดใช้งานปลั๊กอิน \"%s\" สำหรับเครือข่ายบริเวณกว้างแล้ว"
 
-#: gd-system-plugin/includes/log/components/class-plugin.php:182
+#: gd-system-plugin/includes/log/components/class-plugin.php:98
 msgctxt "Plugin name"
 msgid "\"%s\" plugin deleted"
 msgstr "ลบปลั๊กอิน \"%s\" แล้ว"
 
-#: gd-system-plugin/includes/log/components/class-plugin.php:274
+#: gd-system-plugin/includes/log/components/class-plugin.php:194
 msgctxt "Plugin name"
 msgid "\"%s\" plugin installed"
 msgstr "ติดตั้งปลั๊กอิน \"%s\" แล้ว"
 
-#: gd-system-plugin/includes/log/components/class-plugin.php:312
+#: gd-system-plugin/includes/log/components/class-plugin.php:230
 msgctxt "1: Plugin name, 2: New plugin version"
 msgid "\"%1$s\" plugin updated to %2$s"
 msgstr "อัปเดตปลั๊กอิน \"%1$s\" ไปยัง %2$s แล้ว"
 
-#: gd-system-plugin/includes/log/components/class-plugin.php:320
+#: gd-system-plugin/includes/log/components/class-plugin.php:238
 msgctxt "1: Plugin name, 2: Old plugin version, 3: New plugin version"
 msgid "\"%1$s\" plugin updated from %2$s to %3$s"
 msgstr "อัปเดตปลั๊กอิน \"%1$s\" จาก %2$s ไปยัง %3$s แล้ว"
 
-#: gd-system-plugin/includes/log/components/class-post.php:203
-#: gd-system-plugin/includes/log/components/class-post.php:213
+#: gd-system-plugin/includes/log/components/class-post.php:49
+#: gd-system-plugin/includes/log/components/class-post.php:59
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s updated"
 msgstr "อัปเดต\"%1$s\" %2$s แล้ว"
 
-#: gd-system-plugin/includes/log/components/class-post.php:224
+#: gd-system-plugin/includes/log/components/class-post.php:70
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s created"
 msgstr "สร้าง \"%1$s\" %2$s แล้ว"
 
-#: gd-system-plugin/includes/log/components/class-post.php:235
+#: gd-system-plugin/includes/log/components/class-post.php:81
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s restored from trash"
 msgstr "คืนค่า \"%1$s\" %2$s จากถังขยะแล้ว"
 
-#: gd-system-plugin/includes/log/components/class-post.php:245
+#: gd-system-plugin/includes/log/components/class-post.php:91
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s unpublished"
 msgstr "ยกเลิกการเผยแพร่ \"%1$s\" %2$s แล้ว"
 
-#: gd-system-plugin/includes/log/components/class-post.php:255
+#: gd-system-plugin/includes/log/components/class-post.php:101
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s drafted"
 msgstr "ร่าง\"%1$s\" %2$s แล้ว"
 
-#: gd-system-plugin/includes/log/components/class-post.php:265
+#: gd-system-plugin/includes/log/components/class-post.php:111
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s pending review"
 msgstr "\"%1$s\" %2$s รอดำเนินการตรวจสอบ"
 
-#: gd-system-plugin/includes/log/components/class-post.php:285
+#: gd-system-plugin/includes/log/components/class-post.php:131
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" scheduled %2$s published"
 msgstr "กำหนดตาราเวลา \"%1$s\" ของ %2$s ที่เผยแพร่แล้ว"
 
-#: gd-system-plugin/includes/log/components/class-post.php:295
+#: gd-system-plugin/includes/log/components/class-post.php:141
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s published"
 msgstr "เผยแพร่ \"%1$s\" %2$s แล้ว"
 
-#: gd-system-plugin/includes/log/components/class-post.php:305
+#: gd-system-plugin/includes/log/components/class-post.php:151
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s privately published"
 msgstr "เผยแพร่ \"%1$s\" %2$s แบบส่วนตัวแล้ว"
 
-#: gd-system-plugin/includes/log/components/class-post.php:316
+#: gd-system-plugin/includes/log/components/class-post.php:162
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s trashed"
 msgstr "ส่ง \"%1$s\" %2$s ไปไว้ที่ถังขยะแล้ว"
 
-#: gd-system-plugin/includes/log/components/class-post.php:275
+#: gd-system-plugin/includes/log/components/class-post.php:121
 msgctxt "1: Post title, 2: Post type singular name, 3: Scheduled post date"
 msgid "\"%1$s\" %2$s scheduled for %3$s"
 msgstr "กำหนดตารางเวลา \"%1$s\" %2$s สำหรับ %3$s"
 
-#: gd-system-plugin/includes/log/components/class-theme.php:38
+#: gd-system-plugin/includes/log/components/class-theme.php:48
 msgctxt "Theme name"
 msgid "\"%s\" theme activated"
 msgstr "เปิดใช้งานธีม \"%s\" แล้ว"
 
-#: gd-system-plugin/includes/log/components/class-theme.php:112
+#: gd-system-plugin/includes/log/components/class-theme.php:117
 msgctxt "Theme name"
 msgid "\"%s\" theme installed"
 msgstr "ธีม “%s”ู ถูกติดตั้งแล้ว"
 
-#: gd-system-plugin/includes/log/components/class-theme.php:153
+#: gd-system-plugin/includes/log/components/class-theme.php:154
 msgctxt "1: theme name, 2: New theme version"
 msgid "\"%1$s\" theme updated to %2$s"
 msgstr "อัปเดทธีม “”%1$s”็ เป็น %2$s แล้ว"
 
-#: gd-system-plugin/includes/log/components/class-theme.php:161
+#: gd-system-plugin/includes/log/components/class-theme.php:162
 msgctxt "1: Theme name, 2: Old theme version, 3: New theme version"
 msgid "\"%1$s\" theme updated from %2$s to %3$s"
 msgstr "อัปเดทธีม “%1$s” จาก %2$s เป็น %3$s แล้ว"

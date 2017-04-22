@@ -60,7 +60,7 @@ final class Change_Domain {
 		);
 
 		// Append a link where the domain can be changed
-		if ( $url = Plugin::change_domain_url() ) {
+		if ( $url = Plugin::account_settings_url( 'cname_link' ) ) {
 
 			$notice .= sprintf(
 				' <a href="%s">%s</a>',

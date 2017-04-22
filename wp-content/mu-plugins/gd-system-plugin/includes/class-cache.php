@@ -111,6 +111,8 @@ final class Cache {
 
 		$this->do_ban();
 
+		self::flush_transients();
+
 		Admin\Growl::add( __( 'Cache cleared', 'gd-system-plugin' ) );
 
 		wp_safe_redirect(
@@ -288,6 +290,30 @@ final class Cache {
 			add_action( 'shutdown', [ __CLASS__, 'purge' ], PHP_INT_MAX );
 
 		}
+
+	}
+
+	/**
+	 * Delete all transient data from the options table
+	 *
+	 * WordPress only deletes expired transients when something tries
+	 * to call that transient key again. This means over time there could
+	 * be many thousands of transient option rows polluting the database,
+	 * which can result in noticable performance impact.
+	 *
+	 * This method should be called when the customer is explicitly
+	 * clearing their site's cache. Since transients are a form of cache,
+	 * we will flush them all away regardless of TTL status.
+	 *
+	 * @see HOSTAPPS-3157/WPDEV-708
+	 *
+	 * @return int|false Number of rows affected/selected or false on error.
+	 */
+	public static function flush_transients() {
+
+		global $wpdb;
+
+		return $wpdb->query( "DELETE FROM `{$wpdb->options}` WHERE `option_name` LIKE '%_transient_%';" );
 
 	}
 

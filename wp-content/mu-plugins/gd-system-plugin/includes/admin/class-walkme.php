@@ -34,12 +34,19 @@ final class WalkMe {
 
 		}
 
+		// So other plugins (WPEM) can know WalkMe is active
+		define( 'GD_WALKME_ACTIVE', true );
+
 		// This is good placement for both the WP Admin and Customizer
 		add_action( 'admin_print_styles',  [ $this, 'dns_prefetch' ], 2 );
 		add_action( 'admin_print_scripts', [ $this, 'print_scripts' ], 0 );
 
-		// Only print on the front-end during Page Builder sessions
-		if ( ! is_admin() && class_exists( 'FLBuilder' ) && isset( $_GET['fl_builder'] ) ) {
+		// Only print on the front-end during Page Builder sessions or when the WP Admin Bar is showing.
+		if (
+			( ! is_admin() && class_exists( 'FLBuilder' ) && isset( $_GET['fl_builder'] ) )
+			||
+			( ! is_admin() && is_admin_bar_showing() )
+		) {
 
 			add_action( 'wp_enqueue_scripts', [ $this, 'dns_prefetch' ], 2 );
 			add_action( 'wp_enqueue_scripts', [ $this, 'print_scripts' ], PHP_INT_MAX );
@@ -182,6 +189,10 @@ final class WalkMe {
 			case class_exists( 'FLBuilder' ) && isset( $_GET['fl_builder'] ) :
 
 				return 'pagebuilder';
+
+			case is_admin_bar_showing() :
+
+				return 'fos';
 
 			default :
 

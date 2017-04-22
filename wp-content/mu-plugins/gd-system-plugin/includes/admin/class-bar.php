@@ -137,7 +137,7 @@ final class Bar {
 	private function mt_menu() {
 
 		$this->top_level_menu_item( __( 'Media Temple', 'gd-system-plugin' ), 'media-temple' );
-		$this->account_settings_menu_item( false );
+		$this->account_settings_menu_item();
 		$this->flush_cache_menu_item();
 
 	}
@@ -198,29 +198,14 @@ final class Bar {
 
 	/**
 	 * Account Settings menu item.
-	 *
-	 * @param bool $query_args (optional)
 	 */
-	private function account_settings_menu_item( $query_args = true ) {
+	private function account_settings_menu_item() {
 
-		$url = Plugin::config('gateway_url');
+		$url = Plugin::account_settings_url();
 
-		if ( ! $url || ! Plugin::reseller_id() ) {
+		if ( ! $url ) {
 
 			return;
-
-		}
-
-		if ( $query_args ) {
-
-			$url = add_query_arg(
-				[
-					'domain'        => Plugin::domain(),
-					'edit_settings' => 1,
-					'pl_id'         => Plugin::reseller_id(),
-				],
-				$url
-			);
 
 		}
 

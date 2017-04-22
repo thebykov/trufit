@@ -1,19 +1,18 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the gd-system-plugin package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Copyright (c) 2017 GoDaddy Operating Company, LLC. All Rights Reserved.
 msgid ""
 msgstr ""
-"Project-Id-Version: gd-system-plugin 3.0.1\n"
-"POT-Creation-Date: 2017-01-10 21:12:15+00:00\n"
-"PO-Revision-Date: 2017-01-10 15:11-0600\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: pt_BR\n"
+"Project-Id-Version: System Plugin 3.5.0\n"
+"POT-Creation-Date: 2017-03-30 17:39:12+00:00\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
 
 #: gd-system-plugin/includes/admin/class-bar.php:105
 #: gd-system-plugin/includes/admin/class-pages.php:242
@@ -33,7 +32,7 @@ msgstr "Gerenciado por WordPress"
 msgid "Flush Cache"
 msgstr "Liberar cache"
 
-#: gd-system-plugin/includes/admin/class-bar.php:234
+#: gd-system-plugin/includes/admin/class-bar.php:219
 msgid "Account Settings"
 msgstr "Configurações da conta"
 
@@ -51,9 +50,7 @@ msgstr "Editor de arquivos"
 
 #: gd-system-plugin/includes/admin/class-file-editor.php:171
 msgid "For your security, the WordPress file editor is disabled by default."
-msgstr ""
-"Para sua segurança, o editor de arquivos do WordPress está desativado por "
-"padrão."
+msgstr "Para sua segurança, o editor de arquivos do WordPress está desativado por padrão."
 
 #: gd-system-plugin/includes/admin/class-file-editor.php:171
 #: gd-system-plugin/includes/admin/class-pages.php:528
@@ -103,8 +100,8 @@ msgstr "Está num impasse? Podemos ajudar."
 
 #: gd-system-plugin/includes/admin/class-pages.php:522
 msgid ""
-"Having a pro build your business' website is the fast, cost-effective way to "
-"a great-looking, branded web presence."
+"Having a pro build your business' website is the fast, cost-effective way "
+"to a great-looking, branded web presence."
 msgstr ""
 "A ajuda de um profissional na criação do site da sua empresa é a forma mais "
 "rápida e eficaz de ter uma presença online incrível da sua sua marca."
@@ -166,6 +163,49 @@ msgstr ""
 "Agora você pode acessar <strong>Liberar cache</strong> e outros links "
 "diretamente da barra do administrador no computador ou dispositivo móvel."
 
+#: gd-system-plugin/includes/admin/class-themes-tab.php:88
+msgid "GoDaddy Themes"
+msgstr "Temas GoDaddy"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:89
+#: gd-system-plugin/includes/admin/class-themes-tab.php:186
+msgid "Installed"
+msgstr "Instalado"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:90
+msgid "Error Installing Theme"
+msgstr "Falha na instalação do tema"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:91
+#: gd-system-plugin/includes/admin/class-themes-tab.php:190
+msgid "Activate"
+msgstr "Ativar"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:92
+#: gd-system-plugin/includes/admin/class-themes-tab.php:192
+msgid "Live Preview"
+msgstr "Visualização ao vivo"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:93
+msgid "Theme Install"
+msgstr "Instalação do tema"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:170
+msgid "Install %s"
+msgstr "Instalar %s"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:173
+msgid "Install"
+msgstr "Instalar"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:214
+msgid "View Demo"
+msgstr "Visualizar demonstração"
+
+#: gd-system-plugin/includes/admin/class-themes-tab.php:215
+msgid "By GoDaddy"
+msgstr "GoDaddy"
+
 #: gd-system-plugin/includes/class-blacklist.php:222
 msgid "Not Available"
 msgstr "Indisponível"
@@ -176,10 +216,9 @@ msgid ""
 "compatibility concerns. Please contact support with any questions."
 msgstr ""
 "Este plug-in não é permitido em nosso sistema por questões de desempenho, "
-"segurança ou compatibilidade.  Entre em contato com o suporte se você tiver "
-"dúvidas."
+"segurança ou compatibilidade.  Entre em contato com o suporte se você tiver dúvidas."
 
-#: gd-system-plugin/includes/class-cache.php:114
+#: gd-system-plugin/includes/class-cache.php:116
 msgid "Cache cleared"
 msgstr "Cache liberado"
 
@@ -201,7 +240,7 @@ msgstr "Alterar domínio"
 msgid "%s This is your staging site and the domain cannot be changed."
 msgstr "%s Esse é seu site de preparação e seu domínio não pode ser alterado."
 
-#: gd-system-plugin/includes/class-sso.php:119
+#: gd-system-plugin/includes/class-sso.php:128
 msgid ""
 "We were unable to log you in automatically. Please enter your WordPress "
 "username and password."
@@ -211,18 +250,15 @@ msgstr ""
 
 #: gd-system-plugin/includes/class-temp-domain.php:44
 msgid ""
-"<strong>Note:</strong> You're using the temporary domain <strong>%s</"
-"strong>. <a href=\"%s\" target=\"_blank\">Change domain</a>"
+"<strong>Note:</strong> You're using the temporary domain "
+"<strong>%s</strong>. <a href=\"%s\" target=\"_blank\">Change domain</a>"
 msgstr ""
-"<strong>Observação:</strong> Você está usando um domínio temporário <strong>"
-"%s</strong>. <a href=\"%s\" target=\"_blank\">Alterar domínio</a>"
+"<strong>Observação:</strong> Você está usando um domínio temporário "
+"<strong>%s</strong>. <a href=\"%s\" target=\"_blank\">Alterar domínio</a>"
 
 #: gd-system-plugin/includes/class-temp-domain.php:112
-msgid ""
-"%s This is your staging site and it cannot be indexed by search engines."
-msgstr ""
-"%s Este é seu site de preparação. Ele não pode ser indexado por mecanismos "
-"de busca."
+msgid "%s This is your staging site and it cannot be indexed by search engines."
+msgstr "%s Este é seu site de preparação. Ele não pode ser indexado por mecanismos de busca."
 
 #: gd-system-plugin/includes/class-temp-domain.php:119
 msgid ""
@@ -324,22 +360,21 @@ msgstr "Ícone do site"
 msgid "Site Language"
 msgstr "Idioma do site"
 
-#: gd-system-plugin/includes/log/components/class-post.php:26
+#: gd-system-plugin/includes/log/components/trait-post-helpers.php:85
 msgid "Post"
 msgstr "Postar"
 
-#: gd-system-plugin/includes/log/components/class-post.php:94
-#: gd-system-plugin/includes/log/components/class-post.php:342
+#: gd-system-plugin/includes/log/components/trait-post-helpers.php:149
 msgid "M j, Y @ H:i"
 msgstr "M j, Y @ H:i"
 
-#: gd-system-plugin.php:127
+#: gd-system-plugin.php:129
 msgid "Note: This is a staging site."
-msgstr "Note: This is a staging site."
+msgstr "Observação: Este é um site de preparo."
 
 #. Plugin Name of the plugin/theme
 msgid "System Plugin"
-msgstr ""
+msgstr "Plugin do sistema"
 
 #: gd-system-plugin/includes/admin/class-dashboard-widgets.php:59
 msgctxt "The name of our company blog found at https://www.godaddy.com/garage"
@@ -370,12 +405,12 @@ msgstr "%s Esse é seu site de preparação e seu domínio não pode ser alterad
 #: gd-system-plugin/includes/log/components/class-beaverbuilder.php:71
 msgctxt "2. singular post type name (e.g. page), 1. post title"
 msgid "Beaver Builder %2$s \"%1$s\" drafted"
-msgstr ""
+msgstr "Beaver Builder %2$s \"%1$s\" em rascunho"
 
 #: gd-system-plugin/includes/log/components/class-beaverbuilder.php:94
 msgctxt "2. singular post type name (e.g. page), 1. post title"
 msgid "Beaver Builder %2$s \"%1$s\" discarded"
-msgstr ""
+msgstr "Beaver Builder %2$s \"%1$s\" descartado"
 
 #: gd-system-plugin/includes/log/components/class-customizer.php:90
 msgctxt "1. Option name, 2. Theme name"
@@ -387,118 +422,118 @@ msgctxt "Option name"
 msgid "\"%s\" option updated"
 msgstr "Opção \"%s\" atualizada"
 
-#: gd-system-plugin/includes/log/components/class-plugin.php:93
+#: gd-system-plugin/includes/log/components/class-plugin.php:29
 msgctxt "Plugin name"
 msgid "\"%s\" plugin activated"
 msgstr "Plug-in \"%s\" ativado"
 
-#: gd-system-plugin/includes/log/components/class-plugin.php:101
+#: gd-system-plugin/includes/log/components/class-plugin.php:37
 msgctxt "Plugin name"
 msgid "\"%s\" plugin activated network wide"
 msgstr "Plug-in \"%s\" ativado em toda a rede"
 
-#: gd-system-plugin/includes/log/components/class-plugin.php:137
+#: gd-system-plugin/includes/log/components/class-plugin.php:63
 msgctxt "Plugin name"
 msgid "\"%s\" plugin deactivated"
 msgstr "Plug-in \"%s\" desativado"
 
-#: gd-system-plugin/includes/log/components/class-plugin.php:145
+#: gd-system-plugin/includes/log/components/class-plugin.php:71
 msgctxt "Plugin name"
 msgid "\"%s\" plugin deactivated network wide"
 msgstr "Plug-in \"%s\" desativado em toda a rede"
 
-#: gd-system-plugin/includes/log/components/class-plugin.php:182
+#: gd-system-plugin/includes/log/components/class-plugin.php:98
 msgctxt "Plugin name"
 msgid "\"%s\" plugin deleted"
 msgstr "Plug-in \"%s\" excluído"
 
-#: gd-system-plugin/includes/log/components/class-plugin.php:274
+#: gd-system-plugin/includes/log/components/class-plugin.php:194
 msgctxt "Plugin name"
 msgid "\"%s\" plugin installed"
 msgstr "Plug-in \"%s\" instalado"
 
-#: gd-system-plugin/includes/log/components/class-plugin.php:312
+#: gd-system-plugin/includes/log/components/class-plugin.php:230
 msgctxt "1: Plugin name, 2: New plugin version"
 msgid "\"%1$s\" plugin updated to %2$s"
 msgstr "Plug-in \"%1$s\" atualizado para %2$s"
 
-#: gd-system-plugin/includes/log/components/class-plugin.php:320
+#: gd-system-plugin/includes/log/components/class-plugin.php:238
 msgctxt "1: Plugin name, 2: Old plugin version, 3: New plugin version"
 msgid "\"%1$s\" plugin updated from %2$s to %3$s"
 msgstr "Plug-in \"%1$s\" atualizado de %2$s para %3$s"
 
-#: gd-system-plugin/includes/log/components/class-post.php:203
-#: gd-system-plugin/includes/log/components/class-post.php:213
+#: gd-system-plugin/includes/log/components/class-post.php:49
+#: gd-system-plugin/includes/log/components/class-post.php:59
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s updated"
 msgstr "\"%1$s\" %2$s atualizado"
 
-#: gd-system-plugin/includes/log/components/class-post.php:224
+#: gd-system-plugin/includes/log/components/class-post.php:70
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s created"
 msgstr "\"%1$s\" %2$s criado"
 
-#: gd-system-plugin/includes/log/components/class-post.php:235
+#: gd-system-plugin/includes/log/components/class-post.php:81
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s restored from trash"
 msgstr "\"%1$s\" %2$s recuperado da lixeira"
 
-#: gd-system-plugin/includes/log/components/class-post.php:245
+#: gd-system-plugin/includes/log/components/class-post.php:91
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s unpublished"
 msgstr "\"%1$s\" %2$s não publicado"
 
-#: gd-system-plugin/includes/log/components/class-post.php:255
+#: gd-system-plugin/includes/log/components/class-post.php:101
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s drafted"
 msgstr "\"%1$s\" %2$s em rascunho"
 
-#: gd-system-plugin/includes/log/components/class-post.php:265
+#: gd-system-plugin/includes/log/components/class-post.php:111
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s pending review"
 msgstr "\"%1$s\" %2$s com revisão pendente"
 
-#: gd-system-plugin/includes/log/components/class-post.php:285
+#: gd-system-plugin/includes/log/components/class-post.php:131
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" scheduled %2$s published"
 msgstr "\"%1$s\" agendado %2$s publicado"
 
-#: gd-system-plugin/includes/log/components/class-post.php:295
+#: gd-system-plugin/includes/log/components/class-post.php:141
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s published"
 msgstr "\"%1$s\" %2$s publicado"
 
-#: gd-system-plugin/includes/log/components/class-post.php:305
+#: gd-system-plugin/includes/log/components/class-post.php:151
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s privately published"
 msgstr "\"%1$s\" %2$s publicado em modo privado"
 
-#: gd-system-plugin/includes/log/components/class-post.php:316
+#: gd-system-plugin/includes/log/components/class-post.php:162
 msgctxt "1: Post title, 2: Post type singular name"
 msgid "\"%1$s\" %2$s trashed"
 msgstr "\"%1$s\" %2$s descartado na lixeira"
 
-#: gd-system-plugin/includes/log/components/class-post.php:275
+#: gd-system-plugin/includes/log/components/class-post.php:121
 msgctxt "1: Post title, 2: Post type singular name, 3: Scheduled post date"
 msgid "\"%1$s\" %2$s scheduled for %3$s"
 msgstr "\"%1$s\" %2$s agendado para %3$s"
 
-#: gd-system-plugin/includes/log/components/class-theme.php:38
+#: gd-system-plugin/includes/log/components/class-theme.php:48
 msgctxt "Theme name"
 msgid "\"%s\" theme activated"
 msgstr "Tema \"%s\" ativado"
 
-#: gd-system-plugin/includes/log/components/class-theme.php:112
+#: gd-system-plugin/includes/log/components/class-theme.php:117
 msgctxt "Theme name"
 msgid "\"%s\" theme installed"
 msgstr "Tema \"%s\" instalado"
 
-#: gd-system-plugin/includes/log/components/class-theme.php:153
+#: gd-system-plugin/includes/log/components/class-theme.php:154
 msgctxt "1: theme name, 2: New theme version"
 msgid "\"%1$s\" theme updated to %2$s"
 msgstr "Tema \"%1$s\" atualizado para %2$s"
 
-#: gd-system-plugin/includes/log/components/class-theme.php:161
+#: gd-system-plugin/includes/log/components/class-theme.php:162
 msgctxt "1: Theme name, 2: Old theme version, 3: New theme version"
 msgid "\"%1$s\" theme updated from %2$s to %3$s"
 msgstr "Tema \"%1$s\" atualizado de %2$s para %3$s"

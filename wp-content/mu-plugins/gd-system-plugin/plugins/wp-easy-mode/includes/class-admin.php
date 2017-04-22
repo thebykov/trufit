@@ -105,7 +105,7 @@ final class Admin {
 			$is_three_letter     = in_array( preg_replace( '/^.*@/', '', $user->user_email ), [ 'godaddy.com', 'mediatemple.net' ], true );
 			$is_supported_prefix = in_array( $prefix, [ 'stg', 'ote', 'lt', 'test', 'dev' ], true );
 
-			return ( $is_three_letter && $is_supported_prefix ) ? sprintf( 'http://wpnux.%s-godaddy.com/', $prefix ) : $url;
+			return ( $is_three_letter && $is_supported_prefix ) ? "https://wpnux.{$prefix}-godaddy.com/" : $url;
 
 		} );
 

@@ -178,9 +178,7 @@ final class Cache extends WP_CLI_Command {
 	 */
 	private function flush_transient_cache( array $assoc_args = [] ) {
 
-		global $wpdb;
-
-		$result = $wpdb->query( "DELETE FROM `{$wpdb->options}` WHERE `option_name` LIKE '%_transient_%';" );
+		$result = \WPaaS\Cache::flush_transients();
 
 		if ( false === $result ) {
 

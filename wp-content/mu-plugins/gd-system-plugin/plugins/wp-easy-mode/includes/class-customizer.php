@@ -21,6 +21,15 @@ final class Customizer {
 
 		}
 
+		add_action( 'customize_controls_print_styles', [ $this, 'print_styles' ] );
+
+		// Stop here if WalkMe exists.
+		if ( defined( 'GD_WALKME_ACTIVE' ) && GD_WALKME_ACTIVE ) {
+
+			return;
+
+		}
+
 		$pointer          = new Pointer;
 		$btn_next         = __( 'Next', 'wp-easy-mode' );
 		$is_godaddy_theme = ( 'GoDaddy' === wp_get_theme()->get( 'Author' ) ) ? true : false;
@@ -127,7 +136,6 @@ final class Customizer {
 			]
 		);
 
-		add_action( 'customize_controls_print_styles',         [ $this, 'print_styles' ] );
 		add_action( 'customize_controls_enqueue_scripts',      [ $this, 'enqueue_scripts' ] );
 		add_action( 'customize_controls_print_footer_scripts', [ $this, 'print_script_templates' ] );
 

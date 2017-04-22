@@ -43,7 +43,7 @@ final class Temp_Domain {
 			$message = sprintf(
 				__( '<strong>Note:</strong> You\'re using the temporary domain <strong>%s</strong>. <a href="%s" target="_blank">Change domain</a>', 'gd-system-plugin' ),
 				esc_html( Plugin::domain() ),
-				esc_url( Plugin::change_domain_url() )
+				esc_url( Plugin::account_settings_url( 'cname_link' ) )
 			);
 
 			new Admin\Notice( $message, [ 'updated', 'error' ] );
@@ -121,7 +121,7 @@ final class Temp_Domain {
 			);
 
 			// Append a link where the domain can be changed
-			if ( $url = Plugin::change_domain_url() ) {
+			if ( $url = Plugin::account_settings_url( 'cname_link' ) ) {
 
 				$notice .= sprintf(
 					' <a href="%s">%s</a>',

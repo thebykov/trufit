@@ -761,30 +761,32 @@ trait Helpers {
 	}
 
 	/**
-	 * Return the external URL where the domain can be changed.
+	 * Return the external URL to manage account settings.
+	 *
+	 * @param string $config
 	 *
 	 * @return string|null
 	 */
-	public static function change_domain_url() {
+	public static function account_settings_url( $config = 'gateway_url' ) {
 
-		if ( ! self::reseller_id() ) {
+		$url = self::config( $config );
+
+		if ( ! $url || ! self::reseller_id() ) {
 
 			return null;
 
 		}
 
-		return esc_url(
-			str_replace(
-				[
-					'%domain%',
-					'%pl_id%',
-				],
-				[
-					self::domain(),
-					self::reseller_id(),
-				],
-				self::config( 'cname_link' )
-			)
+		return str_replace(
+			[
+				'%domain%',
+				'%pl_id%',
+			],
+			[
+				self::domain(),
+				self::reseller_id(),
+			],
+			self::config( $config )
 		);
 
 	}
