@@ -13,7 +13,7 @@
 		} else {
 			$email = $user_id_or_email;
 		}
-
+		
 		$headers = 'From: '. um_get_option('mail_from') .' <'. um_get_option('mail_from_addr') .'>' . "\r\n";
 		$attachments = null;
 

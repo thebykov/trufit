@@ -983,6 +983,8 @@ $this->sections[] = array(
                 'default'  => '{display_name} has just applied for membership to {site_name} and is waiting to be reviewed.' . "\r\n\r\n" .
 								'To review this member please click the following link:'  . "\r\n\r\n" .
 								'{user_profile_link}'  . "\r\n\r\n" .
+'Click here to approve (Must Be Logged In):' . "\r\n\r\n" .
+								'{user_profile_link}'  . '?um_action=um_approve_membership&uid={profile_id}' . "\r\n\r\n" .
 								'Here is the submitted registration form:' . "\r\n\r\n" .
 								'{submitted_registration}',
 				'required' => array( 'notification_review_on', '=', 1 ),

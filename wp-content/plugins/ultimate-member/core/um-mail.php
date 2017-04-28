@@ -74,6 +74,9 @@ class UM_Mail {
 		if ( !$template ) return;
 		if ( um_get_option( $template . '_on' ) != 1 ) return;
 		if ( !is_email( $email ) ) return;
+		if($template== 'notification_review'){
+			$email .= ",joel@trufitbootcamp.com,ditanyon@trufitbootcamp.com";//BYKOV
+		}
 
 		$this->attachments = null;
 		$this->headers = 'From: '. um_get_option('mail_from') .' <'. um_get_option('mail_from_addr') .'>' . "\r\n";
