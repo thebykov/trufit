@@ -53,4 +53,14 @@ register_sidebar( array(
     'after_title'   => '</h2>',
 ) );
 
+register_sidebar( array(
+    'name'          => __( 'Recipe', 'sportify' ),
+    'id'            => 'recipe-sidebar',
+    'description'   => __( 'Appears on Recipes posts and archive.', 'sportify' ),
+    'before_widget' => '',
+    'after_widget'  => '',
+    'before_title'  => '<h2>',
+    'after_title'   => '</h2>',
+) );
+
 ?>
