@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="main-sidebar right-sidebar grey-background wod-sidebar">
-                        <?php dynamic_sidebar('recipes-sidebar');?>
+                        <?php dynamic_sidebar('recipe-sidebar');?>
                     </div>
                 </div>
             </div>
