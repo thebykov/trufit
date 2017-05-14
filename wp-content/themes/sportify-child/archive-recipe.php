@@ -14,7 +14,7 @@
 <?php endif; ?>
 
                 </header>
-<?php if((current_user_can('member') || (current_user_can('special_member') || current_user_can('owner') || current_user_can('administrator'))): ?>
+<?php if( current_user_can('member') || current_user_can('special_member') || current_user_can('owner') || current_user_can('administrator')): ?>
                 <div class="row">
 
                     <div class="col-md-8">
