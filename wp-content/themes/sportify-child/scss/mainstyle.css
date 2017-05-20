@@ -595,7 +595,7 @@ a#signup_coupon_home {
       display: block; } }
   @media (min-width: 992px) {
     .page-id-182 a#signup_coupon, .page-id-1357 a#signup_coupon {
-      width: 50%;
+      width: 49%;
       display: inline-block; } }
   .page-id-182 a#signup_coupon .coupon-wrapper, .page-id-1357 a#signup_coupon .coupon-wrapper {
     margin: auto;
