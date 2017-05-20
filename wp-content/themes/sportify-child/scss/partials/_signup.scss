@@ -64,16 +64,17 @@
         .coupon-wrapper {
             @media (max-width: 991px) {
                 width: 90%;
+                margin-top: 10px;
             }
 
             @media (min-width: 992px) {
                 width: 65%;
+                margin-top: -75px;
             }
 
             margin: auto;
             background: #fff;
             border: 1px solid #ddd;
-            margin-top: -75px;
             position: relative;
 
             //height: 150px;

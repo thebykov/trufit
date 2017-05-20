@@ -601,15 +601,16 @@ a#signup_coupon_home {
     margin: auto;
     background: #fff;
     border: 1px solid #ddd;
-    margin-top: -75px;
     position: relative;
     padding: 5px; }
     @media (max-width: 991px) {
       .page-id-182 a#signup_coupon .coupon-wrapper, .page-id-1357 a#signup_coupon .coupon-wrapper {
-        width: 90%; } }
+        width: 90%;
+        margin-top: 10px; } }
     @media (min-width: 992px) {
       .page-id-182 a#signup_coupon .coupon-wrapper, .page-id-1357 a#signup_coupon .coupon-wrapper {
-        width: 65%; } }
+        width: 65%;
+        margin-top: -75px; } }
     .page-id-182 a#signup_coupon .coupon-wrapper .coupon, .page-id-1357 a#signup_coupon .coupon-wrapper .coupon {
       border: 2px dashed #000;
       animation: blink 1s step-start 0s infinite;
