@@ -51,13 +51,23 @@
     a#signup_coupon {
         color: #000;
 
+        @media (max-width: 991px) {
+            width: 100%;
+            display: block;
+        }
+
+        @media (min-width: 992px) {
+            width: 50%;
+            display: inline-block;
+        }
+
         .coupon-wrapper {
             @media (max-width: 991px) {
                 width: 90%;
             }
 
             @media (min-width: 992px) {
-                width: 35%;
+                width: 65%;
             }
 
             margin: auto;

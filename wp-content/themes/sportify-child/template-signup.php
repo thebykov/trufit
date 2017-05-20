@@ -32,7 +32,23 @@ Template Name: Sign Up Page
 
 						<div class="col-xs-6 price"><span>$39</span></div>
 
-						<div class="col-xs-6 details">2-Week <br> Bootcamp Pass <span>+ a free water bottle when you sign up now!</span></div>
+						<div class="col-xs-6 details">2-Week <br> Bootcamp Pass <span> (Max 10 Classes)</span></div>
+
+					</div>
+
+				</div>
+
+				</a>
+
+				<a id="signup_coupon" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MPYKYGPVL97UN" target="_blank">
+
+				<div class="coupon-wrapper">
+
+					<div class="coupon row">
+
+						<div class="col-xs-6 price"><span>$49</span></div>
+
+						<div class="col-xs-6 details">4-Week <br> Bootcamp Pass <span> (Unlimited Classes)</span></div>
 
 					</div>
 
@@ -52,17 +68,17 @@ Template Name: Sign Up Page
 
 					<div class="list-item">
 
-						<img src="http://trufit.thebykov.com/wp-content/uploads/2016/02/door-icon.png" alt="">
+						<img src="/wp-content/uploads/2016/02/door-icon.png" alt="">
 
-						<div class="list-item-title">Unlimited Access</div>
+						<div class="list-item-title">10 Classes</div>
 
-						<div class="list-item-details">All classes, equipment and facilities for 2 weeks after sign up</div>
+						<div class="list-item-details">Up to 10 classes, equipment and facilities within 2 weeks after orientation</div>
 
 					</div>
 
 					<div class="list-item">
 
-						<img src="http://trufit.thebykov.com/wp-content/uploads/2016/02/dumbbell-icon.png" alt="">
+						<img src="/wp-content/uploads/2016/02/dumbbell-icon.png" alt="">
 
 						<div class="list-item-title">Fitness Evaluation</div>
 
@@ -72,7 +88,7 @@ Template Name: Sign Up Page
 
 					<div class="list-item">
 
-						<img src="http://trufit.thebykov.com/wp-content/uploads/2016/02/list_icon.png" alt="">
+						<img src="/wp-content/uploads/2016/02/list_icon.png" alt="">
 
 						<div class="list-item-title">List of Pre-Approved Foods
 
@@ -84,7 +100,7 @@ Template Name: Sign Up Page
 
 					<div class="list-item">
 
-						<img src="http://trufit.thebykov.com/wp-content/uploads/2016/02/food-icon.png" alt="">
+						<img src="/wp-content/uploads/2016/02/food-icon.png" alt="">
 
 						<div class="list-item-title">2 Sample Meal Plans</div>
 
@@ -94,7 +110,7 @@ Template Name: Sign Up Page
 
 					<div class="list-item">
 
-						<img src="http://trufit.thebykov.com/wp-content/uploads/2016/02/key-icon.png" alt="">
+						<img src="/wp-content/uploads/2016/02/key-icon.png" alt="">
 
 						<div class="list-item-title">Weight-Loss Secrets</div>
 
@@ -105,6 +121,71 @@ Template Name: Sign Up Page
 				</div>
 
 				<div class="button btn_orange"><a id="signup_botton" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S5PPZVZ7TVBJY" target="_blank"><br>
+
+				BUY NOW</a></div>
+
+			</div>
+			<div class="list-wrapper">
+
+				<div class="title">Your 4-Weeks pass includes:</div>
+
+				<div class="list-items">
+
+					<div class="list-item">
+
+						<img src="/wp-content/uploads/2016/02/door-icon.png" alt="">
+
+						<div class="list-item-title">Unlimited Classes</div>
+
+						<div class="list-item-details">Unlimited access to classes, equipment and facilities for 4 weeks after orientation</div>
+
+					</div>
+
+					<div class="list-item">
+
+						<img src="/wp-content/uploads/2016/02/dumbbell-icon.png" alt="">
+
+						<div class="list-item-title">Fitness Evaluation</div>
+
+						<div class="list-item-details">Body fat testing, body weight and goal settings</div>
+
+					</div>
+
+					<div class="list-item">
+
+						<img src="/wp-content/uploads/2016/02/list_icon.png" alt="">
+
+						<div class="list-item-title">List of Pre-Approved Foods
+
+						</div>
+
+						<div class="list-item-details">Ditanyon’s list of pre-approved foods that will help you rapidly melt unwanted pounds off your waist and hips</div>
+
+					</div>
+
+					<div class="list-item">
+
+						<img src="/wp-content/uploads/2016/02/food-icon.png" alt="">
+
+						<div class="list-item-title">2 Sample Meal Plans</div>
+
+						<div class="list-item-details">2 sample meal plans to use as a guide in preparing your daily meals</div>
+
+					</div>
+
+					<div class="list-item">
+
+						<img src="/wp-content/uploads/2016/02/key-icon.png" alt="">
+
+						<div class="list-item-title">Weight-Loss Secrets</div>
+
+						<div class="list-item-details">Ditanyon’s top 10 secrets to ultimate weight loss</div>
+
+					</div>
+
+				</div>
+
+				<div class="button btn_orange"><a id="signup_botton" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MPYKYGPVL97UN" target="_blank"><br>
 
 				BUY NOW</a></div>
 
@@ -160,9 +241,9 @@ Template Name: Sign Up Page
 
 				<div class="steps-image-wrapper col-xs-12 col-md-5">
 
-					<img class="alignnone size-full wp-image-681" src="http://trufit.thebykov.com/wp-content/uploads/2016/04/300_239_Rey.jpg" alt="300_239_Rey" width="300" height="239" srcset="http://trufit.thebykov.com/wp-content/uploads/2016/04/300_239_Rey.jpg 300w, http://trufit.thebykov.com/wp-content/uploads/2016/04/300_239_Rey-178x142.jpg 178w" sizes="(max-width: 300px) 100vw, 300px"><br>
+					<img class="alignnone size-full wp-image-681" src="/wp-content/uploads/2016/04/300_239_Rey.jpg" alt="300_239_Rey" width="300" height="239" srcset="/wp-content/uploads/2016/04/300_239_Rey.jpg 300w, /wp-content/uploads/2016/04/300_239_Rey-178x142.jpg 178w" sizes="(max-width: 300px) 100vw, 300px"><br>
 
-					<img class="alignnone size-full wp-image-676" src="http://trufit.thebykov.com/wp-content/uploads/2016/04/300_239_Faby.jpg" alt="300_239_Faby" width="300" height="239" srcset="http://trufit.thebykov.com/wp-content/uploads/2016/04/300_239_Faby.jpg 300w, http://trufit.thebykov.com/wp-content/uploads/2016/04/300_239_Faby-178x142.jpg 178w" sizes="(max-width: 300px) 100vw, 300px">
+					<img class="alignnone size-full wp-image-676" src="/wp-content/uploads/2016/04/300_239_Faby.jpg" alt="300_239_Faby" width="300" height="239" srcset="/wp-content/uploads/2016/04/300_239_Faby.jpg 300w, /wp-content/uploads/2016/04/300_239_Faby-178x142.jpg 178w" sizes="(max-width: 300px) 100vw, 300px">
 
 				</div>
 
