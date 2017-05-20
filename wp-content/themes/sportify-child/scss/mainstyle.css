@@ -138,8 +138,8 @@ form input {
   color: black; }
 
 body {
-  background: url("http://trufit.thebykov.com/wp-content/uploads/2016/03/concrete_seamless.png") repeat 0 0 #fbfbfb;
-  background: url(" http://trufit.thebykov.com/wp-content/uploads/2016/03/congruent_outline.png") repeat 0 0 #fbfbfb; }
+  background: url("/wp-content/uploads/2016/03/concrete_seamless.png") repeat 0 0 #fbfbfb;
+  background: url(" /wp-content/uploads/2016/03/congruent_outline.png") repeat 0 0 #fbfbfb; }
   body .popmake {
     background: #fff;
     padding: 20px;
@@ -566,7 +566,7 @@ a#signup_coupon_home {
   .page-id-182 .page-content header, .page-id-1357 .page-content header {
     display: none; }
 .page-id-182 .header-image, .page-id-1357 .header-image {
-  background-image: url("http://trufit.thebykov.com/wp-content/uploads/2016/05/Tru-Fit-Facebook-Photo-3-1024x789.jpg");
+  background-image: url("/wp-content/uploads/2016/05/Tru-Fit-Facebook-Photo-3-1024x789.jpg");
   min-height: 500px;
   position: relative;
   background-position: center center;

@@ -48,7 +48,7 @@ Template Name: Sign Up Fruita Page
 
 					<div class="list-item">
 
-						<img src="http://trufit.thebykov.com/wp-content/uploads/2016/02/door-icon.png" alt="">
+						<img src="/wp-content/uploads/2016/02/door-icon.png" alt="">
 
 						<div class="list-item-title">Unlimited Access</div>
 
@@ -58,7 +58,7 @@ Template Name: Sign Up Fruita Page
 
 					<div class="list-item">
 
-						<img src="http://trufit.thebykov.com/wp-content/uploads/2016/02/dumbbell-icon.png" alt="">
+						<img src="/wp-content/uploads/2016/02/dumbbell-icon.png" alt="">
 
 						<div class="list-item-title">Fitness Evaluation</div>
 
@@ -68,7 +68,7 @@ Template Name: Sign Up Fruita Page
 
 					<div class="list-item">
 
-						<img src="http://trufit.thebykov.com/wp-content/uploads/2016/02/list_icon.png" alt="">
+						<img src="/wp-content/uploads/2016/02/list_icon.png" alt="">
 
 						<div class="list-item-title">List of Pre-Approved Foods
 
@@ -80,7 +80,7 @@ Template Name: Sign Up Fruita Page
 
 					<div class="list-item">
 
-						<img src="http://trufit.thebykov.com/wp-content/uploads/2016/02/food-icon.png" alt="">
+						<img src="/wp-content/uploads/2016/02/food-icon.png" alt="">
 
 						<div class="list-item-title">2 Sample Meal Plans</div>
 
@@ -90,7 +90,7 @@ Template Name: Sign Up Fruita Page
 
 					<div class="list-item">
 
-						<img src="http://trufit.thebykov.com/wp-content/uploads/2016/02/key-icon.png" alt="">
+						<img src="/wp-content/uploads/2016/02/key-icon.png" alt="">
 
 						<div class="list-item-title">Weight-Loss Secrets</div>
 
@@ -156,9 +156,9 @@ Template Name: Sign Up Fruita Page
 
 				<div class="steps-image-wrapper col-xs-12 col-md-5">
 
-					<img class="alignnone size-full wp-image-681" src="http://trufit.thebykov.com/wp-content/uploads/2016/04/300_239_Rey.jpg" alt="300_239_Rey" width="300" height="239" srcset="http://trufit.thebykov.com/wp-content/uploads/2016/04/300_239_Rey.jpg 300w, http://trufit.thebykov.com/wp-content/uploads/2016/04/300_239_Rey-178x142.jpg 178w" sizes="(max-width: 300px) 100vw, 300px"><br>
+					<img class="alignnone size-full wp-image-681" src="/wp-content/uploads/2016/04/300_239_Rey.jpg" alt="300_239_Rey" width="300" height="239" srcset="/wp-content/uploads/2016/04/300_239_Rey.jpg 300w, /wp-content/uploads/2016/04/300_239_Rey-178x142.jpg 178w" sizes="(max-width: 300px) 100vw, 300px"><br>
 
-					<img class="alignnone size-full wp-image-676" src="http://trufit.thebykov.com/wp-content/uploads/2016/04/300_239_Faby.jpg" alt="300_239_Faby" width="300" height="239" srcset="http://trufit.thebykov.com/wp-content/uploads/2016/04/300_239_Faby.jpg 300w, http://trufit.thebykov.com/wp-content/uploads/2016/04/300_239_Faby-178x142.jpg 178w" sizes="(max-width: 300px) 100vw, 300px">
+					<img class="alignnone size-full wp-image-676" src="/wp-content/uploads/2016/04/300_239_Faby.jpg" alt="300_239_Faby" width="300" height="239" srcset="/wp-content/uploads/2016/04/300_239_Faby.jpg 300w, /wp-content/uploads/2016/04/300_239_Faby-178x142.jpg 178w" sizes="(max-width: 300px) 100vw, 300px">
 
 				</div>
 
