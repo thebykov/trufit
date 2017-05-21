@@ -32,7 +32,7 @@ Template Name: Sign Up Page
 
 						<div class="col-xs-6 price"><span>$39</span></div>
 
-						<div class="col-xs-6 details">2-Week <br> Bootcamp Pass <span> (Max 10 Classes)</span></div>
+						<div class="col-xs-6 details">2-Week <br> Bootcamp Pass <span> (Unlimited Classes)</span></div>
 
 					</div>
 
@@ -70,9 +70,9 @@ Template Name: Sign Up Page
 
 						<img src="/wp-content/uploads/2016/02/door-icon.png" alt="">
 
-						<div class="list-item-title">10 Classes</div>
+						<div class="list-item-title">Unlimited Classes</div>
 
-						<div class="list-item-details">Up to 10 classes, equipment and facilities within 2 weeks after orientation</div>
+						<div class="list-item-details">Unlimited access to classes, equipment and facilities for 2 weeks after orientation</div>
 
 					</div>
 
