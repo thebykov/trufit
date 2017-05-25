@@ -111,6 +111,8 @@ final class Hotfixes {
 
 		}
 
+		$this->add_cron_restrictions();
+
 		/**
 		 * Remove the author credit from GoDaddy themes for other brands.
 		 */
@@ -297,6 +299,45 @@ final class Hotfixes {
 			return (array) $crons;
 
 		}, PHP_INT_MAX );
+
+	}
+
+	/**
+	 * Implement WPaaS restrictions on cron events
+	 *
+	 * since @NEXT
+	 */
+	private function add_cron_restrictions() {
+
+		/**
+		 * If the wp_version_check cron was ever scheduled before
+		 * we unschedule it since we are on a managed platform.
+		 */
+		if ( false !== wp_next_scheduled( 'wp_version_check' ) ) {
+
+			wp_clear_scheduled_hook( 'wp_version_check' );
+
+		}
+
+		add_filter( 'schedule_event', function ( $event ) {
+
+			$blacklisted_hooks = [
+				'wp_version_check',
+				'wp_maybe_auto_update',
+			];
+
+			if ( ! isset( $event->hook ) || in_array( $event->hook, $blacklisted_hooks ) ) {
+
+				return false;
+
+			}
+
+			return $event;
+
+		} );
+
+		add_filter( 'jetpack_sync_incremental_sync_interval', function () { return 'hourly'; } );
+		add_filter( 'jetpack_sync_full_sync_interval', function () { return 'twicedaily'; } );
 
 	}
 
