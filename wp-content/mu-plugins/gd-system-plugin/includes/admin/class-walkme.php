@@ -53,6 +53,20 @@ final class WalkMe {
 
 		}
 
+		// Prevent the default tour for new users in Page Builder
+		if ( ! is_admin() && class_exists( 'FLBuilder' ) && isset( $_GET['fl_builder'] ) ) {
+
+			$user_id  = get_current_user_id();
+			$launched = get_user_meta( $user_id, '_fl_builder_launched', true );
+
+			if ( ! $launched ) {
+
+				update_user_meta( $user_id, '_fl_builder_launched', true );
+
+			}
+
+		}
+
 		// Expose post object on front-end pages being previewed in the Customizer
 		if ( ! is_admin() && is_customize_preview() ) {
 

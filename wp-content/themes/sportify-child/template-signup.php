@@ -24,7 +24,7 @@ Template Name: Sign Up Page
 
 		<div class="white-background margin-top-40 padding page-minheight page-content content">
 
-			<a id="signup_coupon" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S5PPZVZ7TVBJY" target="_blank">
+			<a id="signup_coupon39" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S5PPZVZ7TVBJY" target="_blank">
 
 				<div class="coupon-wrapper">
 
@@ -40,7 +40,7 @@ Template Name: Sign Up Page
 
 				</a>
 
-				<a id="signup_coupon" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MPYKYGPVL97UN" target="_blank">
+				<a id="signup_coupon49" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MPYKYGPVL97UN" target="_blank">
 
 				<div class="coupon-wrapper">
 
@@ -119,7 +119,7 @@ Template Name: Sign Up Page
 
 				</div>
 
-				<div class="button btn_orange"><a id="signup_botton" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S5PPZVZ7TVBJY" target="_blank"><br>
+				<div class="button btn_orange"><a id="signup_button39" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S5PPZVZ7TVBJY" target="_blank"><br>
 
 				BUY NOW</a></div>
 
@@ -184,7 +184,7 @@ Template Name: Sign Up Page
 
 				</div>
 
-				<div class="button btn_orange"><a id="signup_botton" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MPYKYGPVL97UN" target="_blank"><br>
+				<div class="button btn_orange"><a id="signup_button49" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MPYKYGPVL97UN" target="_blank"><br>
 
 				BUY NOW</a></div>
 
