@@ -70,9 +70,8 @@ Template Name: Sign Up Page
 
 						<img src="/wp-content/uploads/2016/02/door-icon.png" alt="">
 
-						<div class="list-item-title">Unlimited Classes</div>
-
 						<div class="list-item-details">Unlimited access to classes, equipment and facilities for 2 weeks after orientation</div>
+
 
 					</div>
 
