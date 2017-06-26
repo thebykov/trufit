@@ -587,39 +587,39 @@ a#signup_coupon_home {
     padding-top: 180px;
     font-weight: bold;
     position: relative; }
-.page-id-182 a#signup_coupon, .page-id-1357 a#signup_coupon {
+.page-id-182 a.coupon-wrapper-a, .page-id-1357 a.coupon-wrapper-a {
   color: #000; }
   @media (max-width: 991px) {
-    .page-id-182 a#signup_coupon, .page-id-1357 a#signup_coupon {
+    .page-id-182 a.coupon-wrapper-a, .page-id-1357 a.coupon-wrapper-a {
       width: 100%;
       display: block; } }
   @media (min-width: 992px) {
-    .page-id-182 a#signup_coupon, .page-id-1357 a#signup_coupon {
+    .page-id-182 a.coupon-wrapper-a, .page-id-1357 a.coupon-wrapper-a {
       width: 49%;
       display: inline-block; } }
-  .page-id-182 a#signup_coupon .coupon-wrapper, .page-id-1357 a#signup_coupon .coupon-wrapper {
+  .page-id-182 a.coupon-wrapper-a .coupon-wrapper, .page-id-1357 a.coupon-wrapper-a .coupon-wrapper {
     margin: auto;
     background: #fff;
     border: 1px solid #ddd;
     position: relative;
     padding: 5px; }
     @media (max-width: 991px) {
-      .page-id-182 a#signup_coupon .coupon-wrapper, .page-id-1357 a#signup_coupon .coupon-wrapper {
+      .page-id-182 a.coupon-wrapper-a .coupon-wrapper, .page-id-1357 a.coupon-wrapper-a .coupon-wrapper {
         width: 90%;
         margin-top: 10px; } }
     @media (min-width: 992px) {
-      .page-id-182 a#signup_coupon .coupon-wrapper, .page-id-1357 a#signup_coupon .coupon-wrapper {
+      .page-id-182 a.coupon-wrapper-a .coupon-wrapper, .page-id-1357 a.coupon-wrapper-a .coupon-wrapper {
         width: 65%;
         margin-top: -75px; } }
-    .page-id-182 a#signup_coupon .coupon-wrapper .coupon, .page-id-1357 a#signup_coupon .coupon-wrapper .coupon {
+    .page-id-182 a.coupon-wrapper-a .coupon-wrapper .coupon, .page-id-1357 a.coupon-wrapper-a .coupon-wrapper .coupon {
       border: 2px dashed #000;
       animation: blink 1s step-start 0s infinite;
       -webkit-animation: blink 1s step-start 0s infinite;
       margin: auto;
       padding: 10px 10px; }
-      .page-id-182 a#signup_coupon .coupon-wrapper .coupon .price, .page-id-1357 a#signup_coupon .coupon-wrapper .coupon .price {
+      .page-id-182 a.coupon-wrapper-a .coupon-wrapper .coupon .price, .page-id-1357 a.coupon-wrapper-a .coupon-wrapper .coupon .price {
         padding-left: 0; }
-        .page-id-182 a#signup_coupon .coupon-wrapper .coupon .price span, .page-id-1357 a#signup_coupon .coupon-wrapper .coupon .price span {
+        .page-id-182 a.coupon-wrapper-a .coupon-wrapper .coupon .price span, .page-id-1357 a.coupon-wrapper-a .coupon-wrapper .coupon .price span {
           padding: 35px 20px 20px 10px;
           display: inline-block;
           background: #ddd;
@@ -628,13 +628,13 @@ a#signup_coupon_home {
           font-size: 70px;
           line-height: 70px;
           color: #F3670F; }
-      .page-id-182 a#signup_coupon .coupon-wrapper .coupon .details, .page-id-1357 a#signup_coupon .coupon-wrapper .coupon .details {
+      .page-id-182 a.coupon-wrapper-a .coupon-wrapper .coupon .details, .page-id-1357 a.coupon-wrapper-a .coupon-wrapper .coupon .details {
         font-size: 18px;
         font-weight: bold;
         margin-top: 15px;
         line-height: 21px;
         padding: 0; }
-        .page-id-182 a#signup_coupon .coupon-wrapper .coupon .details span, .page-id-1357 a#signup_coupon .coupon-wrapper .coupon .details span {
+        .page-id-182 a.coupon-wrapper-a .coupon-wrapper .coupon .details span, .page-id-1357 a.coupon-wrapper-a .coupon-wrapper .coupon .details span {
           font-size: 12px;
           line-height: 16px;
           display: inline-block;
