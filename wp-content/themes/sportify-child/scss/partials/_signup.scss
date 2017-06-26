@@ -48,82 +48,6 @@
         }
     }
 
-    a.coupon-wrapper-a {
-        color: #000;
-
-        @media (max-width: 991px) {
-            width: 100%;
-            display: block;
-        }
-
-        @media (min-width: 992px) {
-            width: 49%;
-            display: inline-block;
-        }
-
-        .coupon-wrapper {
-            @media (max-width: 991px) {
-                width: 90%;
-                margin-top: 10px;
-            }
-
-            @media (min-width: 992px) {
-                width: 65%;
-                margin-top: -75px;
-            }
-
-            margin: auto;
-            background: #fff;
-            border: 1px solid #ddd;
-            position: relative;
-
-            //height: 150px;
-            padding: 5px;
-
-            .coupon {
-                border: 2px dashed #000;
-                animation: blink 1s step-start 0s infinite;
-                -webkit-animation: blink 1s step-start 0s infinite;
-
-                //height: 100%;
-                margin: auto;
-                padding: 10px 10px;
-
-                .price {
-                    //height: 100%;
-                    padding-left: 0;
-
-                    span {
-                        padding: 35px 20px 20px 10px;
-                        display: inline-block;
-                        background: #ddd;
-                        text-align: center;
-                        border-radius: 100px;
-                        font-size: 70px;
-                        line-height: 70px;
-                        color: $darkorange;
-                    }
-                }
-
-                .details {
-                    font-size: 18px;
-                    font-weight: bold;
-                    margin-top: 15px;
-                    line-height: 21px;
-                    padding: 0;
-
-                    span {
-                        font-size: 12px;
-                        line-height: 16px;
-                        display: inline-block;
-                        margin-top: 5px;
-                        font-weight: normal;
-                    }
-                }
-            }
-        }
-    }
-
     .list-wrapper {
         text-align: center;
 
@@ -273,6 +197,82 @@
 
                 @media (min-width: 992px) {
                     margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    a.coupon-wrapper-a {
+        color: #000;
+
+        @media (max-width: 991px) {
+            width: 100%;
+            display: block;
+        }
+
+        @media (min-width: 992px) {
+            width: 49%;
+            display: inline-block;
+        }
+
+        .coupon-wrapper {
+            @media (max-width: 991px) {
+                width: 90%;
+                margin-top: 10px;
+            }
+
+            @media (min-width: 992px) {
+                width: 65%;
+                margin-top: -75px;
+            }
+
+            margin: auto;
+            background: #fff;
+            border: 1px solid #ddd;
+            position: relative;
+
+            //height: 150px;
+            padding: 5px;
+
+            .coupon {
+                border: 2px dashed #000;
+                animation: blink 1s step-start 0s infinite;
+                -webkit-animation: blink 1s step-start 0s infinite;
+
+                //height: 100%;
+                margin: auto;
+                padding: 10px 10px;
+
+                .price {
+                    //height: 100%;
+                    padding-left: 0;
+
+                    span {
+                        padding: 35px 20px 20px 10px;
+                        display: inline-block;
+                        background: #ddd;
+                        text-align: center;
+                        border-radius: 100px;
+                        font-size: 70px;
+                        line-height: 70px;
+                        color: $darkorange;
+                    }
+                }
+
+                .details {
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-top: 15px;
+                    line-height: 21px;
+                    padding: 0;
+
+                    span {
+                        font-size: 12px;
+                        line-height: 16px;
+                        display: inline-block;
+                        margin-top: 5px;
+                        font-weight: normal;
+                    }
                 }
             }
         }
