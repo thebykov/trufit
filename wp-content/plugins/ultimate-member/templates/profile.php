@@ -76,6 +76,8 @@ $results = $wpdb->get_results($query);
 		
 		foreach($results as $key => $row){
 
+			var_dump($row);
+
 $old_date = $row->updated;
 $old_date_timestamp = strtotime($old_date);
 $new_date = date('m-d-Y H:i:s', $old_date_timestamp);   
