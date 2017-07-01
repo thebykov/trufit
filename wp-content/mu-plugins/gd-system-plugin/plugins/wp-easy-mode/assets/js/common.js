@@ -50,19 +50,21 @@ jQuery( document ).ready( function( $ ) {
 
 	};
 
-	$( '.wpem-screen .wpem-actions' ).on( 'click', '.button-secondary', window.WPEM.Form.displaySpinner );
-
 	$( '.wpem-screen form' ).on( 'click', '#wpem_no_thanks', function( e ) {
 
 		e.preventDefault();
 
-		if ( window.confirm( wpem_vars.i18n.exit_confirm ) ) {
+		if ( ! window.confirm( wpem_vars.i18n.exit_confirm ) ) {
 
-			$( '#wpem_continue' ).val( 'no' );
-
-			$( '.wpem-screen form' ).submit();
+			return;
 
 		}
+
+		window.WPEM.Form.displaySpinner();
+
+		$( '#wpem_continue' ).val( 'no' );
+
+		$( '.wpem-screen form' ).submit();
 
 	} );
 

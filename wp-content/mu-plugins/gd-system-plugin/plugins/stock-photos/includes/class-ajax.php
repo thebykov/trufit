@@ -88,7 +88,7 @@ final class Ajax {
 		 * Resize to max 2400 px wide 80% quality
 		 * Documentation: https://github.com/asilvas/node-image-steam
 		 */
-		$url = esc_url_raw( sprintf( '%s/%s/:/rs=w:2400/qt=q:80', \WPaaS\Plugin::config( 'imageApi.url' ), $filename ) );
+		$url = esc_url_raw( sprintf( '%s/%s/:/rs=w:2400/qt=q:80', untrailingslashit( \WPaaS\Plugin::config( 'imageApi.url' ) ), $filename ) );
 
 		$import   = new Import();
 		$image_id = $import->image( $url );

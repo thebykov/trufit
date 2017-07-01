@@ -234,7 +234,7 @@ final class Admin {
 		wp_register_style(
 			'wpem-fullscreen',
 			wpem()->assets_url . "css/fullscreen{$suffix}.css",
-			[ 'dashicons', 'buttons', 'install' ],
+			[ 'dashicons', 'buttons', 'install', 'themes' ],
 			wpem()->version
 		);
 

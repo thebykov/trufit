@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Stock Photos
  * Description: Import beautiful, curated stock photos for your website
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: GoDaddy
  * Author URI: https://www.godaddy.com/
  * License: GPL-2.0
