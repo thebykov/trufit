@@ -76,14 +76,13 @@ $results = $wpdb->get_results($query);
 		
 		foreach($results as $key => $row){
 
-			var_dump($row);
 
 $old_date = $row->updated;
 $old_date_timestamp = strtotime($old_date);
 $new_date = date('m-d-Y H:i:s', $old_date_timestamp);   
 			
 echo '<div class="record_wrapper"><h3><u>' . $new_date .'</u></h3>';
-echo '<div class="record-wrapper" id="' . $row->ID . '">' . 	html_entity_decode($row->data_string) .'</div><div class="delete_button" onclick="deleteRecord(' . $row->ID . ')">Delete This Record</div></div>';
+echo '<div class="record-wrapper" id="' . $row->id . '">' . 	html_entity_decode($row->data_string) .'</div><div class="delete_button" onclick="deleteRecord(' . $row->id . ')">Delete This Record</div></div>';
 
 
   
