@@ -33,7 +33,7 @@ if ( !defined( 'ABSPATH' ) )exit;
             
 
                 <!-- /div -->
-                <?php if ( count( $this->ctc()->themes ) ): ?>
+                <?php if ( count( $this->ctc()->themes[ 'child' ] ) ): ?>
                 <!-- div class="ctc-input-cell ctc-clear">&nbsp;</div>
       <div class="ctc-input-cell-wide" -->
                 <label>
@@ -106,7 +106,7 @@ if ( !defined( 'ABSPATH' ) )exit;
             <div class="ctc-input-cell ctc-clear">&nbsp;</div>
             <div class="ctc-input-cell-wide ctc-analysis" id="parnt_analysis_notice">&nbsp;</div>
         </div>
-        <?php if ( count( $this->ctc()->themes ) ): ?>
+        <?php if ( count( $this->ctc()->themes[ 'child' ] ) ): ?>
         <div class="ctc-input-row clearfix ctc-themeonly-container" id="input_row_existing_theme_option" style="display:none">
             <div class="ctc-input-cell"><span class="ctc-step ctc-step-number">2</span>
                 <strong>
@@ -272,7 +272,7 @@ if ( !defined( 'ABSPATH' ) )exit;
                 <label><input class="ctc_checkbox ctc-themeonly" id="ctc_ignoreparnt" name="ctc_ignoreparnt" type="checkbox" 
                 value="1" autocomplete="off" />
           <strong><?php _e( 'Ignore parent theme stylesheets.', 'child-theme-configurator' ); ?></strong>
-          <p class="howto indent"><?php _e( 'Do not load or parse the parent theme styles. Only use this option if the Child Theme uses a Framework like Genesis and only uses child theme stylesheets for its appearance.', 'child-theme-configurator' ); ?></p></label>
+          <p class="howto indent"><?php _e( 'Do not load or parse the parent theme styles. Only use this option if the Child Theme uses a Framework like Genesis and uses <em>only child theme stylesheets</em> for its appearance.', 'child-theme-configurator' ); ?></p></label>
             </div>
             <div id="ctc_repairheader_container" style="display:none">
                 <div class="ctc-input-cell ctc-clear">

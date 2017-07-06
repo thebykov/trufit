@@ -1,4 +1,5 @@
 <?php 
+if( !defined('ABSPATH') ){ exit();}
 add_action( 'add_meta_boxes', 'xyz_fbap_add_custom_box' );
 $GLOBALS['edit_flag']=0;
 function xyz_fbap_add_custom_box()
@@ -265,7 +266,7 @@ function inArray(needle, haystack) {
 	function load_edit_action()
 	{
 		document.getElementById("xyz_fbap_post").value=1;
-		var xyz_fbap_default_selection_edit="<?php echo get_option('xyz_fbap_default_selection_edit');?>";
+		var xyz_fbap_default_selection_edit="<?php echo esc_html(get_option('xyz_fbap_default_selection_edit'));?>";
 		if(xyz_fbap_default_selection_edit=="")
 			xyz_fbap_default_selection_edit=0;
 		if(xyz_fbap_default_selection_edit==1)

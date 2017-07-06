@@ -1,4 +1,7 @@
-<?php if(get_option('xyz_fbap_premium_version_ads')==1){?>
+<?php
+if( !defined('ABSPATH') ){ exit();}
+
+if(get_option('xyz_fbap_premium_version_ads')==1){?>
 <div id="xyz-wp-fbap-premium">
 
 	<div style="float: left; padding: 0 5px">
@@ -48,16 +51,23 @@ if(get_option('xyz_credit_link')=="0"){
 jQuery(document).ready(function() {
 
 	jQuery('.xyz_fbap_backlink').click(function() {
+		var backlink_nonce= '<?php echo wp_create_nonce('backlink');?>';
 		var dataString = { 
 				action: 'xyz_fbap_ajax_backlink', 
-				enable: 1 
+				enable: 1,
+				_wpnonce: backlink_nonce
 			};
 
 		jQuery.post(ajaxurl, dataString, function(response) {
-			jQuery('.xyz_fbap_backlink').hide();
-			jQuery("#xyz_backlink_div").html('Thank you for enabling backlink !');
-			jQuery("#xyz_backlink_div").css('background-color', '#D8E8DA');
-			jQuery("#xyz_backlink_div").css('border', '1px solid #0F801C');
+
+			if(response==1)
+		       	alert("You do not have sufficient permissions");
+		else{
+				jQuery('.xyz_fbap_backlink').hide();
+				jQuery("#xyz_backlink_div").html('Thank you for enabling backlink !');
+				jQuery("#xyz_backlink_div").css('background-color', '#D8E8DA');
+				jQuery("#xyz_backlink_div").css('border', '1px solid #0F801C');
+		    }
 		});
 
 });

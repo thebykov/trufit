@@ -1,4 +1,5 @@
 <?php
+if( !defined('ABSPATH') ){ exit();}
 function fbap_free_network_destroy($networkwide) {
 	global $wpdb;
 	if (function_exists('is_multisite') && is_multisite()) {
@@ -26,7 +27,7 @@ function fbap_free_destroy()
 	{
 		update_option("xyz_credit_link", '0');
 	}
-	
+	delete_option('xyz_fbap_application_name');
 	delete_option('xyz_fbap_application_id');
 	delete_option('xyz_fbap_application_secret');
 	//delete_option('xyz_fbap_fb_id');
@@ -50,7 +51,8 @@ function fbap_free_destroy()
 	delete_option('xyz_twap_premium_version_ads');
 	delete_option('xyz_fbap_default_selection_edit');
 	delete_option('xyz_fbap_utf_decode_enable');
-	
+	delete_option('xyz_fbap_caption_for_fb_attachment');
+	delete_option('xyz_fbap_fb_numericid');
 }
 
 register_uninstall_hook(XYZ_FBAP_PLUGIN_FILE,'fbap_free_network_destroy');

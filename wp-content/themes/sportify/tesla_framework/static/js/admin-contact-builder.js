@@ -39,19 +39,19 @@ jQuery(function($) {
 
   //Add new row===========
   $('.main-container').on('click', '.add-new-row', function() {
-    $(this).before('<div class="row-fluid form-row">\
-                      <div class="span12 column">\
-                        <ul></ul>\
-                      </div>\
-                      <span class="row-edit">+</span>\
-                      <span class="row-delete">&times;</span>\
-                      <ul class="column-picker clearfix">\
-                        <li data-columns="6,6">6-6</li>\
-                        <li data-columns="8,4">8-4</li>\
-                        <li data-columns="4,4,4">4-4-4</li>\
-                        <li data-columns="4,8">4-8</li>\
-                      </ul>\
-                    </div>');
+    $(this).before('<div class="row-fluid form-row">' +
+                      '<div class="span12 column">' +
+                        '<ul></ul>' +
+                      '</div>' +
+                      '<span class="row-edit">+</span>' +
+                      '<span class="row-delete">&times;</span>' +
+                      '<ul class="column-picker clearfix">' +
+                        '<li data-columns="6,6">6-6</li>' +
+                        '<li data-columns="8,4">8-4</li>' +
+                        '<li data-columns="4,4,4">4-4-4</li>' +
+                        '<li data-columns="4,8">4-8</li>' +
+                      '</ul>' +
+                    '</div>');
     enable_draggable();
   });
 

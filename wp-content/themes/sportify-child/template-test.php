@@ -13,7 +13,7 @@
 <script>
 	function recordChanged(){
 		if(jQuery('#recordSelect').val() != ''){
-			 window.location="/records/?RECORD=" + jQuery('#recordSelect').val();
+			 window.location="/records/?RECORD=" + jQuery('#recordSelect').val().replace("&", "and");
 		}
 	}
 </script>
@@ -21,7 +21,7 @@
     <div class="main-content content">
 		<div class="white-background container">
 		<br>
-		<h1>MEMBERS RECORDS RANKS</h1>
+		<h2>MEMBERS RECORDS RANKS</h2>
 		<h5>Select a record to view current leaderboard.</h5>
 		<select name="" id="recordSelect" onchange="recordChanged();">
 		<option value="">Select A Record</option>
@@ -57,11 +57,11 @@
        $userID = $user->ID;
     }
     elseif (isset($_REQUEST['RECORD'])) {
-   		$recordName = $_REQUEST['RECORD'];   	   	 
+   		$recordName = str_replace('and','&',$_REQUEST['RECORD']); 
     }
 
    	if(isset($_REQUEST['RECORD'])){
-   		$recordName = $_REQUEST['RECORD'];
+   		$recordName = str_replace('and','&',$_REQUEST['RECORD']);
    	}
 
 	if(isset($userID) && isset($recordName)){

@@ -198,7 +198,6 @@ jQuery( document ).ready(function($){
             $upgrader = new Plugin_Upgrader( new Plugin_Upgrader_Skin( compact( 'title', 'nonce', 'url', 'plugin' ) ) );
             //return;
             $upgrader->upgrade( $plugin );
-    
             include(ABSPATH . 'wp-admin/admin-footer.php');
             self::set_update_key( $key );
 

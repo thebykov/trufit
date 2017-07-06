@@ -888,15 +888,17 @@ if(!class_exists('Tesla_slider')){
 							}
 						}else{
 							$result[$option_id] = array();
-							foreach ($values_array[$option_id] as $value) {
-								if($value===array()){
-									if(isset($option['default'])){
-										array_push($result[$option_id], $option['default']);
+							if(isset($values_array[$option_id])){
+								foreach ($values_array[$option_id] as $value) {
+									if($value===array()){
+										if(isset($option['default'])){
+											array_push($result[$option_id], $option['default']);
+										}else{
+											array_push($result[$option_id], array());
+										}
 									}else{
-										array_push($result[$option_id], array());
+										array_push($result[$option_id], self::process_options($value, $option['type']));
 									}
-								}else{
-									array_push($result[$option_id], self::process_options($value, $option['type']));
 								}
 							}
 						}

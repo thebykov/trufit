@@ -4,7 +4,7 @@
  *
  * @author 		WooThemes
  * @package 	WooCommerce/Templates
- * @version     2.0.14
+ * @version     2.6.3
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
@@ -13,7 +13,7 @@ global $post, $woocommerce, $product;
 $attachment_ids = $product->get_gallery_attachment_ids();
 ?>
 
-<div class="the-slider product-big-image images ovh" data-tesla-plugin="slider" data-tesla-autoplay-speed="3000" data-tesla-item=".slide" data-tesla-next=".product-image-arrows-right" data-tesla-prev=".product-image-arrows-left" data-tesla-container=".slide-wrapper">
+<div class="the-slider product-big-image images ovh" data-tesla-plugin="slider" data-tesla-autoplay="false" data-tesla-item=".slide" data-tesla-next=".product-image-arrows-right" data-tesla-prev=".product-image-arrows-left" data-tesla-container=".slide-wrapper">
 	<?php if ( $attachment_ids ) : ?>
 		<ul class="product-image-arrows clean-list">
 	        <li class="product-image-arrows-left"><i class="icon-517" title="left"></i></li>

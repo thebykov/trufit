@@ -16,7 +16,6 @@ class ChildThemeConfiguratorPreview {
     protected $template;
     
     public function __construct(){
-
         add_action( 'setup_theme',   array( $this, 'setup_theme' ) );
         add_filter( 'wp_redirect_status', array( $this, 'wp_redirect_status' ), 1000 );
 
@@ -30,8 +29,8 @@ class ChildThemeConfiguratorPreview {
     }
     
     public function setup_theme() {
-        // are we previewing?
-        if ( !wp_verify_nonce( $_GET['preview_ctc'] ) || !current_user_can( 'switch_themes' ) )
+        // are we previewing? - removed nonce requirement to bool flag v2.2.5
+        if ( empty( $_GET['preview_ctc'] ) || !current_user_can( 'switch_themes' ) )
             return;
         $this->original_stylesheet = get_stylesheet();
         $this->theme = wp_get_theme( isset( $_GET[ 'stylesheet' ] ) ? $_GET[ 'stylesheet' ] : NULL );
@@ -45,7 +44,6 @@ class ChildThemeConfiguratorPreview {
             // swap out theme mods with preview theme mods
             add_filter( 'pre_option_theme_mods_' . $this->original_stylesheet, array( $this, 'preview_mods' ) );
         endif;
-
         // impossibly high priority to test for stylesheets loaded after wp_head()
         add_action( 'wp_print_styles', array( $this, 'test_css' ), 999999 );
         // pass the wp_styles queue back to use for stylesheet handle verification

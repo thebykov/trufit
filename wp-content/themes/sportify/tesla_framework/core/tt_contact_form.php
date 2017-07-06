@@ -44,7 +44,7 @@ if(!class_exists('TT_Contact_Form_Builder')){
 		public static function builder_scripts(){
 			wp_dequeue_script( 'wpdialogs' ); // fixes Rev Slider Compatibility
 			//Load JS
-			wp_enqueue_script( 'admin-bootstrap-js', TT_FW . '/static/js/bootstrap.js', array( 'jquery' ) , true );
+			wp_enqueue_script( 'admin-bootstrap-js', TT_FW . '/static/js/bootstrap.js', array( 'jquery','mediaelement','jquery-ui-droppable','jquery-ui-draggable','jquery-ui-sortable', 'jquery-ui-dialog' ) ,true);
 			wp_enqueue_script( 'admin-contact-builder-js', TT_FW . '/static/js/admin-contact-builder.js', array( 'jquery' ,'jquery-ui-droppable','jquery-ui-draggable','jquery-ui-sortable','admin-bootstrap-js') , true );
 			//Load CSS
 			wp_enqueue_style( 'admin-ui-css','http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/smoothness/jquery-ui.css' );

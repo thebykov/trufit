@@ -5968,10 +5968,6 @@ figure.invert:hover img{
     padding: 10px;
 }
 
-.new-arrivals > .row > div{
-    width: 20%;
-}
-
 .new-arrivals > .row > div:nth-child(5n+1){
    border-left: 1px solid #e5e5e5; 
 }
@@ -6341,6 +6337,7 @@ figure.invert:hover img{
 
 form .variations li{
     text-align: left;
+    list-style: none !important;
 }
 
 form .variations li > div{
@@ -9230,4 +9227,8 @@ form label, .mc4wp-checkbox-woocommerce label{
 
 form .input-checkbox{
   height: inherit;
+}
+
+body.rtl .home-slider {
+    direction: ltr !important;
 }

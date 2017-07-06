@@ -1,3 +1,18 @@
+------- 1.9.9.1 [27-02-2017] ------------
+================================================================
+Fixed	:	Instagram API
+
+------- 1.9.9 [16-01-2017] ------------
+================================================================
+Updated :	Mailchimp call to API 3.0
+Fixed	:	Tesla Form Builder Conflict with RevSlider plugin
+Fixed	:	hex2rgb function conflict with other plugins
+Fixed	:	Subscribers view notice when no meta exists
+
+------- 1.9.8 [1-07-2016] ------------
+================================================================
+Added	:	Google API key Field
+
 ------- 1.9.7 [19-01-2016] ------------
 ================================================================
 Added	:	Twitter API error handling

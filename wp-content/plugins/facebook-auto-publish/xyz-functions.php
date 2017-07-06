@@ -1,5 +1,5 @@
 <?php
-
+if( !defined('ABSPATH') ){ exit();}
 
 if(!function_exists('xyz_trim_deep'))
 {
@@ -48,8 +48,8 @@ if(!function_exists('xyz_fbap_links')){
 		$base = plugin_basename(XYZ_FBAP_PLUGIN_FILE);
 		if ($file == $base) {
 
-			$links[] = '<a href="http://kb.xyzscripts.com/wordpress-plugins/facebook-auto-publish/"  title="FAQ">FAQ</a>';
-			$links[] = '<a href="http://docs.xyzscripts.com/wordpress-plugins/facebook-auto-publish/"  title="Read Me">README</a>';
+			$links[] = '<a href="http://help.xyzscripts.com/docs/facebook-auto-publish/faq/"  title="FAQ">FAQ</a>';
+			$links[] = '<a href="http://help.xyzscripts.com/docs/facebook-auto-publish/"  title="Read Me">README</a>';
 			$links[] = '<a href="http://xyzscripts.com/support/" class="xyz_support" title="Support"></a>';
 			$links[] = '<a href="http://twitter.com/xyzscripts" class="xyz_twitt" title="Follow us on twitter"></a>';
 			$links[] = '<a href="https://www.facebook.com/xyzscripts" class="xyz_fbook" title="Facebook"></a>';
@@ -85,7 +85,7 @@ function xyz_fbap_getimage($post_ID,$description_org)
 	if($post_thumbnail_id!="")
 	{
 		$attachmenturl=wp_get_attachment_url($post_thumbnail_id);
-		$attachmentimage=wp_get_attachment_image_src( $post_thumbnail_id, full );
+		//$attachmentimage=wp_get_attachment_image_src( $post_thumbnail_id, full );
 
 	}
 	else {
@@ -142,7 +142,7 @@ if (!function_exists("xyz_wp_fbap_attachment_metas")) {
 		}
 		
 		$og_datas = new DOMDocument();
-		@$og_datas->loadHTML($aprv_me_data);
+		@$og_datas->loadHTML('<?xml encoding="UTF-8">'.$aprv_me_data);
 		$xpath = new DOMXPath($og_datas);
 		if(isset($attachment['name']))
 		{

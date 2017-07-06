@@ -6,7 +6,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
     Class: ChildThemeConfiguratorCSS
     Plugin URI: http://www.childthemeconfigurator.com/
     Description: Handles all CSS input, output, parsing, normalization and storage
-    Version: 2.2.4.1
+    Version: 2.2.6
     Author: Lilaea Media
     Author URI: http://www.lilaeamedia.com/
     Text Domain: chld_thm_cfg
@@ -167,7 +167,7 @@ class ChildThemeConfiguratorCSS {
         $this->parnt            = '';
         $this->ignoreparnt      = 0;
         $this->qpriority        = 10;
-        $this->version          = '2.2.4.1';
+        $this->version          = '2.2.6';
         
         // do not set enqueue, not being set is used to flag old versions
 
@@ -631,10 +631,9 @@ class ChildThemeConfiguratorCSS {
                     $this->update_rule_value( $valarr[ $ruleid ][ $template ], $id, $valid, $important );
                 endif;
             endif;
-            // remove if all values have been cleared
-            if ( $this->prune_if_empty( $qsid, $valarr ) )
-                return FALSE;
-            //$this->ctc()->debug( 'revised valarr: ' . print_r( $valarr, TRUE ), __FUNCTION__, __CLASS__ );
+        
+            // moved call to prune_if_empty to parse_post_data v2.2.5
+        
             $this->pack_val_ndx( $qsid, $valarr );
             // return query selector id   
             return $qsid;
@@ -699,8 +698,9 @@ class ChildThemeConfiguratorCSS {
      * Automatically cleans up hierarchies when no values exist 
      * in either parent or child for a given selector.
      */
-    function prune_if_empty( $qsid, $valarr ) {
+    function prune_if_empty( $qsid ) {
         $empty = $this->get_dict_id( 'val', '' );
+        if ( FALSE == ( $valarr = $this->unpack_val_ndx( $qsid ) ) ) return FALSE;
         foreach ( $valarr as $ruleid => $arr ):
             foreach ( array( 'c', 'p' ) as $template ):
                 if ( isset( $arr[ $template ] ) ):
@@ -842,6 +842,7 @@ class ChildThemeConfiguratorCSS {
                     $important  = $this->is_important( $value );
                     if ( !empty( $_POST[ 'ctc_' . $valid . '_child_' . $rule . '_i_' . $qsid . '_' . $rulevalid ] ) ) $important = 1;
                     $selarr = $this->denorm_query_sel( $qsid );
+                    if ( empty( $selarr ) ) continue;
                     if ( !empty( $matches[ 6 ] ) ):
                         $parts[ $qsid ][ $rule ][ 'values' ][ $rulevalid ][ $matches[ 6 ] ] = $value;
                         $parts[ $qsid ][ $rule ][ 'values' ][ $rulevalid ][ 'important' ]   = $important;
@@ -974,14 +975,18 @@ class ChildThemeConfiguratorCSS {
             endforeach;
             if ( $newqsid )
                 $qsid = $newqsid;
+        
+            // remove if all values have been cleared - moved from update_arrays v2.2.5
+            $this->prune_if_empty( $qsid );
+        
             // return updated qsid to browser to update form
-            if ( $this->ctc()->cache_updates ):
+            if ( $this->ctc()->cache_updates )
                 $this->ctc()->updates[] = array(
                     'obj'   => 'qsid',
                     'key'   => $qsid,
                     'data'  => $this->obj_to_utf8( $this->denorm_sel_val( $qsid ) ),
                 );
-            endif;
+        
             do_action( 'chld_thm_cfg_update_qsid', $qsid );                
         endif;
 

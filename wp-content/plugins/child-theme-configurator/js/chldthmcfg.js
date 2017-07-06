@@ -2,7 +2,7 @@
  *  Script: chldthmcfg.js
  *  Plugin URI: http://www.childthemeconfigurator.com/
  *  Description: Handles jQuery, AJAX and other UI
- *  Version: 2.2.4.1
+ *  Version: 2.2.6
  *  Author: Lilaea Media
  *  Author URI: http://www.lilaeamedia.com/
  *  License: GPLv2
@@ -35,8 +35,15 @@
         },
         
         getname: function( themetype ){
-            var stylesheet  = ( 'child' === themetype ? $.chldthmcfg.currchild : $.chldthmcfg.currparnt );
-            return window.ctcAjax.themes[ themetype ][ stylesheet ].Name;
+            var self = this,
+                stylesheet  = ( 'child' === themetype ? $.chldthmcfg.currchild : $.chldthmcfg.currparnt );
+            //console.log( 'getname: ' + stylesheet );
+            //console.log( window.ctcAjax.themes );
+            if ( self.is_empty( window.ctcAjax.themes[ themetype ][ stylesheet ] ) ){
+                return '';
+            } else {
+                return window.ctcAjax.themes[ themetype ][ stylesheet ].Name;
+            }
         },
         
         frascii: function( str ) {
@@ -113,10 +120,10 @@
         
         validate: function() {
             var self    = this,
-                regex   = /[^\w\-]/,
+                regex   = /[^\w\-]/g,
                 newslug = $( '#ctc_child_template' ).length ? $( '#ctc_child_template' )
                     .val().toString().replace( regex ) : '',
-                slug    = $( '#ctc_theme_child' ).length ? $( '#ctc_theme_child' )
+                slug    = $( '#ctc_theme_child' ).length && !self.is_empty( $( '#ctc_theme_child' ).val() ) ? $( '#ctc_theme_child' )
                     .val().toString().replace( regex ) : newslug,
                 type    = $( 'input[name=ctc_child_type]:checked' ).val(),
                 errors  = [];
@@ -1419,12 +1426,13 @@
             //self.jquery_exception( { 'message':'testing' }, 'Testing' );
             // try to initialize theme menus
             if ( !$( '#ctc_theme_parnt' ).is( 'input' ) ) {
+                
                 //console.log( 'initializing theme select menus...' );
                 try {
                     $.widget( 'ctc.themeMenu', $.ui.selectmenu, {
                         _renderItem: function( ul, item ) {
                             var li = $( "<li>" ),
-                                sel = item.value.replace( /[^\w\-]/, '' );
+                                sel = item.value.replace( /[^\w\-]/g, '' );
                             $( '#ctc_theme_option_' + sel )
                                 .detach().appendTo( li );
                             return li.appendTo( ul );
@@ -1738,7 +1746,7 @@
             var self        = this,
                 now         = Math.floor( $.now() / 1000 ),
                 stylesheet  = ( 'child' === themetype ? $.chldthmcfg.currchild : $.chldthmcfg.currparnt ),
-                testparams  = '&template=' + $.chldthmcfg.currparnt + '&stylesheet=' + stylesheet + '&now=' + now,
+                testparams  = '&template=' + encodeURIComponent( $.chldthmcfg.currparnt ) + '&stylesheet=' + encodeURIComponent( stylesheet ) + '&now=' + now,
                 homeurl     = self.setssl( window.ctcAjax.homeurl ), // window.ctcAjax.homeurl, //
                 url         = homeurl + testparams;
             
@@ -1749,6 +1757,7 @@
              */
             //console.log( 'Fetching home page: ' + url );
             $.get( url, function( data ) {
+                //console.log( data );
                 self.parse_page( themetype, data );
                 $( document ).trigger( 'analysisdone' );
             } ).fail( function( xhr, status, err ){

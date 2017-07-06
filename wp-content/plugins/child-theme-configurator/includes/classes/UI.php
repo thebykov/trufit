@@ -5,7 +5,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
     Class: ChildThemeConfiguratorUI
     Plugin URI: http://www.childthemeconfigurator.com/
     Description: Handles the plugin User Interface
-    Version: 2.2.4.1
+    Version: 2.2.6
     Author: Lilaea Media
     Author URI: http://www.lilaeamedia.com/
     Text Domain: chld_thm_cfg
@@ -267,7 +267,7 @@ class ChildThemeConfiguratorUI {
         $localize_array = apply_filters( 'chld_thm_cfg_localize_script', array(
             'converted'                 => $this->css()->get_prop( 'converted' ),
             'ssl'                       => is_ssl(),
-            'homeurl'                   => home_url( '/' ) . '?preview_ctc=' . wp_create_nonce(),
+            'homeurl'                   => home_url( '/' ) . '?preview_ctc=1',
             'ajaxurl'                   => admin_url( 'admin-ajax.php' ),
             'theme_uri'                 => get_theme_root_uri(),
             'page'                      => CHLD_THM_CFG_MENU,
@@ -337,8 +337,8 @@ class ChildThemeConfiguratorUI {
             'anlz25_txt'                => __( "The parent theme's <code>style.css</code> file is being loaded automatically.", 'child-theme-configurator' ),
             'anlz26_txt'                => __( '<p>The Configurator selected "Do not add any parent stylesheet handling" for the "Parent stylesheet handling" option (see step 6, below).</p>', 'child-theme-configurator' ),
             'anlz27_txt'                => __( "This theme does not require the parent theme's <code>style.css</code> file for its appearance.", 'child-theme-configurator' ),
-            'anlz28_txt'                => __( "This Child Theme was configured with an earlier version.", 'child-theme-configurator' ),
-            'anlz29_txt'                => __( '<p>The selected stylesheet handling method is no longer used. Please update the configuration using the "Repair header template" option (see step 6, "Additional handling options", below).</p>', 'child-theme-configurator' ),
+            'anlz28_txt'                => __( "This Child Theme was configured to accomodate a hard-coded stylesheet link.", 'child-theme-configurator' ),
+            'anlz29_txt'                => __( '<p>This workaround was used in earlier versions of CTC and can be eliminated by using the "Repair header template" option (see step 6, "Additional handling options", below).</p>', 'child-theme-configurator' ),
             'anlz30_txt'                => __( 'Click to show/hide raw analysis data. Please include contents below with any support requests.', 'child-theme-configurator' ),
             'anlz31_txt'                => __( 'This child theme was configured using the CTC Pro "Genesis stylesheet handling" method.', 'child-theme-configurator' ),
             'anlz32_txt'                => __( '<p>This method has been replaced by the "Separate stylesheet" and "Ignore Parent Theme" options ( selected below ) for broader framework compatability.</p>', 'child-theme-configurator' ),

@@ -6,7 +6,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
     Class: ChildThemeConfiguratorAdmin
     Plugin URI: http://www.childthemeconfigurator.com/
     Description: Main Controller Class
-    Version: 2.2.4.1
+    Version: 2.2.6
     Author: Lilaea Media
     Author URI: http://www.lilaeamedia.com/
     Text Domain: child-theme-configurator
@@ -259,6 +259,8 @@ class ChildThemeConfiguratorAdmin {
                     if ( $this->get( 'child' ) ):
                         // hook for add'l plugin files and subdirectories
                         do_action( 'chld_thm_cfg_addl_files' );
+        
+        
                         $this->css->write_css();
                         /*
                         $this->updates[] = array(
@@ -275,10 +277,10 @@ class ChildThemeConfiguratorAdmin {
                 // add any additional updates to pass back to browser
                 do_action( 'chld_thm_cfg_cache_updates' );
             endif;
+            // send all updates back to browser to update cache
+            die( json_encode( $this->css->obj_to_utf8( $this->updates ) ) );
         endif;
-        $result = $this->css->obj_to_utf8( $this->updates );
-        // send all updates back to browser to update cache
-        die( json_encode( $result ) );
+        die();
     }
     
     function save_config() {
@@ -2086,7 +2088,8 @@ defined( 'CHLD_THM_CFG_IGNORE_PARENT' ) or define( 'CHLD_THM_CFG_IGNORE_PARENT',
                 endforeach;
             endif;
         endif;
-        // store parent theme signals
+        
+        // store parent theme signals ( or child if ignore parent is set )
         if ( isset( $analysis->{ $baseline }->signals ) ):
             $this->css->set_prop( 'hasstyles', isset( $analysis->{ $baseline }->signals->thm_no_styles ) ? 0 : 1 );
             $this->css->set_prop( 'csswphead', isset( $analysis->{ $baseline }->signals->thm_past_wphead ) ? 1 : 0 );
@@ -2095,35 +2098,38 @@ defined( 'CHLD_THM_CFG_IGNORE_PARENT' ) or define( 'CHLD_THM_CFG_IGNORE_PARENT',
                 $this->set_enqueue_priority( $analysis, $baseline );
             endif;
         endif;
-        if ( isset( $analysis->child->signals ) ):
-            // test these again for child theme 
-            $this->css->set_prop( 'csswphead', isset( $analysis->child->signals->thm_past_wphead ) ? 1 : 0 );
-            $this->css->set_prop( 'cssunreg', isset( $analysis->child->signals->thm_unregistered ) ? 1 : 0 );
-            // special case where theme does not link child stylesheet at all
-            $this->css->set_prop( 'cssnotheme', isset( $analysis->child->signals->thm_notheme ) ? 1 : 0 );
-            if ( isset( $analysis->child->signals->thm_child_loaded ) ):
-                $this->css->set_prop( 'childloaded', $analysis->child->signals->thm_child_loaded );
-                $this->set_enqueue_priority( $analysis, 'child' );
-            else:
-                $this->css->set_prop( 'childloaded',  0 );
-            endif;
-            // if theme loads parent theme when is_child_theme, add child dependency
-            if ( isset( $analysis->child->signals->thm_parnt_loaded ) ):
-                $this->css->set_prop( 'parntloaded',  $analysis->child->signals->thm_parnt_loaded );
-                if ( 'thm_unregistered' != $analysis->child->signals->thm_parnt_loaded ):
-                    array_unshift( $this->css->child_deps, $analysis->child->signals->thm_parnt_loaded );
-                endif;
-            else:
-                $this->css->set_prop( 'parntloaded',  0 );
-            endif;
-            
-            // if main styleheet is loading out of sequence, force dependency
-            if ( isset( $analysis->child->signals->ctc_parnt_reorder ) )
-                $this->css->set_prop( 'reorder', 1 );
-            // roll back CTC Pro Genesis handling option
-            if ( isset( $analysis->child->signals->ctc_gen_loaded ) )
-                $this->genesis = TRUE;
+        
+        // tests specific to child theme - v2.2.5: changed to series of if statements because it was unsetting changes in previous block 
+
+        if ( isset( $analysis->child->signals->thm_past_wphead ) )
+            $this->css->set_prop( 'csswphead', 1 );
+        if ( isset( $analysis->child->signals->thm_unregistered ) )
+            $this->css->set_prop( 'cssunreg', 1 );
+        // special case where theme does not link child stylesheet at all
+        if ( isset( $analysis->child->signals->thm_notheme ) )
+            $this->css->set_prop( 'cssnotheme', 1 );
+        if ( isset( $analysis->child->signals->thm_child_loaded ) ):
+            $this->css->set_prop( 'childloaded', $analysis->child->signals->thm_child_loaded );
+            $this->set_enqueue_priority( $analysis, 'child' );
+        else:
+            $this->css->set_prop( 'childloaded',  0 );
         endif;
+        // if theme loads parent theme when is_child_theme, add child dependency
+        if ( isset( $analysis->child->signals->thm_parnt_loaded ) ):
+            $this->css->set_prop( 'parntloaded',  $analysis->child->signals->thm_parnt_loaded );
+            if ( 'thm_unregistered' != $analysis->child->signals->thm_parnt_loaded ):
+                array_unshift( $this->css->child_deps, $analysis->child->signals->thm_parnt_loaded );
+            endif;
+        else:
+            $this->css->set_prop( 'parntloaded',  0 );
+        endif;
+            
+        // if main styleheet is loading out of sequence, force dependency
+        if ( isset( $analysis->child->signals->ctc_parnt_reorder ) )
+            $this->css->set_prop( 'reorder', 1 );
+        // roll back CTC Pro Genesis handling option
+        if ( isset( $analysis->child->signals->ctc_gen_loaded ) )
+            $this->genesis = TRUE;
     }
     
     /**

@@ -44,11 +44,11 @@
 		$( '#arve_options_main\\[last_settings_tab\\]' ).val( target );
 	} );
 
-	$(document).on( 'click', '[data-arve-image-upload]', function(e) {
+	$(document).on( 'click', '[data-image-upload]', function(e) {
 
 		e.preventDefault();
-		var target = $( this ).attr('data-arve-image-upload'),
-		image = wp.media({
+		var target = $( this ).attr('data-image-upload');
+		var image = wp.media({
 			title: 'Upload Image',
 			// mutiple: true if you want to upload multiple files at once
 			multiple: false
@@ -86,7 +86,7 @@
 		});
 	});
 
-	$(document).on( 'click', '#arve-btn', function(e) {
+	$(document).on( 'click', '#arve-btn', function() {
 
 		if ( typeof( sui ) !== 'undefined' ) {
 

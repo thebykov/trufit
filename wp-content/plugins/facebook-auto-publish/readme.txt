@@ -1,10 +1,10 @@
-﻿=== Facebook Auto Publish ===
+=== Facebook Auto Publish ===
 Contributors: f1logic
 Donate link: http://xyzscripts.com/donate/
 Tags:  facebook, facebook auto publish, publish post to facebook, add link to facebook, facebook publishing, post to facebook, post to fb, social media auto publish, social media publishing, social network auto publish, social media, social network
 Requires at least: 3.0																				
-Tested up to: 4.6.1
-Stable tag: 1.4
+Tested up to: 4.7.3
+Stable tag: 1.4.2
 License: GPLv2 or later
 
 Publish posts automatically to Facebook page or profile.
@@ -62,13 +62,13 @@ The supported post elements which can be published are given below.
 
 Facebook Auto Publish is developed and maintained by [XYZScripts](http://xyzscripts.com/ "xyzscripts.com"). For any support, you may [contact us](http://xyzscripts.com/support/ "XYZScripts Support").
 
-★ [Facebook Auto Publish User Guide](http://docs.xyzscripts.com/wordpress-plugins/facebook-auto-publish/ "Facebook Auto Publish User Guide")
-★ [Facebook Auto Publish FAQ](http://kb.xyzscripts.com/wordpress-plugins/facebook-auto-publish/ "Facebook Auto Publish FAQ")
+★ [Facebook Auto Publish User Guide](http://help.xyzscripts.com/docs/facebook-auto-publish/user-guide/ "Facebook Auto Publish User Guide")
+★ [Facebook Auto Publish FAQ](http://help.xyzscripts.com/docs/facebook-auto-publish/faq/ "Facebook Auto Publish FAQ")
 
 == Installation ==
 
-★ [Facebook Auto Publish User Guide](http://docs.xyzscripts.com/wordpress-plugins/facebook-auto-publish/ "Facebook Auto Publish User Guide")
-★ [Facebook Auto Publish FAQ](http://kb.xyzscripts.com/wordpress-plugins/facebook-auto-publish/ "Facebook Auto Publish FAQ")
+★ [Facebook Auto Publish User Guide](http://help.xyzscripts.com/docs/facebook-auto-publish/user-guide/ "Facebook Auto Publish User Guide")
+★ [Facebook Auto Publish FAQ](http://help.xyzscripts.com/docs/facebook-auto-publish/faq/ "Facebook Auto Publish FAQ")
 
 1. Extract `facebook-auto-publish.zip` to your `/wp-content/plugins/` directory.
 2. In the admin panel under plugins activate Facebook Auto Publish.
@@ -79,8 +79,8 @@ If you need any further help, you may contact our [support desk](http://xyzscrip
 
 == Frequently Asked Questions ==
 
-★ [Facebook Auto Publish User Guide](http://docs.xyzscripts.com/wordpress-plugins/facebook-auto-publish/ "Facebook Auto Publish User Guide")
-★ [Facebook Auto Publish FAQ](http://kb.xyzscripts.com/wordpress-plugins/facebook-auto-publish/ "Facebook Auto Publish FAQ")
+★ [Facebook Auto Publish User Guide](http://help.xyzscripts.com/docs/facebook-auto-publish/user-guide/ "Facebook Auto Publish User Guide")
+★ [Facebook Auto Publish FAQ](http://help.xyzscripts.com/docs/facebook-auto-publish/faq/ "Facebook Auto Publish FAQ")
 
 = 1. The Facebook Auto Publish is not working properly. =
 
@@ -112,7 +112,9 @@ You may use post title, content, excerpt, permalink, site title and user nicenam
 SSL peer verification may not be functioning in your server. Please turn off SSL peer verification in settings of plugin and try again.
 
 
-More questions ? [Drop a mail](http://xyzscripts.com/members/support/ "XYZScripts Support") and we shall get back to you with the answers.
+= More questions ? =
+
+[Drop a mail](http://xyzscripts.com/support/ "XYZScripts Support") and we shall get back to you with the answers.
 
 
 == Screenshots ==
@@ -122,8 +124,20 @@ More questions ? [Drop a mail](http://xyzscripts.com/members/support/ "XYZScript
 
 == Changelog ==
 
+= Facebook Auto Publish 1.4.2 =
+* Fixed facebook boost unavailable issue
+* Nonce added
+* Prevented direct access to plugin files
+* Data validation updated
+* App album related issue fixed
+
+= Facebook Auto Publish 1.4.1 =
+* utf-8 decoding issue fixed
+* Visual composer compatiblity issue fixed
+* Minor bugs fixed
+
 = Facebook Auto Publish 1.4 =
-* Facebook api updated
+* Facebook api updated(requires PHP version 5.4 or higher)
 
 = Facebook Auto Publish 1.3.1 =
 * Fixed custom post types autopublish issue	
@@ -195,8 +209,8 @@ First official launch.
 
 == More Information ==
 
-★ [Facebook Auto Publish User Guide](http://docs.xyzscripts.com/wordpress-plugins/facebook-auto-publish/ "Facebook Auto Publish User Guide")
-★ [Facebook Auto Publish FAQ](http://kb.xyzscripts.com/wordpress-plugins/facebook-auto-publish/ "Facebook Auto Publish FAQ")
+★ [Facebook Auto Publish User Guide](http://help.xyzscripts.com/docs/facebook-auto-publish/ "Facebook Auto Publish User Guide")
+★ [Facebook Auto Publish FAQ](http://help.xyzscripts.com/docs/facebook-auto-publish/faq/ "Facebook Auto Publish FAQ")
 
 = Troubleshooting =
 
@@ -205,7 +219,7 @@ Please read the FAQ first if you are having problems.
 = Requirements =
 
     WordPress 3.0+
-    PHP 5+ 
+    PHP 5.4+ 
 
 = Feedback =
 

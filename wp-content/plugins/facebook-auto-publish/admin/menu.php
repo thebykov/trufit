@@ -1,4 +1,5 @@
 <?php
+if( !defined('ABSPATH') ){ exit();}
 add_action('admin_menu', 'xyz_fbap_menu');
 
 function xyz_fbap_add_admin_scripts()

@@ -49,24 +49,24 @@
 						<?php do_action( 'woocommerce_checkout_shipping' ); ?>
 
 					</div>
-					<div class="col-md-5">
-						<div class="woo-order-block order-block">
-							<header>
-								<h3 id="order_review_heading" class="order-review-header entry-title"><?php _e( 'Your order', 'woocommerce' ); ?></h3>
-							</header>
-							<div id="order_review" class="woocommerce-checkout-review-order">
-								<?php do_action( 'woocommerce_checkout_order_review' ); ?>
-							</div>
-						</div>
+				</div>
+			</div>	
+			<div class="col-md-5">
+				<div class="woo-order-block order-block">
+					<header>
+						<h3 id="order_review_heading" class="order-review-header entry-title"><?php _e( 'Your order', 'woocommerce' ); ?></h3>
+					</header>
+					<div id="order_review" class="woocommerce-checkout-review-order">
+						<?php do_action( 'woocommerce_checkout_order_review' ); ?>
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
 
-			<?php do_action( 'woocommerce_checkout_after_customer_details' ); ?>
+	<?php do_action( 'woocommerce_checkout_after_customer_details' ); ?>
 
-			
-
-		<?php endif; ?>
+<?php endif; ?>
 		
 	</div>
 		
@@ -74,6 +74,5 @@
 
 	<?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>
 			
-
 	</div>
 </div>

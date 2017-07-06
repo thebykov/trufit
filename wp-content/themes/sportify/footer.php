@@ -88,9 +88,13 @@
             <div class="container">
                 <div class="row">
                     <div class="text-center copyright">
-                        <?php if( _go('copyright_message')): ?>
-                            <p><?php _eo('copyright_message'); ?></p>
-                        <?php endif; ?>
+                        <p>
+                            <?php if(_go('copyright_message')): 
+                                _eo('copyright_message');
+                            else:?>
+                                <?php esc_attr_e('Copyright ','riverside'); echo date('Y').' '; esc_attr_e('Designed and Developed by ','riverside');?><a href="<?php echo esc_url('https://www.teslathemes.com/'); ?>" target="_blank"><?php esc_attr_e('TeslaThemes','riverside'); ?></a>, <?php esc_attr_e('Supported by ', 'riverside');?><a href="<?php echo esc_url('https://wpmatic.io/'); ?>" target="_blank"><?php esc_attr_e('WPmatic','riverside');?></a>
+                            <?php endif;?>
+                        </p>
                     </div>
                 </div>
             </div>

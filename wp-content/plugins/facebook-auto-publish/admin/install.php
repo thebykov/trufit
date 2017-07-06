@@ -1,4 +1,5 @@
 <?php
+if( !defined('ABSPATH') ){ exit();}
 function fbap_free_network_install($networkwide) {
 	global $wpdb;
 
@@ -25,6 +26,11 @@ function fbap_install_free()
 	if (is_plugin_active($pluginName)) {
 		wp_die( "The plugin Facebook Auto Publish cannot be activated unless the premium version of this plugin is deactivated. Back to <a href='".admin_url()."plugins.php'>Plugin Installation</a>." );
 	}*/
+	if (version_compare(PHP_VERSION, '5.4.0', '<')) {
+	
+		wp_die( "The plugin Facebook Auto Publish  requires PHP version 5.4 or higher. Back to <a href='".admin_url()."plugins.php'>Plugin Installation</a>." );
+	
+	}
 	
 	global $current_user;
 	wp_get_current_user();
@@ -38,7 +44,7 @@ function fbap_install_free()
 		$fbap_installed_date = time();
 		update_option('fbap_installed_date', $fbap_installed_date);
 	}
-	
+	add_option('xyz_fbap_application_name','');
 	add_option('xyz_fbap_application_id','');
 	add_option('xyz_fbap_application_secret', '');
 	//add_option('xyz_fbap_fb_id', '');
@@ -50,8 +56,8 @@ function fbap_install_free()
 	add_option('xyz_fbap_pages_ids','-1');
 	add_option('xyz_fbap_future_to_publish', '1');
 	add_option('xyz_fbap_apply_filters', '');
-	
-
+	add_option('xyz_fbap_caption_for_fb_attachment', 1);
+	add_option('xyz_fbap_fb_numericid','');
 	$version=get_option('xyz_fbap_free_version');
 	$currentversion=xyz_fbap_plugin_get_version();
 	update_option('xyz_fbap_free_version', $currentversion);

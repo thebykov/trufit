@@ -18,7 +18,7 @@ if(!defined('TT_FW'))
 if(!defined('TT_FW_DIR'))
 	define ('TT_FW_DIR',TT_THEME_DIR . '/tesla_framework');
 if(!defined('TT_FW_VERSION'))
-	define ('TT_FW_VERSION', '1.9.7');
+	define ('TT_FW_VERSION', '1.9.8');
 
 $tt_theme = wp_get_theme();
 if(!defined('THEME_FOLDER_NAME'))

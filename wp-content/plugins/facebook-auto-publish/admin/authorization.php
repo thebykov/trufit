@@ -1,4 +1,5 @@
 <?php
+if( !defined('ABSPATH') ){ exit();}
 $app_id = get_option('xyz_fbap_application_id');
 $app_secret = get_option('xyz_fbap_application_secret');
 $redirecturl=admin_url('admin.php?page=facebook-auto-publish-settings&auth=1');
@@ -14,13 +15,22 @@ $code = $_REQUEST["code"];
 
 if(isset($_POST['fb_auth']))
 {
+	if (! isset( $_REQUEST['_wpnonce'] )
+			|| ! wp_verify_nonce( $_REQUEST['_wpnonce'], 'xyz_smap_fb_auth_nonce' )
+			) {
+	
+				wp_nonce_ays( 'xyz_smap_fb_auth_nonce' );
+	
+				exit();
+	
+			}
 
 		$xyz_fbap_session_state = md5(uniqid(rand(), TRUE));
 		setcookie("xyz_fbap_session_state",$xyz_fbap_session_state,"0","/");
 		
 		$dialog_url = "https://www.facebook.com/".XYZ_FBAP_FB_API_VERSION."/dialog/oauth?client_id="
 				. $app_id . "&redirect_uri=" . $my_url . "&state="
-				. $xyz_fbap_session_state . "&scope=email,public_profile,publish_pages,user_posts,publish_actions,manage_pages";
+				. $xyz_fbap_session_state . "&scope=email,public_profile,publish_pages,user_posts,publish_actions,manage_pages,user_photos";
 		
 		header("Location: " . $dialog_url);
 }
@@ -105,6 +115,16 @@ if(isset($_COOKIE['xyz_fbap_session_state']) && isset($_REQUEST['state']) && ($_
             $newpgs=-1;
 		}
 		update_option('xyz_fbap_pages_ids',$newpgs);
+		
+		$url = 'https://graph.facebook.com/'.XYZ_FBAP_FB_API_VERSION.'/me?access_token='.$access_token;
+		$contentget=wp_remote_get($url);$page_id='';
+		if(is_array($contentget))
+		{
+			$result1=$contentget['body'];
+			$pagearray = json_decode($result1);
+			$page_id=$pagearray->id;
+		}
+		update_option('xyz_fbap_fb_numericid',$page_id);
            header("Location:".admin_url('admin.php?page=facebook-auto-publish-settings&auth=1'));
 	}
 	else

@@ -4,7 +4,7 @@
  *
  * @author 		WooThemes
  * @package 	WooCommerce/Templates
- * @version     2.5.0
+ * @version     2.6.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
@@ -16,7 +16,10 @@ global $woocommerce;
 
 <?php 
 
-$order = new WC_Order( $order_id ); ?>
+$order = wc_get_order( $order_id );
+
+$show_purchase_note    = $order->has_status( apply_filters( 'woocommerce_purchase_note_order_statuses', array( 'completed', 'processing' ) ) );
+$show_customer_details = is_user_logged_in() && $order->get_user_id() === get_current_user_id(); ?>
 
 <div class="white-background padding">
 	<div class="entry-content">
@@ -32,23 +35,22 @@ $order = new WC_Order( $order_id ); ?>
 						</tr>
 					</thead>
 					<tfoot>
-					<?php
-						if ( $totals = $order->get_order_item_totals() ) foreach ( $totals as $total ) :
-							?>
-							<tr>
-								<th scope="row"><?php echo $total['label']; ?></th>
-								<td><?php echo $total['value']; ?></td>
-								<td></td>
-							</tr>
-							<?php
-						endforeach;
-					?>
+						<?php
+							foreach ( $order->get_order_item_totals() as $key => $total ) {
+								?>
+								<tr>
+									<th scope="row"><?php echo $total['label']; ?></th>
+									<td><?php echo $total['value']; ?></td>
+								</tr>
+								<?php
+							}
+						?>
 					</tfoot>
 					<tbody>
 						<?php
 						if ( sizeof( $order->get_items() ) > 0 ) {
 
-							foreach( $order->get_items() as $item ) {
+							foreach( $order->get_items() as $item_id => $item ) {
 								$_product     = apply_filters( 'woocommerce_order_item_product', $order->get_product_from_item( $item ), $item );
 								$item_meta    = new WC_Order_Item_Meta( $item['item_meta'], $_product );
 
