@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: child, theme, child theme, child themes, custom styles, customize styles, customize theme, css, responsive, css editor, child theme editor, child theme generator, child theme creator, style, stylesheet, customizer, childtheme, childthemes
 Requires at least: 4.0
 Tested up to: 4.8
-Stable tag: 2.2.6
+Stable tag: 2.2.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -287,6 +287,8 @@ https://www.youtube.com/watch?v=iBiiAgsK4G4
 7. Files tab
 
 == Changelog ==
+= 2.2.7 =
+* Disable Pagespeed in preview
 = 2.2.6 =
 * Fixed Preview and Analyzer for some child theme configurations by removing nonce requirement 
 * Fixed header not being repaired on first pass with "Repair Header" selected
@@ -647,7 +649,7 @@ https://www.youtube.com/watch?v=iBiiAgsK4G4
 * Initial release.
 
 == Upgrade Notice ==
-2.2.6 Fixes issues with preview and analyzer.
+2.2.7 Fixes issues with Google Pageseed in preview and analyzer.
  
 == Query/Selector Tab ==
 
@@ -738,4 +740,4 @@ Go to http://www.childthemeconfigurator.com/
 
 Serbo-Croatian translation courtesy of Borisa Djuraskovic borisad@webhostinghub.com http://www.webhostinghub.com
 
-Copyright: (C) 2014-2016 Lilaea Media
+Copyright: (C) 2014-2017 Lilaea Media

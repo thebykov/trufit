@@ -143,7 +143,7 @@
 	    function getUserRecord($userID, $recordName){// given userID and record name returns latest record value
 
 	       global $wpdb;
-		   $query = "SELECT * FROM wppr_members_log WHERE member_id = " . $userID;
+		   $query = "SELECT * FROM wppr_members_log WHERE member_id = " . $userID . " ORDER BY id DESC";
 		   $results = $wpdb->get_results($query);
 
 		   // print_r($results);
@@ -166,13 +166,14 @@
 		   			
 		   			if(strcasecmp($recordName,$recordArr[$key][0]) == 0){
 		   				if($recordArr[$key][1] == ""){
-		   					return 'NOT SET';}
+		   					$latestRecord = 'NOT SET';}
 		   				else{
-		   					return $recordArr[$key][1];
+		   					$latestRecord = $recordArr[$key][1];
 		   				}
 		   			}
 		   			//print_r('<div>' . $recordArr[$key][0] . " - " . $recordArr[$key][1] . '</div>');
 		   		}
+				return $latestRecord;
 		   		// var_dump($recordArr);
 		   		// echo html_entity_decode($value->data_string);
 		   	break;

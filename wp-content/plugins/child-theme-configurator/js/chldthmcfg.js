@@ -2,11 +2,11 @@
  *  Script: chldthmcfg.js
  *  Plugin URI: http://www.childthemeconfigurator.com/
  *  Description: Handles jQuery, AJAX and other UI
- *  Version: 2.2.6
+ *  Version: 2.2.7
  *  Author: Lilaea Media
  *  Author URI: http://www.lilaeamedia.com/
  *  License: GPLv2
- *  Copyright (C) 2014-2016 Lilaea Media
+ *  Copyright (C) 2014-2017 Lilaea Media
  */
 
 // ** for muliple property values: **

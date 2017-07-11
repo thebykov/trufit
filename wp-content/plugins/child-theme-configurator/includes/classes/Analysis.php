@@ -12,7 +12,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
     Text Domain: child-theme-configurator
     Domain Path: /lang
     License: GPLv2
-    Copyright (C) 2014-2016 Lilaea Media
+    Copyright (C) 2014-2017 Lilaea Media
 */
 class ChildThemeConfiguratorAnalysis {
     

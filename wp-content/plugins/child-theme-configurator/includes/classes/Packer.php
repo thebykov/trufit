@@ -2,7 +2,7 @@
 
 /**
 Some portions based on msgpack.php
-Copyright (c) 2015-2016 Eugene Leonovich
+Copyright (c) 2015-2017 Eugene Leonovich
 The MIT License (MIT)
 Some portions based on base91.php
 Copyright (c) 2005-2006 Joachim Henke

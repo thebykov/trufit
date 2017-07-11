@@ -6,13 +6,13 @@ if ( !defined( 'ABSPATH' ) ) exit;
     Class: ChildThemeConfiguratorAdmin
     Plugin URI: http://www.childthemeconfigurator.com/
     Description: Main Controller Class
-    Version: 2.2.6
+    Version: 2.2.7
     Author: Lilaea Media
     Author URI: http://www.lilaeamedia.com/
     Text Domain: child-theme-configurator
     Domain Path: /lang
     License: GPLv2
-    Copyright (C) 2014-2016 Lilaea Media
+    Copyright (C) 2014-2017 Lilaea Media
 */
 class ChildThemeConfiguratorAdmin {
 
