@@ -204,6 +204,56 @@
 
         <?php wp_footer(); ?>
 
+
+<div class="fixed-footer">
+   <div class="nav-wrapper row" style="
+">
+   	<div class="nav-item col-xs-3">
+		<a href="/">
+        <i class="fa fa-home" aria-hidden="true"></i>
+   		Home</a>
+   	</div>
+   	<div class="nav-item col-xs-3">
+		<a href="/schedules/trufit-bootcamp/">
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+   		Schedule</a>
+   	</div>
+
+
+<?php if( current_user_can('member') || current_user_can('special_member') || current_user_can('owner') || current_user_can('administrator') ) {  ?> 
+    	<div class="nav-item col-xs-3">
+		<a href="/user/">
+        <i class="fa fa-user" aria-hidden="true"></i>
+   		Profile</a>
+   	</div>
+<?php }else{ ?>
+
+   	<div class="nav-item col-xs-3">
+		<a href="/login">
+        <i class="fa fa-sign-in" aria-hidden="true"></i>
+   		Login</a>
+   	</div>
+
+<?php } ?>
+
+<?php if( current_user_can('special_member') || current_user_can('owner') || current_user_can('administrator') ) {  ?> 
+    	<div class="nav-item col-xs-3">
+		<a href="/wods/">
+        <i class="fa fa-list" aria-hidden="true"></i>
+   		WODS</a>
+   	</div>
+<?php }else{ ?>
+
+   	<div class="nav-item col-xs-3">
+		<a href="/contact-us/">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+   		Contact Us</a>
+   	</div>
+
+<?php } ?>
+
+   </div>
+</div>
     </body>
 
 </html>
